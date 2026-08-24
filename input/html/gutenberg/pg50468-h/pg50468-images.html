@@ -1,0 +1,2661 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><style>
+#pg-header div, #pg-footer div {
+    all: inherit;
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 2em;
+}
+#pg-footer div.agate {
+    font-size: 90%;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+#pg-footer li {
+    all: initial;
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-indent: -0.6em;
+}
+#pg-footer div.secthead {
+    font-size: 110%;
+    font-weight: bold;
+}
+#pg-footer #project-gutenberg-license {
+    font-size: 110%;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+#pg-header-heading {
+    all: inherit;
+    text-align: center;
+    font-size: 120%;
+    font-weight: bold;
+}
+#pg-footer-heading {
+    all: inherit;
+    text-align: center;
+    font-size: 120%;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#pg-header #pg-machine-header p {
+    text-indent: -4em;
+    margin-left: 4em;
+    margin-top: 1em;
+    margin-bottom: 0;
+    font-size: medium
+}
+#pg-header #pg-header-authlist {
+    all: initial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#pg-header #pg-machine-header strong {
+    font-weight: normal;
+}
+#pg-header #pg-start-separator, #pg-footer #pg-end-separator {
+    margin-bottom: 3em;
+    margin-left: 0;
+    margin-right: auto;
+    margin-top: 2em;
+    text-align: center
+}
+
+    .xhtml_center {text-align: center; display: block;}
+    .xhtml_center table {
+        display: table;
+        text-align: left;
+        margin-left: auto;
+        margin-right: auto;
+        }</style><title>The Oak Ridge Algol Compiler for the Control Data Corporation 1604 Preliminary Programmer's Manual, by L. L. Bumgarner</title>
+<meta content="Protestant Episcopal Church" name="author">
+<link href="http://dublincore.org/documents/1998/09/dces/" rel="schema.DC" id="id-1977516802875237450">
+<link href="images/cover.jpg" rel="icon" type="image/x-cover" id="id-8680197824907075601">
+<meta content="L. L. Bumgarner" name="DC.Creator">
+<meta content="The Oak Ridge Algol Compiler for the Control Data Corporation 1604: Preliminary Programmer’s Manual" name="DC.Title">
+<meta content="en" name="DC.Language">
+<meta content="text/html" name="DC.Format">
+<meta content="1964" name="pss.pubdate">
+<style>large {
+    font-size: 125%
+    }
+sc {
+    font-variant: small-caps;
+    font-style: normal
+    }
+@media screen {
+    body {
+        margin-left: 2em;
+        margin-right: 2em
+        }
+    }
+.pagedjs_page_content > div {
+    margin-left: 2em;
+    margin-right: 2em
+    }
+table.twocol tr td {
+    margin-left: 2em;
+    margin-right: 2em
+    }
+.box {
+    border-style: double;
+    margin-bottom: 2em;
+    max-width: 25em;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 2em
+    }
+.box p {
+    margin-right: 0.5em;
+    margin-left: 0.5em
+    }
+.box blockquote {
+    margin-left: 0
+    }
+.box blockquote p {
+    margin-right: 0.5em;
+    margin-left: 1.5em;
+    text-indent: -1em
+    }
+h1, h5, h6, .titlepg p {
+    text-align: center;
+    clear: both
+    }
+h2 {
+    margin-top: 4em;
+    margin-bottom: 1.5em;
+    text-align: left
+    }
+h1 {
+    margin-top: 3em
+    }
+div.box h1 {
+    margin-top: 1em;
+    font-size: 150%
+    }
+div.box h2 {
+    margin-top: 0.5em;
+    margin-bottom: 1em
+    }
+h3 {
+    margin-top: 2.5em;
+    text-align: left
+    }
+h4 {
+    font-size: 100%;
+    text-align: center;
+    clear: right;
+    clear: both
+    }
+h5 {
+    font-size: 100%;
+    text-align: left;
+    clear: right;
+    clear: both
+    }
+h6 {
+    font-size: 100%
+    }
+h6.var {
+    font-size: 80%;
+    font-style: normal
+    }
+.titlepg {
+    margin-left: auto;
+    margin-right: auto;
+    border-style: double;
+    clear: both
+    }
+span.chaptertitle {
+    font-style: normal;
+    display: block;
+    text-align: center;
+    font-size: 150%
+    }
+.tblttl {
+    text-align: center;
+    color: red
+    }
+.tblsttl {
+    text-align: center;
+    font-variant: small-caps;
+    color: red
+    }
+pre sub.ms {
+    color: red;
+    width: 4em;
+    letter-spacing: 1em
+    }
+p, blockquote, div.p, div.bq {
+    text-align: justify
+    }
+div.p, div.bq {
+    margin-top: 1em;
+    margin-bottom: 1em
+    }
+blockquote, .bq {
+    margin-left: 1em;
+    margin-right: 0
+    }
+.verse {
+    font-size: 100%
+    }
+p.indent {
+    text-indent: 2em;
+    text-align: left
+    }
+p.tb, p.tbcenter, verse.tb, blockquote.tb {
+    margin-top: 2em
+    }
+span.pb, div.pb, dt.pb, p.pb {
+    text-align: right;
+    float: right;
+    margin-right: 0;
+    clear: right
+    }
+div.pb {
+    display: inline
+    }
+.pb, dt.pb, dl.toc dt.pb, dl.tocl dt.pb, .index dt.pb {
+    text-align: right;
+    float: right;
+    margin-left: 1.5em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    display: inline;
+    text-indent: 0;
+    font-size: 80%;
+    font-style: normal;
+    font-weight: bold;
+    color: gray;
+    border: 1px solid gray;
+    padding: 1px 3px
+    }
+div.index .pb {
+    display: block
+    }
+.bq div.pb, .bq span.pb {
+    font-size: 90%;
+    margin-right: 2em
+    }
+div.img {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    margin-bottom: 2em
+    }
+body a img {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    margin-bottom: 2em
+    }
+sup, a.fn {
+    font-size: 75%;
+    vertical-align: 100%;
+    line-height: 50%;
+    font-weight: normal
+    }
+h3 a.fn {
+    font-size: 65%
+    }
+sub {
+    font-size: 75%
+    }
+.center, .tbcenter {
+    text-align: center;
+    clear: both
+    }
+table.center {
+    clear: both;
+    margin-right: auto;
+    margin-left: auto
+    }
+table.center tr td {
+    font-family: monospace
+    }
+table.inline, table.symbol {
+    display: inline-table;
+    vertical-align: middle
+    }
+p {
+    clear: left
+    }
+.small, .lsmall {
+    font-size: 90%
+    }
+.smaller {
+    font-size: 80%
+    }
+.smallest {
+    font-size: 66%
+    }
+.larger {
+    font-size: 150%
+    }
+.large {
+    font-size: 125%
+    }
+.xlarge {
+    font-size: 200%;
+    line-height: 60%
+    }
+.xxlarge {
+    font-size: 200%;
+    line-height: 60%
+    }
+.gs {
+    letter-spacing: 1em
+    }
+.gs3 {
+    letter-spacing: 2em
+    }
+.gslarge {
+    letter-spacing: 0.3em;
+    font-size: 110%
+    }
+.sc {
+    font-variant: small-caps;
+    font-style: normal
+    }
+.xo {
+    position: relative;
+    left: -0.3em;
+    color: green
+    }
+.over, over {
+    text-decoration: overline;
+    display: inline
+    }
+hr {
+    width: 20%
+    }
+.jl {
+    text-align: left
+    }
+.jr {
+    text-align: right;
+    min-width: 2em;
+    clear: right
+    }
+.jr1 {
+    text-align: right;
+    margin-right: 2em;
+    clear: right
+    }
+.ind1 {
+    text-align: left;
+    margin-left: 2em
+    }
+.u {
+    text-decoration: underline
+    }
+.hst {
+    margin-left: 2em
+    }
+.incode {
+    font-family: monospace
+    }
+.incode i {
+    font-weight: bold;
+    font-style: normal
+    }
+dd.t {
+    text-align: left;
+    margin-left: 5.5em
+    }
+dl.toc {
+    clear: both;
+    margin-top: 1em
+    }
+.toc dt.center {
+    text-align: center;
+    clear: both
+    }
+.toc dt {
+    text-align: right;
+    clear: left
+    }
+.toc dd {
+    text-align: right;
+    clear: both;
+    margin-left: 4em
+    }
+.toc dd.ddt {
+    text-align: right;
+    clear: both;
+    margin-left: 5em
+    }
+.toc dd.ddt2 {
+    text-align: right;
+    clear: both;
+    margin-left: 6em
+    }
+.toc dd.ddt3 {
+    text-align: right;
+    clear: both;
+    margin-left: 7em
+    }
+.toc dd.ddt4 {
+    text-align: right;
+    clear: both;
+    margin-left: 8em
+    }
+.toc dd.ddt5 {
+    text-align: right;
+    clear: both;
+    margin-left: 9em
+    }
+.toc dd.note {
+    text-align: justify;
+    clear: both;
+    margin-left: 5em;
+    text-indent: -1em;
+    margin-right: 4em
+    }
+.toc dt .xxxtest {
+    color: red;
+    width: 17em;
+    display: block;
+    position: relative;
+    left: 4em
+    }
+.toc dt a, .toc dd a, .toc dt span.left, .toc dt span.lsmall, .toc dd span.left {
+    text-align: left;
+    clear: right;
+    float: left
+    }
+.toc dt a span.cn {
+    width: 2em;
+    text-align: right;
+    margin-right: 0.7em;
+    float: left
+    }
+.toc dt.sc {
+    text-align: right;
+    clear: both
+    }
+.toc dt.scl {
+    text-align: left;
+    clear: both;
+    font-variant: small-caps
+    }
+.toc dt.sct {
+    text-align: right;
+    clear: both;
+    font-variant: small-caps;
+    margin-left: 1em
+    }
+.toc dt.jl {
+    text-align: left;
+    clear: both;
+    font-variant: normal
+    }
+.toc dt.scc {
+    text-align: center;
+    clear: both;
+    font-variant: small-caps
+    }
+.toc dt span.lj {
+    text-align: left;
+    display: block;
+    float: left
+    }
+.toc dt a span.cn, .toc dt span.cn, dt span.cn {
+    width: 2.3em;
+    text-align: right;
+    margin-right: 0.7em;
+    float: left
+    }
+td.top {
+    border-top: 1px solid;
+    width: 0.5em;
+    height: 0.8em
+    }
+td.bot {
+    border-bottom: 1px solid;
+    width: 0.5em;
+    height: 0.8em
+    }
+td.rb {
+    border: 1px solid;
+    border-left: none;
+    width: 0.5em;
+    height: 0.8em
+    }
+td.lb {
+    border: 1px solid;
+    border-right: none;
+    width: 0.5em;
+    height: 0.8em
+    }
+dl.index {
+    clear: both
+    }
+.index dd {
+    margin-left: 4em;
+    text-indent: -2em;
+    text-align: left
+    }
+.index dt {
+    margin-left: 2em;
+    text-indent: -2em;
+    text-align: left
+    }
+div.notes p {
+    margin-left: 1em;
+    text-indent: -1em;
+    text-align: justify
+    }
+dl.undent dt {
+    margin-left: 1em;
+    text-indent: -1em;
+    text-align: justify
+    }
+dl.undent dd {
+    text-align: justify
+    }
+dl.undent dd.t {
+    margin-left: 2em;
+    text-indent: 0;
+    text-align: justify
+    }
+.lnum {
+    text-align: right;
+    float: right;
+    margin-left: 0.5em;
+    display: inline
+    }
+.hymn {
+    text-align: left
+    }
+.verse {
+    text-align: left;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    font-family: monospace
+    }
+.verse p i {
+    font-weight: bold;
+    font-style: normal
+    }
+.versetb {
+    text-align: left;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    margin-left: 0
+    }
+.originc {
+    text-align: center
+    }
+.subttl {
+    text-align: center;
+    font-size: 80%
+    }
+.srcttl {
+    text-align: center;
+    font-size: 80%;
+    font-weight: bold
+    }
+p.t0, p.l {
+    margin-left: 4em;
+    text-indent: -3em;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: left
+    }
+p.lb {
+    margin-left: 4em;
+    text-indent: -3em;
+    margin-top: 2em;
+    margin-bottom: 0;
+    text-align: left
+    }
+p.tw, div.tw, .tw {
+    margin-left: 1em;
+    text-indent: -1em;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: left
+    }
+p.t, div.t, .t {
+    margin-left: 5em;
+    text-indent: -3em;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: left
+    }
+p.t2, div.t2, .t2 {
+    margin-left: 6em;
+    text-indent: -3em;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: left
+    }
+p.t3, div.t3, .t3 {
+    margin-left: 7em;
+    text-indent: -3em;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: left
+    }
+p.t4, div.t4, .t4 {
+    margin-left: 8em;
+    text-indent: -3em;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: left
+    }
+p.t5, div.t5, .t5 {
+    margin-left: 9em;
+    text-indent: -3em;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: left
+    }
+p.t6, div.t6, .t6 {
+    margin-left: 10em;
+    text-indent: -3em;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: left
+    }
+p.t7, div.t7, .t7 {
+    margin-left: 11em;
+    text-indent: -3em;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: left
+    }
+p.t8, div.t8, .t8 {
+    margin-left: 12em;
+    text-indent: -3em;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: left
+    }
+p.t9, div.t9, .t9 {
+    margin-left: 13em;
+    text-indent: -3em;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: left
+    }
+p.lr, div.lr, .lr {
+    display: block;
+    margin-left: 0;
+    margin-right: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: right;
+    clear: right
+    }
+.fnblock {
+    margin-top: 2em
+    }
+.fndef {
+    text-align: justify;
+    margin-top: 1.5em;
+    margin-left: 1.5em;
+    text-indent: -1.5em
+    }
+.fndef p.fncont, .fndef dl {
+    margin-left: 0;
+    text-indent: 0
+    }
+dl.catalog dd {
+    font-style: italic
+    }
+dl.catalog dt {
+    margin-top: 1em
+    }
+.author {
+    text-align: right;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: block
+    }
+dl.biblio dt {
+    margin-top: 0.6em;
+    margin-left: 2em;
+    text-indent: -2em;
+    text-align: justify;
+    clear: both
+    }
+dl.biblio dt div {
+    display: block;
+    float: left;
+    margin-left: -6em;
+    width: 6em;
+    clear: both
+    }
+dl.biblio dt.center {
+    margin-left: 0;
+    text-align: center
+    }
+dl.biblio dd {
+    margin-top: 0.3em;
+    margin-left: 4em;
+    text-align: justify;
+    font-size: 90%
+    }
+.clear {
+    clear: both
+    }
+body {
+    background: initial;
+    color: initial
+    }
+a {
+    text-decoration: underline
+    }</style>
+<link rel="schema.dc" href="http://purl.org/dc/elements/1.1/">
+<link rel="schema.dcterms" href="http://purl.org/dc/terms/">
+<meta name="dc.title" content="The Oak Ridge ALGOL Compiler for the Control Data Corporation 1604&amp;#10;Preliminary Programmer's Manual">
+<meta name="dc.language" content="en">
+<meta name="dcterms.source" content="https://www.gutenberg.org/files/50468/50468-h/50468-h.htm">
+<meta name="dcterms.modified" content="2026-07-20T11:58:33.251668+00:00">
+<meta name="dc.rights" content="Public domain in the USA.">
+<link rel="dcterms.isFormatOf" href="http://www.gutenberg.org/ebooks/50468">
+<meta name="dc.creator" content="Bumgarner, L. L.">
+<meta name="dc.subject" content="ALGOL (Computer program language)">
+<meta name="dcterms.created" content="2015-11-17">
+<meta name="generator" content="Ebookmaker 0.14.2 by Project Gutenberg">
+<meta name="format-detection" content="telephone=no,date=no,address=no,email=no,url=no">
+<meta property="og:title" content="The Oak Ridge ALGOL Compiler for the Control Data Corporation 1604&amp;#10;Preliminary Programmer's Manual">
+<meta property="og:type" content="Text">
+<meta property="og:url" content="https://www.gutenberg.org/cache/epub/50468/pg50468-images.html">
+<meta property="og:image" content="https://www.gutenberg.org/cache/epub/50468/pg50468.cover.medium.jpg">
+</head>
+<body><header class="pg-boilerplate pgheader" id="pg-header" lang="en"><h2 id="pg-header-heading" title="">The Project Gutenberg eBook of <span lang="en" id="pg-title-no-subtitle">The Oak Ridge ALGOL Compiler for the Control Data Corporation 1604</span></h2>
+    
+<div>This eBook is for the use of anyone anywhere in the United States and
+most other parts of the world at no cost and with almost no restrictions
+whatsoever. You may copy it, give it away or re-use it under the terms
+of the Project Gutenberg License included with this eBook or online
+at <a class="reference external" href="https://www.gutenberg.org">www.gutenberg.org</a>. If you are not located in the United States,
+you will have to check the laws of the country where you are located
+before using this eBook.</div>
+
+<div class="container" id="pg-machine-header"><p><strong>Title</strong>: The Oak Ridge ALGOL Compiler for the Control Data Corporation 1604</p>
+<div id="pg-header-authlist">
+<p><strong>Author</strong>: L. L. Bumgarner</p>
+</div>
+<br>
+        
+<p><strong>Release date</strong>: November 17, 2015 [eBook #50468]<br>
+                Most recently updated: October 22, 2024</p>
+
+<p><strong>Language</strong>: English</p>
+
+<p><strong>Other information and formats</strong>: <a href="https://www.gutenberg.org/ebooks/50468">www.gutenberg.org/ebooks/50468</a></p>
+
+<p><strong>Credits</strong>: Produced by David Starner, Stephen Hutcheson, and the<br>
+        Online Distributed Proofreading Team at http://www.pgdp.net<br>
+        (This book was produced from images made available by the<br>
+        HathiTrust Digital Library.)</p>
+
+</div><div id="pg-start-separator">
+<span>*** START OF THE PROJECT GUTENBERG EBOOK THE OAK RIDGE ALGOL COMPILER FOR THE CONTROL DATA CORPORATION 1604 ***</span>
+</div></header><div></div>
+<div class="img"><img alt="The Oak Ridge Algol Compiler for the Control Data Corporation 1604: Preliminary Programmer’s Manual" src="images/cover.jpg" id="coverpage" style="width: *; height: *; "></div>
+<p class="center"><b>ORNL-3460
+<br>UC-32—Mathematics and Computers
+<br>TID-4500 (23rd ed.)</b></p>
+<div class="img">
+<img alt="" src="images/p01.png" id="img_images_p01.png" style="width: *; height: *; ">
+<p class="center"><span class="small"></span></p>
+</div>
+<div class="box">
+<h1>THE OAK RIDGE ALGOL COMPILER FOR THE CONTROL DATA CORPORATION 1604
+<br>PRELIMINARY PROGRAMMER'S MANUAL</h1>
+<p class="tbcenter"><b>L. L. Bumgarner</b></p>
+<p class="center"><b>OAK RIDGE NATIONAL LABORATORY</b>
+<br><span class="smaller">operated by
+<br>UNION CARBIDE CORPORATION
+<br>for the
+<br>U.S. ATOMIC ENERGY COMMISSION</span></p>
+</div>
+<div class="box">
+<p class="center">Printed in USA. Price: $1.25 Available from the
+<br>Office of Technical Services
+<br>U. S. Department of Commerce
+<br>Washington 25, D. C.</p>
+</div>
+<div class="box">
+<p class="center"><b>LEGAL NOTICE</b></p>
+<p>This report was prepared as an account of Government sponsored work. Neither the United States,
+nor the Commission, nor any person acting on behalf of the Commission:</p>
+<blockquote><div>
+<p>A. Makes any warranty or representation, expressed or implied, with respect to the accuracy,
+completeness, or usefulness of the information contained in this report, or that the use of
+any information, apparatus, method, or process disclosed in this report may not infringe
+privately owned rights; or</p>
+<p>B. Assumes any liabilities with respect to the use of, or for damages resulting from the use of
+any information, apparatus, method, or process disclosed in this report.</p>
+</div></blockquote>
+<p>As used in the above, “person acting on behalf of the Commission” includes any employee or
+contractor of the Commission, or employee of such contractor, to the extent that such employee
+or contractor of the Commission, or employee of such contractor prepares, disseminates, or
+provides access to, any information pursuant to his employment or contract with the Commission,
+or his employment with such contractor.</p>
+</div>
+<div class="pb" id="Page_i">i</div>
+<p><span class="lr">ORNL-3460</span></p>
+<p class="tbcenter">Contract No. W-7405-eng-26</p>
+<p class="tbcenter">Mathematics Division</p>
+<p class="center">THE OAK RIDGE ALGOL COMPILER FOR THE CONTROL DATA CORPORATION
+<br>1604—PRELIMINARY PROGRAMMER’S MANUAL</p>
+<p class="center">L. L. Bumgarner</p>
+<p class="tbcenter">DATE ISSUED
+<br><span class="u"><span class="large">JAN 30 1964</span></span></p>
+<p class="tbcenter">OAK RIDGE NATIONAL LABORATORY
+<br>Oak Ridge, Tennessee
+<br>operated by
+<br>UNION CARBIDE CORPORATION
+<br>for the
+<br>U.S. ATOMIC ENERGY COMMISSION</p>
+<div class="pb" id="Page_iii">iii</div>
+<h2 class="center">CONTENTS</h2>
+<dl class="toc">
+<dt><a href="#c1" class="pginternal"><span class="cn">I. </span>Introduction</a> 1</dt>
+<dd></dd><dt><a href="#c2" class="pginternal"><span class="cn">II. </span>Language Restrictions</a> 2</dt>
+<dd></dd><dt><a href="#c3" class="pginternal"><span class="cn">III. </span>Modes of Operation of the Compiler</a> 4</dt>
+<dd></dd><dt><a href="#c4" class="pginternal"><span class="cn">IV. </span>Input-Output and Intermediate Tape</a> 5</dt>
+<dd><a href="#c5" class="pginternal">Input-Output</a> 5</dd>
+<dd class="ddt"><a href="#c6" class="pginternal">READ</a> 5</dd>
+<dd class="ddt"><a href="#c7" class="pginternal">PAGE</a> 7</dd>
+<dd><a href="#c8" class="pginternal">Lists and the List Declaration</a> 7</dd>
+<dd class="ddt"><a href="#c9" class="pginternal">PRINT</a> 9</dd>
+<dd class="ddt"><a href="#c10" class="pginternal">WRITE</a> 9</dd>
+<dd class="ddt"><a href="#c11" class="pginternal">PUNCH</a> 10</dd>
+<dd><a href="#c12" class="pginternal">Formats and the Format Declaration</a> 10</dd>
+<dd class="ddt"><a href="#c13" class="pginternal">INPUT</a> 11</dd>
+<dd class="ddt"><a href="#c14" class="pginternal">OUTPUT</a> 12</dd>
+<dd><a href="#c15" class="pginternal">Intermediate Tape Procedures</a> 13</dd>
+<dd class="ddt"><a href="#c16" class="pginternal">BINREAD</a> 13</dd>
+<dd class="ddt"><a href="#c17" class="pginternal">BINWRITE</a> 14</dd>
+<dd class="ddt"><a href="#c18" class="pginternal">ENDFILE</a> 14</dd>
+<dd class="ddt"><a href="#c19" class="pginternal">REWIND</a> 14</dd>
+<dd class="ddt"><a href="#c20" class="pginternal">BACKUP</a> 14</dd>
+<dd><a href="#c21" class="pginternal">Tape-Checking Procedures</a> 14</dd>
+<dd class="ddt"><a href="#c22" class="pginternal">EOF</a> 15</dd>
+<dd class="ddt"><a href="#c23" class="pginternal">READERR</a> 15</dd>
+<dd class="ddt"><a href="#c24" class="pginternal">WRITERR</a> 15</dd>
+<dt><a href="#c25" class="pginternal"><span class="cn">V. </span>The <i>External</i> Declaration</a> 16</dt>
+<dd></dd><dt><a href="#c26" class="pginternal"><span class="cn">VI. </span>Standard Procedures</a> 16</dt>
+<dd></dd><dt><a href="#c27" class="pginternal"><span class="cn">VII. </span>Error Checking and Diagnostics</a> 17</dt>
+<dd></dd><dt><a href="#c28" class="pginternal"><span class="cn">VIII. </span>Running Programs</a> 19</dt>
+<dd><a href="#c29" class="pginternal">ALGOL Control System</a> 20</dd>
+<dd><a href="#c30" class="pginternal">EOP Card</a> 20</dd>
+<dd><a href="#c31" class="pginternal">Compile and Execute: ALGO</a> 21</dd>
+<dd><a href="#c32" class="pginternal">PROGRAM Card</a> 22</dd>
+<dd><a href="#c33" class="pginternal">Compile/Execute: ALDAP</a> 22</dd>
+<dd><a href="#c34" class="pginternal">ALDAP Control Statement</a> 22</dd>
+<dd><a href="#c35" class="pginternal">Job Deck: ALDAP Compilation/Execution</a> 23</dd>
+<dd><a href="#c36" class="pginternal">Examples</a> 25</dd>
+<dt class="center">APPENDICES</dt>
+<dd></dd><dt><a href="#c37" class="pginternal"><span class="cn">A. </span>Adjuncts to Algol 60</a> 30</dt>
+<dd></dd><dt><a href="#c38" class="pginternal"><span class="cn">B. </span>Hardware Representation</a> 32</dt>
+<dd></dd><dt><a href="#c39" class="pginternal"><span class="cn">C. </span>Structure of Procedure Calling Sequence</a> 35</dt>
+<dd></dd><dt><a href="#c40" class="pginternal"><span class="cn">D. </span>Internal Representation of Strings</a> 37</dt>
+<dd></dd><dt><a href="#c41" class="pginternal"><span class="cn">E. </span>Program Efficiency</a> 38</dt>
+<dd></dd><dt><a href="#c42" class="pginternal"><span class="cn">F. </span>Controversial Features of Algol 60</a> 40</dt>
+<dd></dd><dt><a href="#c43" class="pginternal"><span class="cn">G. </span>Fortran Subprograms in an Algol Program</a> 41</dt>
+<dd></dd></dl>
+<div class="pb" id="Page_1">1</div>
+<h2 class="center">THE OAK RIDGE ALGOL COMPILER FOR THE CONTROL DATA CORPORATION 1604—PRELIMINARY PROGRAMMER’S MANUAL</h2>
+<p class="center">L. L. Bumgarner</p>
+<h3 class="center">ABSTRACT</h3>
+<blockquote><div>
+<p>This document is a preliminary programmer’s manual
+for use of the Control Data 1604 Algol Compiler. The compiler
+was constructed by the Programming Research Group of
+the Mathematics Division in cooperation with Control Data
+Corporation. A knowledge of Algol 60 is assumed. Included
+are descriptions of input-output facilities and details for
+operation under the monitor system.</p>
+</div></blockquote>
+<h2 id="c1">I. <i>Introduction</i></h2>
+<p>This document is to serve as a programmer’s manual for the
+Algol compiler constructed as a cooperative project by Control Data
+Corporation and the Mathematics Division of Oak Ridge National Laboratory.
+The compiler is designed for the Control Data 1604 and 1604-A computers.
+The document is preliminary in that the compiler is not thoroughly tested
+and may undergo further development.</p>
+<p>The reader is assumed to be familiar with Algol 60. The
+defining descriptions are the two reports on Algol 60 available in the
+following references:</p>
+<blockquote><div>
+<p>1. P. Naur et al, “Report on the Algorithmic Language Algol 60,”
+<i>Comm. Assoc. Comp. Mach., 3</i> (1960), No. 5, 299-314.</p>
+<p>2. P. Naur et al, “Revised Report on the Algorithmic Language
+Algol 60,” <i>Comm. Assoc. Comp. Mach., 6</i> (1963), No. 1, 1-17.</p>
+</div></blockquote>
+<p>The second report clears up certain ambiguities that appeared in the
+first report. The reports are not easy reading for the novice. The
+following expositions are more readable:</p>
+<blockquote><div>
+<div class="pb" id="Page_2">2</div>
+<p>1. Baumann, Bauer, Feliciano and Samelson, <i>Introduction to
+Algol</i>, Prentice-Hall, Inc. (to be published in late 1963).</p>
+<p>2. Bottenbruch, H., “Structure and Use of Algol 60,” <i>Jour.
+Assoc. Comp. Mach., 9</i> (1962), No. 2, 161-221, and ORNL-3148.</p>
+</div></blockquote>
+<p>The Baumann publication also contains the revised Algol 60 report.</p>
+<p>Throughout this document various examples of statements and
+declarations appear without the semicolon which is always required for
+separating them. This is to avoid the implication that the semicolon is
+part of the statement or the declaration. In sentences, a comma or period
+may appear where a semicolon or other delimiter would be indicated in the
+context of a program.</p>
+<p>Word delimiters rendered in bold-face type in the Algol report
+are herein indicated by underlining.</p>
+<h2 id="c2">II. <i>Language Restrictions</i></h2>
+<p>The compiler correctly handles programs written in Algol 60
+subject to the following restrictions.</p>
+<p>1. The use of an <i>integer label as an actual parameter</i> will
+cause an incorrect program to be compiled.</p>
+<p>2. A GO TO statement with an <i>undefined switch designator</i> as
+the designational expression will cause incorrect operation of the final
+program.</p>
+<p>3. <i>Type</i> restrictions:</p>
+<blockquote><div>
+<p>(a) The exponentiation expression <span class="incode">x ↑ y</span> will have type
+<span class="incode"><i>real</i></span> unless <span class="incode">x</span> is of type <span class="incode"><i>integer</i></span> and <span class="incode">y</span> is a non-negative integer constant.
+This differs slightly from the definition in the Algol report but will
+generally cause no difficulty.</p>
+<div class="pb" id="Page_3">3</div>
+<p>(b) In the construction</p>
+<div class="verse">
+<p class="t0">&lt;if clause&gt; &lt;simple arithmetic expression&gt;</p>
+<p class="t0"><i>else</i> &lt;arithmetic expression&gt;</p>
+</div>
+<p>the arithmetic expressions must have the same type, or else an incorrect
+program will be compiled. For example, in the statement</p>
+<div class="verse">
+<p class="t0">x := <i>if</i> a &lt; b <i>then</i> z <i>else</i> w</p>
+</div>
+<p><span class="incode">z</span> and <span class="incode">w</span> should both be declared <span class="incode"><i>real</i></span> or both <span class="incode"><i>integer</i></span>.</p>
+<p>(c) In a procedure call (procedure statement or function
+call) each actual parameter having an arithmetic value must have the same
+type as the corresponding formal parameter in the procedure declaration.
+The type of the formal parameter is that designated in the specification
+part if it appears there. If a formal parameter representing an arithmetic
+quantity does not appear in the specification part, it is assumed to be
+specified <span class="incode"><i>real</i></span>. Full use of specifications is desirable for descriptive
+purposes and for optimization.</p>
+<p><i>Caution.</i> Restriction (c) is more likely to cause errors than
+the other restrictions. It is very easy to write <span class="incode">P(1,2)</span> when the parameters
+of <span class="incode">P</span> are specified <span class="incode"><i>real</i></span>, but incorrect coding will result. The call
+<span class="incode">P(1.0,2.0)</span> works correctly.</p>
+<p>4. <i>Standard procedure names</i> (see <a href="#c27" class="pginternal">section VI</a>) <i>used as parameters</i>
+in procedure calls will cause an incorrect program to be compiled. A call,
+therefore, such as</p>
+<div class="verse">
+<p class="t0">P(sin)</p>
+</div>
+<p>is incorrect. Note, however, that a call of the type</p>
+<div class="verse">
+<p class="t0">Q(sin(x))</p>
+</div>
+<p>causes no trouble. The case <span class="incode">P(sin)</span> can be programmed in another way.
+<span class="pb" id="Page_4">4</span>
+Make the declaration</p>
+<div class="verse">
+<p class="t0"><i>real procedure</i> sin 1 (t); <i>real</i> t;</p>
+<p class="t0">sin 1 := sin(t).</p>
+</div>
+<p>The call</p>
+<div class="verse">
+<p class="t0">P(sin 1)</p>
+</div>
+<p>is then correct.</p>
+<p>5. <i>Arrays called by value</i> are not handled. If an array
+identifier appears in the value part, an incorrect program will be
+compiled.</p>
+<p>6. <i>“Dynamic” own arrays</i> are not handled. This means that all
+<span class="incode"><i>own</i></span> arrays are treated as having constant subscript bounds; this constitutes
+one possible interpretation of the Algol 60 report. An <span class="incode"><i>own</i></span> array may be
+declared with variable subscript bounds, but only one allocation of
+storage will be made, and if the bounds change, this will be ignored.</p>
+<p>7. <i>Recursive procedures</i> are not handled. This restriction
+encompasses all cases of a function designator appearing in the actual
+parameter part of a call of the same function, unless that function is
+a standard function. Thus <span class="incode">f(f(x))</span> is not permitted in general, but
+<span class="incode">sin(sin(x))</span> is allowed.</p>
+</div></blockquote>
+<h2 id="c3">III. <i>Modes of Operation of the Compiler</i></h2>
+<p>There are two distinct modes of operation: ALGO and ALDAP.</p>
+<p>ALGO is a compile-and-execute mode in which the two phases
+cannot be separated. The Algol program is translated into a machine
+language program in core memory, and execution of the program immediately
+and automatically follows. There is no assembly program phase.</p>
+<div class="pb" id="Page_5">5</div>
+<p>ALDAP makes use of the CODAP assembly program facilities.
+It is possible to compile procedures separately and reference them from
+an Algol program. The procedures may be written in Algol, CODAP or
+Fortran. This provision is made possible with the aid of the <span class="incode"><i>external</i></span>
+declaration discussed in <a href="#c25" class="pginternal">section V</a>.</p>
+<p>The ALGO mode provides significantly faster compilation than
+the ALDAP mode for most programs. The target programs produced in the
+two modes are essentially the same. In the ALGO mode, program checkout
+may be done at the Algol language level. In the ALDAP mode, checkout
+may also be done at the machine and assembly language levels, and
+modifications may be made at these levels.</p>
+<h2 id="c4">IV. <i>Input-Output and Intermediate Tape</i></h2>
+<p>There are seven standard procedures for input-output, five
+for intermediate tape, and three for checking tape conditions. Two
+declarations, <span class="incode"><i>format</i></span> and <span class="incode"><i>list</i></span>, are additions to the language.</p>
+<h3 id="c5"> <i>Input-Output</i></h3>
+<p>The input-output procedures are: <span class="incode">READ</span>, <span class="incode">PAGE</span>, <span class="incode">PRINT</span>, <span class="incode">WRITE</span>,
+<span class="incode">PUNCH</span>, <span class="incode">INPUT</span>, and <span class="incode">OUTPUT</span>.</p>
+<h3 id="c6"> <i>READ</i></h3>
+<p>The <span class="incode">READ</span> procedure is used to input numbers and Boolean values.
+A <span class="incode">READ</span> statement has the form</p>
+<div class="verse">
+<p class="t0">READ (V1, V2, ..., Vn)</p>
+</div>
+<p>where <span class="incode">n</span> is any positive integer and each <span class="incode">Vk</span> is a variable. For example,
+the statement</p>
+<div class="verse">
+<p class="t0">READ (X, Y, A[1], B[1])</p>
+</div>
+<div class="pb" id="Page_6">6</div>
+<p>will input values into the four variables listed. For inputing values
+into an array, a statement such as the following might be used:</p>
+<div class="verse">
+<p class="t0"><i>for</i> I := 1 <i>step</i> 1 <i>until</i> 100 <i>do</i> READ (A[I]) .</p>
+</div>
+<p>The <span class="incode">READ</span> procedure inputs numbers and truth values. A number
+must be a legal Algol number (although an <span class="incode">E</span> may be substituted for the
+symbol <span class="incode">₁₀</span>). For input into a Boolean variable, the truth values <span class="incode"><i>true</i></span> and
+<span class="incode"><i>false</i></span> are accepted; also, a non-negative number or a plus sign is
+interpreted as <span class="incode"><i>false</i></span> and a negative number or a minus sign is interpreted
+as <span class="incode"><i>true</i></span>. A blank is read as zero.</p>
+<p>With the <span class="incode">READ</span> procedure, the type of a number on a data card
+does not have to be the same as the type of the variable to which it is
+assigned. Any necessary type conversions are done automatically. If
+<span class="incode">N</span> is the next number in the data, the statement</p>
+<div class="verse">
+<p class="t0">READ (V)</p>
+</div>
+<p>is equivalent to the statement</p>
+<div class="verse">
+<p class="t0">V := N .</p>
+</div>
+<p>The data cards are free field. The number of values per card,
+the length of numbers, and the number of spaces are arbitrary. A comma,
+however, must follow each number, <i>including the last one on the last
+data card</i>.</p>
+<p>In reading a value into a subscripted variable, the current
+value of the subscript expression is not affected by that <span class="incode">READ</span> statement.
+For example, in the statement</p>
+<div class="verse">
+<p class="t0">READ (I, A[I])</p>
+</div>
+<p>the old value of <span class="incode">I</span> is used in <span class="incode">A[I]</span>.</p>
+<div class="pb" id="Page_7">7</div>
+<p>The <span class="incode">READ</span> procedure will input data from the standard input
+medium only.</p>
+<h3 id="c7"> <i>PAGE</i></h3>
+<p>The <span class="incode">PAGE</span> procedure is used to cause a page ejection on the
+standard output medium. <span class="incode">PAGE</span> has no parameters. It is called by simply
+writing</p>
+<div class="verse">
+<p class="t0">PAGE .</p>
+</div>
+<h3 id="c8"> <i>Lists and the List Declaration</i></h3>
+<p>The input and output procedures described in the rest of this
+section, as well as the binary read and write procedures, make use of
+the concept of a list. A <span class="incode"><i>list</i></span><a class="fn pginternal" href="#fn_1">[1]</a> is a sequence of expressions. An
+example is</p>
+<div class="verse">
+<p class="t0">U + V, C[0], <i>if</i> B <i>then</i> X <i>else</i> Y .</p>
+</div>
+<p>It may be inconvenient in some cases to write down all of the
+expressions explicitly. The
+<i>loop expression</i><a class="fn pginternal" href="#fn_1" id="fr_1">[1]</a>
+may be used as a shorthand
+device in a list. It is an Algol-like construction of which the
+following is an example:</p>
+<div class="verse">
+<p class="t0"><i>for</i> I := 1 <i>step</i> 1 <i>until</i> 1000 <i>do</i> A[I] .</p>
+</div>
+<p>This is equivalent to the list</p>
+<div class="verse">
+<p class="t0">A[1], A[2], ..., A[1000] .</p>
+</div>
+<p>The entity following <span class="incode"><i>do</i></span> in a loop expression may itself be a list, but
+this list must be enclosed in parentheses if it contains more than one
+member.</p>
+<p>The loop expression</p>
+<div class="verse">
+<p class="t0"><i>for</i> I := 1 <i>step</i> 1 <i>until</i> 1000 <i>do</i> (A[I], B[I])</p>
+</div>
+<div class="pb" id="Page_8">8</div>
+<p>is equivalent to the list</p>
+<div class="verse">
+<p class="t0">A[1], B[1], A[2], B[2], ..., A[1000], B[1000] .</p>
+</div>
+<p>The loop expression</p>
+<div class="verse">
+<p class="t0"><i>for</i> I := 1 <i>step</i> 1 <i>until</i> 10 <i>do</i> (A[I], for J := 1</p>
+<p class="t0"><i>step</i> 1 <i>until</i> 20 <i>do</i> B[I,J])</p>
+</div>
+<p>is equivalent to the list</p>
+<div class="verse">
+<p class="t0">A[1], B[1,1], B[1,2], ..., B[1,20],</p>
+<p class="t0">A[2], B[2,1], B[2,2], ..., B[2,20],</p>
+<p class="t0">....................................</p>
+<p class="t0">A[10], B[10,1], B[10,2], ..., B[10,20] .</p>
+</div>
+<p>A list may be given a name through a list declaration. A list
+declaration has the form</p>
+<div class="verse">
+<p class="t0"><i>list</i> identifier := list .</p>
+</div>
+<p>Examples are:</p>
+<div class="verse">
+<p class="t0"><i>list</i> L := X, A + B</p>
+</div>
+<div class="verse">
+<p class="t0"><i>list</i> M := <i>for</i> I := 1 <i>step</i> 1 <i>until</i> N <i>do</i> A[I] .</p>
+</div>
+<p>A list identifier may itself appear in a list. One of the above examples
+might be written with the aid of the following declaration:</p>
+<div class="verse">
+<p class="t0"><i>list</i> L := <i>for</i> J := 1 <i>step</i> 1 <i>until</i> 20 <i>do</i> B[I,J] .</p>
+</div>
+<p>The loop expression is then</p>
+<div class="verse">
+<p class="t0"><i>for</i> I:= 1 <i>step</i> 1 <i>until</i> 10 <i>do</i> (A[I], L) .</p>
+</div>
+<p>A list declaration obeys the same rules of syntax and scope as do other
+declarations.</p>
+<p>A list identifier may be used as an actual parameter of a
+procedure call, with the requirement that the corresponding formal
+parameter be specified <span class="incode"><i>list</i></span>. However, an actual list may appear as a
+parameter only in calls of the standard procedures, as described.</p>
+<div class="pb" id="Page_9">9</div>
+<h3 id="c9"> <i>PRINT</i></h3>
+<p>The <span class="incode">PRINT</span> procedure is used to output numbers in a simple,
+rigid manner. <span class="incode">A PRINT</span> statement has the form</p>
+<div class="verse">
+<p class="t0">PRINT (list),</p>
+</div>
+<p>where list is described above. An example of a <span class="incode">PRINT</span> statement is</p>
+<div class="verse">
+<p class="t0">PRINT (A, <i>if</i> N = 0 <i>then</i> S <i>else</i> T).</p>
+</div>
+<p>A <span class="incode">PRINT</span> statement always puts out at least one line printer
+image. A line may contain up to 6 numbers, each of which is in scientific
+notation with 10 decimal places. Each number is right-justified in a
+field of 20 columns. (The format is 6E20.10.) The above <span class="incode">PRINT</span> statement
+will output two numbers in the first forty spaces, and the rest
+of the line will be blank. A <span class="incode">PRINT</span> statement such as</p>
+<div class="verse">
+<p class="t0">PRINT (<i>for</i> I := 1 <i>step</i> 1 <i>until</i> 10 <i>do</i> A[I])</p>
+</div>
+<p>will output one line of 6 numbers followed by one line of 4 numbers.
+Single spacing between lines is automatic.</p>
+<p>The <span class="incode">PRINT</span> procedure always outputs on the standard output
+medium.</p>
+<h3 id="c10"> <i>WRITE</i></h3>
+<p>The <span class="incode">WRITE</span> procedure is used to output strings. Examples of
+<span class="incode">WRITE</span> statements are:</p>
+<div class="verse">
+<p class="t0">WRITE ('TABLE')</p>
+</div>
+<div class="verse">
+<p class="t0">WRITE (<i>if</i> D &lt; 0 <i>then</i> 'TRUE' <i>else</i> 'FALSE') .</p>
+</div>
+<p>Each parameter must be a string expression (see <a href="#c37" class="pginternal">Appendix A</a> for definition
+of string expression). There may be any number of parameters, but each
+string will appear on a separate line. If a string is too long to go
+on one line, it will be continued on the next line. A string should not
+<span class="pb" id="Page_10">10</span>
+contain another string. Lines are single spaced. Each <span class="incode">WRITE</span> statement
+causes at least one line printer image to be put out.</p>
+<p>The <span class="incode">WRITE</span> procedure always outputs on the standard output
+medium.</p>
+<h3 id="c11"> <i>PUNCH</i></h3>
+<p>The <span class="incode">PUNCH</span> procedure is used to output numbers on punched cards
+in a form which can be input by the <span class="incode">READ</span> procedure. Each number punched
+will be followed by a comma. Each card punched may contain up to four
+numbers. Each number will be of type <span class="incode"><i>real</i></span>, but since the <span class="incode">READ</span> procedure
+makes any necessary type conversions this is unimportant. A <span class="incode">PUNCH</span> statement
+has the same form as a <span class="incode">PRINT</span> statement. Each <span class="incode">PUNCH</span> statement causes
+at least one card image to be put out.</p>
+<p>The <span class="incode">PUNCH</span> procedure always outputs on the standard punch medium.</p>
+<h3 id="c12"> <i>Formats and the Format Declaration</i></h3>
+<p>The two input and output procedures remaining to be described
+make use of formats. The formats are exactly those used in Fortran, and
+readers unfamiliar with Fortran will find it necessary to refer to the
+Control Data Fortran-62 Reference Manual for details on the use of formats.</p>
+<p>A format is treated as a string. Formats will be written, for
+example, as follows:</p>
+<div class="verse">
+<p class="t0">'(6E20.10)'</p>
+</div>
+<div class="verse">
+<p class="t0">'(1H0, 9X, 5HTABLE, I3)' .</p>
+</div>
+<p>Note that the parentheses are part of the format, and <i>both parentheses
+and string quotes are required</i>.</p>
+<p>As will be indicated below, a format string may appear
+explicitly in an <span class="incode">INPUT</span> or <span class="incode">OUTPUT</span> statement. If the same format string
+<span class="pb" id="Page_11">11</span>
+is used more than once, however, it may be convenient to give it a name
+through a format declaration. A format declaration has the form</p>
+<div class="verse">
+<p class="t0"><i>format</i> Identifier := '(Fortran format)' .</p>
+</div>
+<p>Examples are:</p>
+<div class="verse">
+<p class="t0"><i>format</i> F := '(6E20.10)'</p>
+</div>
+<div class="verse">
+<p class="t0"><i>format</i> G := '(1H0, 9X, 5HTABLE, I3)' .</p>
+</div>
+<p>A format declaration obeys the same rules of syntax and scope as do
+other declarations.</p>
+<p>Format identifiers may be used as parameters, and <span class="incode"><i>format</i></span> is a
+specifier.</p>
+<h3 id="c13"> <i>INPUT</i></h3>
+<p>The <span class="incode">INPUT</span> procedure is used to input numbers and Hollerith
+information in accordance with Fortran-type formats. An <span class="incode">INPUT</span> statement
+has one of the forms</p>
+<div class="verse">
+<p class="t0">INPUT (M,F,list)</p>
+</div>
+<div class="verse">
+<p class="t0">INPUT (M,F)</p>
+</div>
+<p>where:</p>
+<p>(1) <span class="incode">M</span> is the logical unit designation. <span class="incode">M</span> may be any arithmetic
+expression. If it is not integral-valued, the action</p>
+<div class="verse">
+<p class="t0">M := entier (M + 0.5)</p>
+</div>
+<p>will take place. The standard input unit is 50.</p>
+<p>(2) <span class="incode">F</span> is a format expression. It may be an actual format
+string, a format identifier, a conditional format expression, or any
+variable which contains the starting address of a format string.
+<i>Caution.</i> In the case of a conditional format expression, format strings
+and format identifiers should not be mixed. For example, (a) and (b)
+<span class="pb" id="Page_12">12</span>
+below are permitted, but (c) will cause an incorrect program to be
+compiled:</p>
+<div class="verse">
+<p class="t0">(a) <i>if</i> B <i>then</i> '(E20.7)' <i>else</i> '(E20.6)'</p>
+<p class="t0">(b) <i>if</i> B <i>then</i> F1 <i>else</i> F2</p>
+<p class="t0">(c) <i>if</i> B <i>then</i> F1 <i>else</i> '(E20.6)' .</p>
+</div>
+<p>(3) <span class="incode">list</span> is as defined previously. Of course, for <span class="incode">INPUT</span> all
+expressions must be variables.</p>
+<p>The following are examples of an <span class="incode">INPUT</span> statement:</p>
+<div class="verse">
+<p class="t0">INPUT (50, '(4E20.8)', N, <i>for</i> I := 1 <i>step</i> 1 <i>until</i> N <i>do</i> A[I]).</p>
+</div>
+<div class="verse">
+<p class="t0">INPUT (<i>if</i> A &lt; B <i>then</i> M <i>else</i> N, F, X, Y, Z) .</p>
+</div>
+<p>Each <span class="incode">INPUT</span> statement causes at least one card image to be read.</p>
+<p>Note that the <span class="incode">INPUT</span> procedure does not make type checks
+between the data and the program variables. A floating point number,
+for example, is stored as such regardless of the type of the variable to
+which it is assigned.</p>
+<p><i>Caution.</i> It is strongly recommended that not both <span class="incode">READ</span> and <span class="incode">INPUT</span> be used
+in the same program. Each buffers ahead one card image. Furthermore,
+each <span class="incode">INPUT</span> statement causes at least one card image to be read while a
+<span class="incode">READ</span> statement may not cause a new card image to be read. Mixing the
+two statements will require quite careful use of blank cards in the data
+to allow for the buffering.</p>
+<h3 id="c14"> <i>OUTPUT</i></h3>
+<p>The <span class="incode">OUTPUT</span> procedure is used to output numbers and Hollerith
+information in accordance with Fortran-type formats. An <span class="incode">OUTPUT</span> statement
+has one of the forms</p>
+<div class="pb" id="Page_13">13</div>
+<div class="verse">
+<p class="t0">OUTPUT (M,F)</p>
+<p class="t0">OUTPUT (M,F,list)</p>
+</div>
+<p>where <span class="incode">M</span>, <span class="incode">F</span>, and <span class="incode">list</span> are as indicated above. The following are examples
+of <span class="incode">OUTPUT</span> statements:</p>
+<div class="verse">
+<p class="t0">OUTPUT (51, '(5HTABLE)')</p>
+</div>
+<div class="verse">
+<p class="t0">OUTPUT (51, '(1H0,9X,10E10.2)', <i>for</i> I := 1 <i>step</i> 1 <i>until</i> 100 <i>do</i> A[I]) .</p>
+</div>
+<p>Each <span class="incode">OUTPUT</span> statement causes at least one line printer image
+to be put out. The standard output unit is 51, and the standard punch
+unit is 52.</p>
+<h3 id="c15"> <i>Intermediate Tape Procedures</i></h3>
+<p>There are five standard procedures for making use of magnetic
+tape for auxiliary storage:</p>
+<p><span class="incode">BINREAD</span>, <span class="incode">BINWRITE</span>, <span class="incode">ENDFILE</span>, <span class="incode">REWIND</span> and <span class="incode">BACKUP</span>.</p>
+<h3 id="c16"> <i>BINREAD</i></h3>
+<p>A <span class="incode">BINREAD</span> statement has the form</p>
+<div class="verse">
+<p class="t0">BINREAD (M, list)</p>
+</div>
+<p>where <span class="incode">M</span> and <span class="incode">list</span> are the same as for <span class="incode">INPUT</span>. Each <span class="incode">BINREAD</span> statement
+causes the designated unit to move forward one logical record, reading
+in binary format into the variables of the list. If fewer variables
+appear in the list than are on the record, only those values are read
+and the tape moves on to the end of the record. If more variables
+appear in the list than are on the record, this is treated as an error
+and the program is terminated.</p>
+<p>The following is an example of a <span class="incode">BINREAD</span> statement:</p>
+<div class="verse">
+<p class="t0">BINREAD (6, <i>for</i> I := 1 <i>step</i> 1 <i>until</i> 1000 <i>do</i> A[I]) .</p>
+</div>
+<div class="pb" id="Page_14">14</div>
+<h3 id="c17"> <i>BINWRITE</i></h3>
+<p>A BINWRITE statement has the form</p>
+<div class="verse">
+<p class="t0">BINWRITE (M, list)</p>
+</div>
+<p>where <span class="incode">M</span> and <span class="incode">list</span> are the same as for <span class="incode">OUTPUT</span>. Each <span class="incode">BINWRITE</span> statement
+causes the values of the list expressions to be written in one logical
+record in binary format on the designated unit.</p>
+<h3 id="c18"> <i>ENDFILE</i></h3>
+<p>An <span class="incode">ENDFILE</span> statement has the form</p>
+<div class="verse">
+<p class="t0">ENDFILE (M)</p>
+</div>
+<p>where <span class="incode">M</span> is a unit designation as before. The statement causes an end-of-file
+record to be written on the designated unit.</p>
+<h3 id="c19"> <i>REWIND</i></h3>
+<p>A REWIND statement has the form</p>
+<div class="verse">
+<p class="t0">REWIND (M)</p>
+</div>
+<p>where <span class="incode">M</span> is a unit designation as before. The statement causes the
+designated unit to be rewound to the load point.</p>
+<h3 id="c20"> <i>BACKUP</i></h3>
+<p>A <span class="incode">BACKUP</span> statement has the form</p>
+<div class="verse">
+<p class="t0">BACKUP (M)</p>
+</div>
+<p>where <span class="incode">M</span> is a unit designation as before. The statement causes the designated
+unit to be backspaced one logical record of binary information or
+one physical record of BCD information.</p>
+<h3 id="c21"> <i>Tape-Checking Procedures</i></h3>
+<p>The checking procedures are: <span class="incode">EOF</span>, <span class="incode">READERR</span>, and <span class="incode">WRITERR</span>. These
+are Boolean procedures.</p>
+<div class="pb" id="Page_15">15</div>
+<h3 id="c22"> <i>EOF</i></h3>
+<p>An <span class="incode">EOF</span> call has the form</p>
+<div class="verse">
+<p class="t0">EOF (M)</p>
+</div>
+<p>where <span class="incode">M</span> is a logical unit designation as before. It yields the value
+<span class="incode"><i>true</i></span> if the previous read operation encountered an end-of-file or the
+previous write operation encountered an end-of-tape; otherwise it yields
+the value <span class="incode"><i>false</i></span>.</p>
+<p>An example of the use of an <span class="incode">EOF</span> call is:</p>
+<div class="verse">
+<p class="t0"><i>if</i> EOF(6) <i>then</i> <i>goto</i> ALARM .</p>
+</div>
+<h3 id="c23"> <i>READERR</i></h3>
+<p>A <span class="incode">READERR</span> call has the form</p>
+<div class="verse">
+<p class="t0">READERR (M)</p>
+</div>
+<p>where <span class="incode">M</span> is a logical unit designation as before. It yields the value
+<span class="incode"><i>true</i></span> if the previous read operation produced a parity error; otherwise
+it yields the value <span class="incode"><i>false</i></span>.</p>
+<p><span class="incode">READERR</span> should not be used for testing the operation of a <span class="incode">READ</span>
+statement. The <span class="incode">READ</span> procedure has its own facilities for checking,
+making multiple attempts in case of errors, and terminating the program
+if necessary.</p>
+<h3 id="c24"> <i>WRITERR</i></h3>
+<p>A <span class="incode">WRITERR</span> call has the form</p>
+<div class="verse">
+<p class="t0">WRITERR (M)</p>
+</div>
+<p>where <span class="incode">M</span> is a logical unit designation as before. It yields the value
+<span class="incode"><i>true</i></span> if the previous write operation produced a parity error; otherwise
+it yields the value <span class="incode"><i>false</i></span>.</p>
+<div class="pb" id="Page_16">16</div>
+<h2 id="c25">V. <i>The External Declaration</i></h2>
+<p>An <span class="incode"><i>external</i></span> declaration is required for each nonstandard
+library procedure or procedure compiled separately from the calling
+program, whether in Algol, Fortran or CODAP. Standard Algol procedures
+are described in <a href="#c26" class="pginternal">Section VI</a>. Note that a CODAP subroutine must take
+account of the special structure of the Algol calling sequence as
+described in <a href="#c39" class="pginternal">Appendix C</a> or be treated as a Fortran subprogram. The use
+of Fortran subprograms is described in <a href="#c43" class="pginternal">Appendix G</a>.</p>
+<p>The <i>external</i> declaration has one of the following forms:</p>
+<div class="verse">
+<p class="t0"><i>external</i> I1, ..., In</p>
+<p class="t0"><i>real</i> <i>external</i> I1, ..., In</p>
+<p class="t0"><i>integer</i> <i>external</i> I1, ..., In</p>
+<p class="t0"><i>Boolean</i> <i>external</i> I1, ..., In</p>
+</div>
+<p>where each <span class="incode">Ik</span> is an identifier and <span class="incode">n</span> is any positive integer. A type
+declarator preceding the declarator <span class="incode"><i>external</i></span> signifies a function procedure
+having that type. Note that no information about parameters
+appears in an <span class="incode"><i>external</i></span> declaration. See <a href="#c37" class="pginternal">Appendix A</a> for syntactical
+definition.</p>
+<p>In the ALGO mode, LIB cards must be included in the job deck
+for nonstandard library routines, in addition to the <span class="incode"><i>external</i></span> declarations.
+Details are found in <a href="#c28" class="pginternal">Section VIII</a>.</p>
+<h2 id="c26">VI. <i>Standard Procedures</i></h2>
+<p>Certain procedures are used without being declared. These
+include the standard functions listed in the Algol 60 report and the
+input-output and intermediate tape procedures. The complete list is as
+follows:</p>
+<div class="pb" id="Page_17">17</div>
+<div class="verse">
+<p class="t0">ABS</p>
+<p class="t0">SIGN</p>
+<p class="t0">SQRT</p>
+<p class="t0">SIN</p>
+<p class="t0">COS</p>
+<p class="t0">ARCTAN</p>
+<p class="t0">LN</p>
+<p class="t0">EXP</p>
+<p class="t0">ENTIER</p>
+<p class="t0">EOF</p>
+<p class="t0">READERR</p>
+<p class="t0">WRITERR</p>
+<p class="t0">FORTRANF</p>
+<p class="t0">FTNF</p>
+<p class="t0">READ</p>
+<p class="t0">PAGE</p>
+<p class="t0">PRINT</p>
+<p class="t0">WRITE</p>
+<p class="t0">PUNCH</p>
+<p class="t0">INPUT</p>
+<p class="t0">OUTPUT</p>
+<p class="t0">BINREAD</p>
+<p class="t0">BINWRITE</p>
+<p class="t0">ENDFILE</p>
+<p class="t0">REWIND</p>
+<p class="t0">BACKUP</p>
+<p class="t0">FORTRAN</p>
+<p class="t0">FTN</p>
+</div>
+<p>These procedures are global to the program. They behave as
+though declared in a fictitious block surrounding the entire program.</p>
+<h2 id="c27">VII. <i>Error Checking and Diagnostics</i></h2>
+<p>In a complete compilation the compiler makes two passes on the
+Algol source program. If errors which the compiler cannot correct are
+detected in the first pass, then the second, or translation, pass will
+not be made. The following types of errors are detected:</p>
+<dl class="undent"><dt>1. syntactical error</dt>
+<dd></dd><dt>2. undeclared identifier</dt>
+<dd></dd><dt>3. identifier declared twice in the same block head</dt>
+<dd></dd><dt>4. misspelled delimiter (corrected in many cases)</dt>
+<dd></dd><dt>5. missing escape symbol (corrected unless both are missing for the same delimiter, in which case the delimiter is treated as an identifier).</dt><dd></dd></dl>
+<div class="pb" id="Page_18">18</div>
+<p>The program listing and any diagnostics always appear on the
+standard output medium. In the case of a syntactical error, a message
+will appear in the program listing one or several lines below the error.
+The location of the error in the program will be further pinpointed in
+the line of symbols immediately below the error message. This line will
+be a short portion of the program with the last symbol in the line being
+the one which indicates the error. For example, a declaration might be
+out of place as follows:</p>
+<div class="verse">
+<p class="t9">.</p>
+<p class="t9">.</p>
+<p class="t9">.</p>
+<p class="t4">x := a + b; 'INTEGER' K;</p>
+</div>
+<div class="verse">
+<p class="t0">**** LAST CHARACTER INDICATES SYNTACTICAL ERROR.</p>
+</div>
+<div class="verse">
+<p class="t0">x := a + b; INTEGER</p>
+<p class="t8">.</p>
+<p class="t8">.</p>
+<p class="t8">.</p>
+</div>
+<p>In some cases the line below the message may differ slightly from the
+corresponding string of symbols above; for example, an identifier might
+be rendered by Ident. It is possible for a single syntactical error to
+cause more than one diagnostic.</p>
+<p>A few syntactical errors are corrected by the compiler, and
+a message is put out to this effect. An example is a semicolon
+immediately preceding <span class="incode"><i>else</i></span>.</p>
+<p>According to the comment conventions of Algol, any string of
+symbols following <span class="incode"><i>end</i></span> and not containing <span class="incode"><i>end</i></span>, <span class="incode"><i>else</i></span> or a semicolon is
+<span class="pb" id="Page_19">19</span>
+treated as comment. As a result, the omission of one of these symbols
+following <span class="incode"><i>end</i></span> does not always cause an error in compilation but will
+cause a portion of the program to be skipped over by the compiler. Thus
+for example, in</p>
+<div class="verse">
+<p class="t0">... x := a + b <i>end</i> <i>for</i> i := 1 <i>step</i> 1 ...</p>
+</div>
+<p>the FOR statement will be skipped at least in part. The compiler will
+put out a caution message in this and some other cases, but it will not
+change the program.</p>
+<p>If an identifier is not declared (or possibly declared in the
+wrong place), a message is put out below the program listing together
+with the undeclared identifier.</p>
+<p>The compiler does not check the type of identifiers. Therefore,
+such errors as a Boolean variable in an arithmetic expression, or the
+brackets of a subscripted variable replaced by parentheses, are not
+detected, and an incorrect program may be compiled.</p>
+<h2 id="c28">VIII. <i>Running Programs</i></h2>
+<p>The Algol program is punched on cards in the hardware representation
+described in <a href="#c38" class="pginternal">Appendix B</a>. The format is essentially free field:
+spaces have no significance except within escape symbols and string
+quotes. <i>Only the first 72 columns, however, are interpreted by the
+compiler.</i> The remaining columns may be used for identification purposes.
+Care must be taken when a string is continued onto the next card, as
+<i>the continuation will begin in column 1</i>. The program listing will have
+the same format as the cards.</p>
+<div class="pb" id="Page_20">20</div>
+<p>In the following discussion the symbol Ø signifies the letter
+O where necessary for emphasis, and the symbol Δ signifies a 7-9 punch
+in card column 1.</p>
+<h3 id="c29"> <i>ALGOL Control System</i></h3>
+<p>The compiler operates under the ALGOL Control System. This
+system is a subordinate control routine of the Master Control System of
+the CO-OP Monitor Programming System. ALGOL is quite similar to the
+subordinate control routine COOP.</p>
+<p>ALGOL is called with an MCS (Master Control System) card having
+ALGOL punched beginning in column 2. Other details of this card are
+available in descriptions of the CO-OP Monitor. It should be noted in
+selecting a standard recovery procedure that the concept of COMMON is
+not used in Algol.</p>
+<p>Following the MCS card will be a control card giving
+instructions to the control routine ALGOL. It will name one of the
+following routines: ALGO, ALDAP, EXECUTE, BINARY, FORTRAN, REWIND or
+DEFINE. These will be discussed below.</p>
+<h3 id="c30"> <i>EOP Card</i></h3>
+<p>The EOP (end-of-program) card has the characters <span class="incode">'EØP'</span> punched
+in columns 10-14.</p>
+<p>In the ALGO mode, one EOP card must be used to terminate the
+program.</p>
+<p>In the ALDAP mode, one EOP card must be used to terminate each
+Algol program or Algol procedure being compiled separately.</p>
+<div class="pb" id="Page_21">21</div>
+<h3 id="c31"> <i>Compile and Execute: ALGO</i></h3>
+<p>The ALGO mode of running an Algol program is the simplest and
+the fastest. It will be the more suitable for a large number of programs.
+Unless the programmer has special reasons for using the ALDAP mode, the
+ALGO mode is recommended.</p>
+<p>The Algol program must be self-contained except for standard
+procedures and library procedures on the library-systems tape. The job
+deck must have the following cards in the specified order:</p>
+<dl class="undent"><dt>1. MCS control card.</dt>
+<dd class="t">The subordinate control routine name must be ALGØL.</dd>
+<dt>2. ALGOL control card.</dt>
+<dd class="t">This will appear as</dd>
+<dd class="t"><span class="incode">ΔALGØ.</span> or <span class="incode">ΔALGØ,t.</span> where <span class="incode">t</span> is an integer specifying a time limit in minutes for compilation and execution.</dd>
+<dd class="t">(The period is required on every control card.)</dd>
+<dt>3. LIB cards.</dt>
+<dd class="t">If necessary. One LIB card is required for each non-standard library procedure called in the program, namely those declared <span class="incode"><i>external</i></span>. The format of a LIB card is as follows: the characters LIB punched in columns 10-12 and the name of a library entry point beginning in column 20. There may be no more than 20 LIB cards.</dd>
+<dt>4. PROGRAM card.</dt>
+<dd class="t">If desired. This may be used to identify the program. Its format is described in the next paragraph.</dd>
+<dt>5. Algol program deck.</dt>
+<dd></dd><dt>6. EOP card.</dt>
+<dd></dd><dt>7. Data.</dt>
+<dd class="t">If required.</dd></dl>
+<div class="pb" id="Page_22">22</div>
+<h3 id="c32"> <i>PROGRAM Card</i></h3>
+<p>The PROGRAM card is optional. It is useful for identification
+purposes, and in the ALDAP mode it serves to name the program entry
+point.</p>
+<p>The format of the card is free field. The characters <span class="incode">PRØGRAM</span>
+must appear followed by the program name, which must be alphanumeric.</p>
+<h3 id="c33"> <i>Compile/Execute: ALDAP</i></h3>
+<p>The ALDAP mode is used to compile an Algol program or procedure
+to a relocatable binary or a CODAP format. Execution is
+optional. For compilation only, the program deck may consist of any
+mixture of Algol programs and procedures, any number of which may be
+in CODAP. If execution is desired, part or all of the program deck
+may have been previously compiled, so that the deck may have Algol,
+CODAP and relocatable binary cards.</p>
+<h3 id="c34"> <i>ALDAP Control Statement</i></h3>
+<p>The format of the ALDAP statement is:</p>
+<div class="verse">
+<p class="t0">ΔALDAP,L,B,n.</p>
+</div>
+<p>where</p>
+<dl class="undent"><dt></dt><dd><span class="incode">L</span> is a program listing key,</dd>
+<dd><span class="incode">B</span> is a punched card output key,</dd>
+<dd><span class="incode">n</span> is a logical unit number.</dd></dl>
+<p>A period may terminate the statement at any point, with remaining fields
+treated as zero.</p>
+<p>If the program listing key (<span class="incode">L</span>) is a 1, an assembled listing of
+the CODAP object code will be produced on the standard output medium.
+If the key is zero or blank, no such listing will be produced. A listing
+<span class="pb" id="Page_23">23</span>
+of the Algol program and any diagnostics will always be produced on the
+standard output medium.</p>
+<p>If the punched card output key (<span class="incode">B</span>) is a 1, a relocatable binary
+deck will be produced on the standard punch medium. If the key is a 2,
+a CODAP symbolic deck will be produced on the standard punch medium.
+If the key is a 3, both a symbolic deck and a relocatable binary deck
+will be produced on the standard punch medium, with the symbolic deck
+appearing first. If the key is zero or blank, no deck will be produced.</p>
+<p>The logical unit number (<span class="incode">n</span>) specifies the unit which is to be
+the load-and-go tape if it is one of the integers 1-49 or 56. If <span class="incode">n</span> is
+some other integer or blank, no load-and-go tape will be written. The
+load-and-go tape is required when execution of the program is to follow.</p>
+<p>Examples:</p>
+<dl class="undent"><dt>(a) <span class="incode">ΔALDAP, 1, 1, 56.</span></dt><dd></dd></dl>
+<p>This statement will cause the Algol/CODAP deck to be compiled, an
+assembled listing to be produced on the standard output medium, a
+relocatable binary deck to be produced on the standard punch medium,
+and a load-and-go tape written on logical unit 56.</p>
+<dl class="undent"><dt>(b) <span class="incode">ΔALDAP, 1.</span></dt><dd></dd></dl>
+<p>This statement will cause the Algol/CODAP deck to be compiled, and an
+assembled listing to be produced on the standard output medium.</p>
+<h3 id="c35"> <i>Job Deck: ALDAP Compilation/Execution</i></h3>
+<p>For <i>compilation only</i> of an Algol/CODAP program deck, the
+job deck should contain the following cards in the specified order:</p>
+<div class="pb" id="Page_24">24</div>
+<dl class="undent"><dt>1. MCS control card.</dt>
+<dd class="t">With ALGØL as the subordinate control routine name.</dd>
+<dt>2. ALGOL control card.</dt>
+<dd class="t">With the appropriate ALDAP control statement.</dd>
+<dt>3. PROGRAM card.</dt>
+<dd class="t">If desired.</dd>
+<dt>4. Program deck.</dt>
+<dd class="t">Any mixture of Algol and CODAP programs and procedures, with all their subroutines except the standard procedures and those on the library-systems tape. <i>Each Algol program or procedure must be terminated by an EOP card.</i></dd>
+<dt>5. FINIS card.</dt>
+<dd class="t">This card contains the characters <span class="incode">FINIS</span> punched in columns 10-14. It signals the end of all compilations.</dd></dl>
+<p>For <i>compilation and execution</i> of an Algol/CODAP program deck,
+a load-and-go tape must be requested in the ALDAP control statement. If
+no relocatable binary cards follow the last subprogram to be compiled,
+then the program deck must be terminated by an EOP card which is <i>in
+addition to</i> the EOP card or END card (the latter for a CODAP
+subprogram) which terminates the last program or procedure. The FINIS
+card then follows this additional EOP card. An EOP card always causes
+a TRA card image to be written on the load-and-go tape.</p>
+<p>The control statements EXECUTE, BINARY, FORTRAN, REWIND and
+DEFINE may be used as described in the “CO-OP Monitor Programmer’s
+Guide”. BINARY is useful for loading a relocatable binary deck onto the
+load-and-go tape prior to compilation of an Algol calling program, where
+the subprogram in relocatable form might have the same name as a library
+routine. If the Algol program preceded the relocatable deck, the library
+routine would be fetched by the loader and an error indication given.</p>
+<div class="pb" id="Page_25">25</div>
+<p>The CO-OP control statements LOAD and EXECUTER are not used
+by ALGOL.</p>
+<h3 id="c36"> <i>Examples</i></h3>
+<p>Each of the following examples describes a job deck which
+illustrates a different way of compiling and executing the same Algol
+program. The program calls a library procedure with entry point named
+BESSEL, and the program contains at least one other procedure. On the
+MCS card only the first field is indicated, as the others may vary from
+one installation to another.</p>
+<h4 id="cs1"> <i>Example 1</i></h4>
+<p>This job uses the ALGØ mode.</p>
+<div class="verse">
+<p class="t0">ΔALGØL, ... .</p>
+</div>
+<div class="verse">
+<p class="t0">ΔALGØ.</p>
+</div>
+<div class="verse">
+<p class="t4">LIB BESSEL</p>
+</div>
+<div class="verse">
+<p class="t3">PRØGRAM SAMPLE</p>
+</div>
+<div class="verse">
+<p class="t3">Algol Program (with <i>external</i> declaration of BESSEL)</p>
+</div>
+<div class="verse">
+<p class="t4">'EØP'</p>
+</div>
+<div class="verse">
+<p class="t3">Data</p>
+</div>
+<h4 id="cs2"> <i>Example 2</i></h4>
+<p>This job uses the ALDAP mode, compiling the entire program at
+once. The ALDAP control statement calls for an assembled listing, a
+binary deck, and a load-and-go tape on logical unit 56. The execute
+card gives a two minute time limit on the execution.</p>
+<div class="pb" id="Page_26">26</div>
+<div class="verse">
+<p class="t0">ΔALGØL, ... .</p>
+</div>
+<div class="verse">
+<p class="t0">ΔALDAP,1,1,56.</p>
+</div>
+<div class="verse">
+<p class="t3">PRØGRAM SAMPLE</p>
+</div>
+<div class="verse">
+<p class="t3">Algol Program (with <i>external</i> declaration of BESSEL)</p>
+</div>
+<div class="verse">
+<p class="t4">'EØP'</p>
+</div>
+<div class="verse">
+<p class="t4">'EØP'</p>
+</div>
+<div class="verse">
+<p class="t4">FINIS</p>
+</div>
+<div class="verse">
+<p class="t0">ΔEXECUTE,2.</p>
+</div>
+<div class="verse">
+<p class="t3">Data</p>
+</div>
+<h4 id="cs3"> <i>Example 3</i></h4>
+<p>This job consists simply of the execution of the relocatable
+program deck obtained in <a href="#cs2" class="pginternal">example 2</a>.</p>
+<div class="verse">
+<p class="t0">ΔALGØL, ... .</p>
+</div>
+<div class="verse">
+<p class="t0">ΔEXECUTE,2.</p>
+</div>
+<div class="verse">
+<p class="t3">Relocatable Deck</p>
+</div>
+<div class="verse">
+<p class="t3">Data</p>
+</div>
+<h4 id="cs4"> <i>Example 4</i></h4>
+<p>This example is similar to <a href="#cs2" class="pginternal">example 2</a>. Here the main program
+and one of its procedures are to be compiled separately.</p>
+<div class="pb" id="Page_27">27</div>
+<div class="verse">
+<p class="t0">ΔALGØL, ... .</p>
+</div>
+<div class="verse">
+<p class="t0">ΔALDAP,1,1,56.</p>
+</div>
+<div class="verse">
+<p class="t3">PRØGRAM SAMPLE</p>
+</div>
+<div class="verse">
+<p class="t3">Algol Program (with <i>external</i> declaration of both BESSEL and the procedure being compiled separately)</p>
+</div>
+<div class="verse">
+<p class="t4">'EØP'</p>
+</div>
+<div class="verse">
+<p class="t3">Algol Procedure</p>
+</div>
+<div class="verse">
+<p class="t4">'EØP'</p>
+</div>
+<div class="verse">
+<p class="t4">'EØP'</p>
+</div>
+<div class="verse">
+<p class="t4">FINIS</p>
+</div>
+<div class="verse">
+<p class="t0">ΔEXECUTE,2.</p>
+</div>
+<div class="verse">
+<p class="t3">Data</p>
+</div>
+<h4 id="cs5"> <i>Example 5</i></h4>
+<p>In this example the procedure which was compiled separately
+in <a href="#cs4" class="pginternal">example 4</a> is being compiled by itself, i.e., the calling program is
+not in the deck at all. Of course there is no execution in this case.
+Note that no load-and-go tape is requested and only one EOP card is
+used. There cannot be a PROGRAM card.</p>
+<div class="verse">
+<p class="t0">ΔALGØL, ... .</p>
+</div>
+<div class="verse">
+<p class="t0">ΔALDAP,1,1.</p>
+</div>
+<div class="verse">
+<p class="t3">Algol Procedure</p>
+</div>
+<div class="verse">
+<p class="t4">'EØP'</p>
+</div>
+<div class="verse">
+<p class="t4">FINIS</p>
+</div>
+<div class="pb" id="Page_28">28</div>
+<h4 id="cs6"> <i>Example 6</i></h4>
+<p>Here the procedure compiled by itself in <a href="#cs5" class="pginternal">example 5</a> appears in
+the program deck in relocatable binary form, while the calling program
+is in the Algol language.</p>
+<div class="verse">
+<p class="t0">ΔALGØL, ... .</p>
+</div>
+<div class="verse">
+<p class="t0">ΔALDAP,1,1,56.</p>
+</div>
+<div class="verse">
+<p class="t3">PRØGRAM SAMPLE</p>
+</div>
+<div class="verse">
+<p class="t3">Algol Program (with <i>external</i> declaration of both BESSEL and the procedure in relocatable form)</p>
+</div>
+<div class="verse">
+<p class="t4">'EØP'</p>
+</div>
+<div class="verse">
+<p class="t4">FINIS</p>
+</div>
+<div class="verse">
+<p class="t0">ΔEXECUTE,2.</p>
+</div>
+<div class="verse">
+<p class="t3">Relocatable Deck</p>
+</div>
+<div class="verse">
+<p class="t3">Data</p>
+</div>
+<p>The relocatable deck here must be terminated by two TRA cards. One of
+these is generated by the compiler when it processes the EOP card which
+must terminate the procedure for compilation, as in <a href="#cs5" class="pginternal">example 5</a>. The
+second TRA card can be obtained by using a second EOP card, as in
+<a href="#cs2" class="pginternal">example 2</a>. Alternatively, the second TRA card can be added to the
+relocatable deck before execution. Note that this second TRA card must
+not be used when the relocatable deck is loaded by a BINARY control
+statement. This is illustrated in the next example.</p>
+<h4 id="cs7"> <i>Example 7</i></h4>
+<p>In this case the previously compiled procedure has the same
+name as a routine on the library-systems tape.</p>
+<div class="pb" id="Page_29">29</div>
+<div class="verse">
+<p class="t0">ΔALGØL, ... .</p>
+</div>
+<div class="verse">
+<p class="t0">ΔBINARY,56.</p>
+</div>
+<div class="verse">
+<p class="t3">Relocatable Deck (terminated by one TRA card)</p>
+</div>
+<div class="verse">
+<p class="t0">ΔALDAP,1,1,56.</p>
+</div>
+<div class="verse">
+<p class="t3">PRØGRAM SAMPLE</p>
+</div>
+<div class="verse">
+<p class="t3">Algol Program (with <i>external</i> declaration of both BESSEL and the procedure in relocatable form)</p>
+</div>
+<div class="verse">
+<p class="t4">'EØP'</p>
+</div>
+<div class="verse">
+<p class="t4">'EØP'</p>
+</div>
+<div class="verse">
+<p class="t3">FINIS</p>
+</div>
+<div class="verse">
+<p class="t0">ΔEXECUTE, 2.</p>
+</div>
+<div class="verse">
+<p class="t3">Data</p>
+</div>
+<p>The logical unit number on the BINARY control statement must agree with
+that which specifies the load-and-go tape in the ALDAP control statement.</p>
+<div class="pb" id="Page_30">30</div>
+<h2 class="center" id="c37">APPENDIX A
+<br><span class="small">Adjuncts to Algol 60</span></h2>
+<h3 class="center"> <i>List Entities</i></h3>
+<p>The delimiter <i>list</i> is a declarator and a specifier.</p>
+<div class="verse">
+<p class="t0">&lt;list identifier&gt; ::= &lt;identifier&gt;</p>
+</div>
+<div class="verse">
+<p class="t0">&lt;loop expression&gt; ::= &lt;for clause&gt; &lt;arithmetic expression&gt;</p>
+<p class="t3">| &lt;for clause&gt; &lt;loop expression&gt;</p>
+<p class="t3">| &lt;for clause&gt; (&lt;list&gt;)</p>
+</div>
+<div class="verse">
+<p class="t0">&lt;list element&gt; ::= &lt;arithmetic expression&gt;</p>
+<p class="t3">| &lt;loop expression&gt;</p>
+<p class="t3">| &lt;list identifier&gt;</p>
+</div>
+<div class="verse">
+<p class="t0">&lt;list&gt; ::= &lt;list element&gt;</p>
+<p class="t3">| &lt;list&gt;, &lt;list element&gt;</p>
+</div>
+<div class="verse">
+<p class="t0">&lt;list declaration&gt; ::= <i>list</i> &lt;list identifier&gt; := &lt;list&gt;</p>
+</div>
+<h3 class="center"> <i>Format Entities</i></h3>
+<p>The delimiter <span class="incode"><i>format</i></span> is a declarator and a specifier.</p>
+<div class="verse">
+<p class="t0">&lt;format identifier&gt; ::= &lt;identifier&gt;</p>
+</div>
+<div class="verse">
+<p class="t0">&lt;simple format expression&gt; ::='(&lt;Fortran format&gt;<a class="fn pginternal" href="#fn_2" id="fr_2">[2]</a>)'</p>
+<p class="t3">| &lt;format identifier&gt;</p>
+</div>
+<div class="verse">
+<p class="t0">&lt;format expression&gt; ::= &lt;simple format expression&gt;</p>
+<p class="t3">| &lt;if clause&gt; &lt;simple format expression&gt;</p>
+<p class="t4"><i>else</i> &lt;format expression&gt;</p>
+</div>
+<div class="verse">
+<p class="t0">&lt;format declaration&gt; ::= <i>format</i> &lt;format identifier&gt; := &lt;format expression&gt;</p>
+</div>
+<div class="pb" id="Page_31">31</div>
+<h3 class="center"> <i>String Expression</i></h3>
+<div class="verse">
+<p class="t0">&lt;string expression&gt; ::= &lt;string&gt;</p>
+<p class="t3">| &lt;if clause&gt; &lt;string&gt;</p>
+<p class="t4"><i>else</i> &lt;string expression&gt;</p>
+</div>
+<h3 class="center"> <i>External Declaration</i></h3>
+<p>The delimiter <span class="incode"><i>external</i></span> is a declarator.</p>
+<div class="verse">
+<p class="t0">&lt;external identifier&gt; ::= &lt;identifier&gt;</p>
+</div>
+<div class="verse">
+<p class="t0">&lt;external list&gt; ::= &lt;external identifier&gt;</p>
+<p class="t3">| &lt;external identifier&gt;, &lt;external list&gt;</p>
+</div>
+<div class="verse">
+<p class="t0">&lt;external declaration&gt; ::= <i>external</i> &lt;external list&gt;</p>
+<p class="t3">| &lt;type&gt; <i>external</i> &lt;external list&gt;</p>
+</div>
+<div class="pb" id="Page_32">32</div>
+<h2 class="center" id="c38">APPENDIX B
+<br><span class="small">Hardware Representation</span></h2>
+<p>One keypunch character is reserved as an “escape symbol”,
+which we shall here suppose is the apostrophe. This symbol is used to
+delineate word delimiters and truth values, which are written in boldface
+type in Algol reference language and publication language and
+indicated by underlining in this manual. The hardware representation
+of a word delimiter such as <span class="incode"><i>begin</i></span> is therefore <span class="incode">'BEGIN'</span>.
+No distinction
+is made between upper and lower case letters in the hardware language.</p>
+<p>The transliteration rules for the non-word delimiters are
+comprised in the following table. This assumes a 48 character hardware
+set and is consistent with the usage in the ALCOR group. For some
+basic symbols alternatives are tolerated, as indicated.</p>
+<table class="center">
+<tbody><tr><th><i>Reference</i> </th><th class="c"><i>Hardware</i> </th><th class="c"><i>Tolerated Hardware</i></th></tr>
+<tr><td class="c">&lt; </td><td class="c">'LS' </td><td class="c">'LESS'</td></tr>
+<tr><td class="c">≤ </td><td class="c">'LQ' </td><td class="c">'LSEQ', 'NOTGREATER', 'NOT GREATER'</td></tr>
+<tr><td class="c">= </td><td class="c">'EQ' </td><td class="c">'EQUAL'</td></tr>
+<tr><td class="c">≥ </td><td class="c">'GQ' </td><td class="c">'GREQ', 'NOTLESS', 'NOT LESS'</td></tr>
+<tr><td class="c">&gt; </td><td class="c">'GR' </td><td class="c">'GREATER'</td></tr>
+<tr><td class="c">≠ </td><td class="c">'NQ' </td><td class="c">'NTEQ', 'NOTEQUAL', 'NOT EQUAL'</td></tr>
+<tr><td class="c">¬ </td><td class="c">'NOT'</td></tr>
+<tr><td class="c">∧ </td><td class="c">'AND'</td></tr>
+<tr><td class="c">∨ </td><td class="c">'OR'</td></tr>
+<tr><td class="c">⊃ </td><td class="c">'IMP' </td><td class="c">'IMPLIES', 'IMPL'</td></tr>
+<tr><td class="c">≡ </td><td class="c">'EQV' </td><td class="c">'EQUIV'</td></tr>
+<tr><td class="c">₁₀ </td><td class="c">' </td><td class="c">'E','T'</td></tr>
+<tr><td class="c">× </td><td class="c">*</td></tr>
+<tr><td class="c">↑ </td><td class="c">** </td><td class="c">'POWER'</td></tr>
+<tr><td class="c">÷ </td><td class="c">// </td><td class="c">'DIV'</td></tr>
+<tr><td class="c">: </td><td class="c">..</td></tr>
+<tr><td class="c">; </td><td class="c">$ </td><td class="c">.,</td></tr>
+<tr><td class="c">:= </td><td class="c">= </td><td class="c">.=, ..=</td></tr>
+<tr><td class="c">[ </td><td class="c">(/</td></tr>
+<tr><td class="c">] </td><td class="c">/)</td></tr>
+<tr><td class="c">‘ </td><td class="c">" </td><td class="c">'('</td></tr>
+<tr><td class="c">’ </td><td class="c">" </td><td class="c">')'</td></tr>
+</tbody></table>
+<div class="pb" id="Page_33">33</div>
+<p>In the case of the string quotes, the tolerated symbols are required for
+the inner strings of a nest of strings.</p>
+<p>Actually, the compiler can tolerate many other spellings of
+word delimiters because of its facility for correcting misspellings.</p>
+<p>The delimiter <span class="incode"><i>go to</i></span> is accepted with or without the space
+between the two words, but it is treated as a single delimiter: <span class="incode">'GOTO'</span>
+or <span class="incode">'GO TO'</span>.</p>
+<p>The compiler can also accept a 64 character hardware representation:
+the full set available on the line printer. In preparing
+programs, overpunching is used on the 48 character keypunch in this case.
+The table below indicates the keypunching rules in use at Oak Ridge
+National Laboratory.</p>
+<div class="pb" id="Page_34">34</div>
+<table class="center">
+<tbody><tr><th><i>Reference</i> </th><th class="c"><i>Hardware</i></th></tr>
+<tr><td class="c">&lt; </td><td class="c">1-8 punch</td></tr>
+<tr><td class="c">≤ </td><td class="c">1-5 punch</td></tr>
+<tr><td class="c">≥ </td><td class="c">1-9 punch</td></tr>
+<tr><td class="c">&gt; </td><td class="c">2-7 punch</td></tr>
+<tr><td class="c">≠ </td><td class="c">2-6 punch</td></tr>
+<tr><td class="c">∧ </td><td class="c">3-7 punch</td></tr>
+<tr><td class="c">∨ </td><td class="c">2-4 punch</td></tr>
+<tr><td class="c">₁₀ </td><td class="c">1-6 punch</td></tr>
+<tr><td class="c">↑ </td><td class="c">2-5 punch</td></tr>
+<tr><td class="c">÷ </td><td class="c">3-5 punch</td></tr>
+<tr><td class="c">: </td><td class="c">2-8 punch</td></tr>
+<tr><td class="c">; </td><td class="c">2-9 punch</td></tr>
+<tr><td class="c">[ </td><td class="c">3-6 punch</td></tr>
+<tr><td class="c">] </td><td class="c">3-4 punch</td></tr>
+</tbody></table>
+<p>The other basic symbols are either in the 48 character set or are
+replaced by word delimiters as above. The symbol <span class="incode">:=</span> is treated as two
+symbols in the 64 character set, and <span class="incode">=</span> is punched as such.</p>
+<div class="pb" id="Page_35">35</div>
+<h2 class="center" id="c39">APPENDIX C
+<br><span class="small">Structure of Procedure Calling Sequence</span></h2>
+<p>The following information is necessary for the user writing a
+non-Algol procedure to be called from an Algol program. The calling
+sequence differs from that found in many other languages.</p>
+<p>The first word of the non-Algol procedure must have a simple
+jump instruction in its upper half, and the exit line is provided by a
+jump to this first word. The entry automatically causes the proper
+return address to be placed in the address portion of the first half-word.</p>
+<p>Upon entry to the procedure, index register six contains an
+address which is used to reference each parameter. To establish linkage
+with the first parameter, the instruction</p>
+<div class="verse">
+<p class="t0">LDA 6 0</p>
+</div>
+<p>is performed. This brings into the accumulator a word of one of the
+following types:</p>
+<div class="verse">
+<p class="t0">1. SLJ 0 ENA V</p>
+<p class="t0">2. SLJ 0 RTJ L</p>
+</div>
+<p>In case (1), <span class="incode">V</span> is the address of the parameter. In case (2), <span class="incode">L</span> is the
+starting address of a piece of coding for computing the address of the
+parameter and leaving it in the accumulator (if the parameter is an
+expression, the address in the accumulator will be that of a temporary
+containing its value). Case (1) always holds if the parameter is a
+simple variable, string, array identifier, switch identifier, or
+procedure identifier. In case (2) the same temporary will be used for
+all the expressions.</p>
+<div class="pb" id="Page_36">36</div>
+<p>Both cases can be provided for by setting aside two locations
+for each parameter in the procedure body and placing the instruction</p>
+<div class="verse">
+<p class="t0">SLJ *-1</p>
+</div>
+<p>in the upper half of each second location. Then after</p>
+<div class="verse">
+<p class="t0">LDA 6 0</p>
+</div>
+<p>mentioned above,</p>
+<div class="verse">
+<p class="t0">STA RES1,</p>
+</div>
+<p>where <span class="incode">RES1</span> is the first reserved location for the first parameter, makes
+the two locations into a closed subroutine. After this, the instruction</p>
+<div class="verse">
+<p class="t0">RTJ RES1</p>
+</div>
+<p>causes the address of the first parameter to be placed in the accumulator
+anytime it is performed. This accommodates expressions called by name.</p>
+<p>In general, the K<sup>th</sup> parameter is referenced as above, but
+beginning with</p>
+<div class="verse">
+<p class="t0">LDA 6 (K - 1).</p>
+</div>
+<p>This description does not apply to the standard procedures, each of
+which has its own special calling sequence.</p>
+<div class="pb" id="Page_37">37</div>
+<h2 class="center" id="c40">APPENDIX D
+<br><span class="small">Internal Representation of Strings</span></h2>
+<p>The address representing a string is that of the first word of
+string characters. Each left string quote is represented internally by
+the word</p>
+<div class="verse">
+<p class="t0">00 ... 03454 ,</p>
+</div>
+<p>and each right string quote by</p>
+<div class="verse">
+<p class="t0">00 ... 05474 .</p>
+</div>
+<p>The characters of the string which are not string quotes are packed in
+BCD eight characters per word. These words are in the natural order,
+the first immediately following the left string quote and the last
+immediately followed by the right string quote. If the last word before
+a right quote is not full, the rest of that word is filled out with
+zeros (not BCD blanks).</p>
+<div class="pb" id="Page_38">38</div>
+<h2 class="center" id="c41">APPENDIX E
+<br><span class="small">Program Efficiency</span></h2>
+<p>The following information may be of interest to programmers
+desiring an efficient program:</p>
+<blockquote><div>
+<p>1. The FOR statement is defined with more generality than
+is useful in most programs. In particular, the
+arithmetic expressions in the FOR clause are allowed
+to change in value during execution of the FOR statement.
+The compiler does not attempt to determine which
+FOR statements make use of this flexibility and treats
+all of them in the most general way. Therefore, in a
+statement such as</p>
+</div></blockquote>
+<div class="verse">
+<p class="t0"><i>for</i> I := 1 <i>step</i> M + N <i>until</i> abs(A - B) <i>do</i> ... ,</p>
+</div>
+<blockquote><div>
+<p>the expression <span class="incode">M + N</span> is evaluated twice for each iteration,
+and the expression <span class="incode">abs(A - B)</span> is evaluated once for each
+iteration. If <span class="incode">M</span>, <span class="incode">N</span>, <span class="incode">A</span>, and <span class="incode">B</span> do not change in the loop,
+this is unnecessary. Such inefficiency can be avoided
+by programming in a slightly different way. The above
+example can be written as follows:</p>
+</div></blockquote>
+<div class="verse">
+<p class="t0">T1 := M + N; T2 := abs(A - B) ;</p>
+<p class="t0"><i>for</i> I := 1 <i>step</i> T1 <i>until</i> T2 <i>do</i> ... .</p>
+</div>
+<blockquote><div>
+<div class="pb" id="Page_39">39</div>
+<p>2. The concept of call by value is a device applied to procedures
+to eliminate unneeded flexibility in procedure
+calls. If a parameter having a value is referenced more
+than once in the procedure body and the flexibility of
+call by name is not needed, then the program is more
+efficient if the parameter is included in the value
+part of the procedure heading. If such a parameter
+is referenced only once, it is more efficient if it
+is not included in the value part.</p>
+<p>3. Array identifiers which are parameters should be specified.</p>
+</div></blockquote>
+<div class="pb" id="Page_40">40</div>
+<h2 class="center" id="c42">APPENDIX F
+<br><span class="small">Controversial Features of Algol 60</span></h2>
+<p>A few features of the language have been subject to more than
+one interpretation. Fortunately, the vast majority of programs will not
+involve these ambiguities, but for the few that do it will be necessary
+to know what decisions the compiler makes. This appendix indicates these
+decisions for the more controversial areas.</p>
+<blockquote><div>
+<p>1. Side effects in function designators. The evaluation
+of primaries in expressions is not strictly left to
+right allowing for precedence rules. In particular,
+the value of a variable in an expression is never
+stored in a temporary simply to preserve its value
+from change by the evaluation of a function designator
+in the expression. Otherwise, the evaluation
+does proceed from left to right and according to
+precedence rules, including the referencing of
+formal parameters and the calculation of the address
+of subscripted variables. All function designators
+are evaluated in Boolean expressions.</p>
+<p>2. <i>Own</i> variables and arrays in procedures. The <span class="incode"><i>own</i></span>
+quantities local to the body of a procedure which is
+called from more than one point in a program record
+the history of the procedure as opposed to a history
+of each point of reference. In other words, only one
+copy of the <span class="incode"><i>own</i></span> quantities is preserved.</p>
+</div></blockquote>
+<div class="pb" id="Page_41">41</div>
+<h2 class="center" id="c43">APPENDIX G
+<br><span class="small">Fortran Subprograms in an Algol Program</span></h2>
+<p>The standard procedures FORTRAN, FORTRANF, FTN, and FTNF are
+used to call compiled Fortran subroutines and functions from within an
+Algol program. Each procedure has one parameter which is a call of the
+desired Fortran subprogram. The Fortran subprogram must be declared
+<span class="incode"><i>external</i></span> as described in <a href="#c25" class="pginternal">Section V</a>.</p>
+<p>The use of these procedures simply causes a Fortran calling
+sequence to be generated by the compiler. Of course the subprogram
+could be written in CODAP as well as Fortran, provided it is designed
+to link through a Fortran-type calling sequence.</p>
+<p>The procedures are used as follows:</p>
+<dl class="undent"><dt>FORTRAN—generates a Fortran 62 calling sequence for a subroutine</dt>
+<dd></dd><dt>FORTRANF—generates a Fortran 62 calling sequence for a function</dt>
+<dd></dd><dt>FTN—generates a Fortran 63 calling sequence for a subroutine</dt>
+<dd></dd><dt>FTNF—generates a Fortran 63 calling sequence for a function</dt><dd></dd></dl>
+<p>Each of these procedures is standard, i.e., available without declaration.
+FORTRANF and FTNF are used in expressions.</p>
+<p>Examples:</p>
+<div class="verse">
+<p class="t0">x := FTNF (ALPHA(T,A[0,0]))</p>
+</div>
+<div class="verse">
+<p class="t0">FORTRAN (SUB(I + J)) .</p>
+</div>
+<p>The following restrictions must be observed: labels, procedures
+with no parameters, standard procedure names, and array names cannot be
+used as arguments of a call of a Fortran subprogram. However, in the
+case of an array, the subscripted variable which is the first element of
+<span class="pb" id="Page_42">42</span>
+the array will satisfy a Fortran subroutine which has an array name as
+a formal parameter. The name of the Fortran subprogram cannot be a
+formal parameter. Literals must be enclosed in string quotes.</p>
+<h2>Footnotes</h2>
+<div class="fnblock"><div class="fndef"><a class="fn pginternal" href="#fr_1" id="fn_1">[1]</a>See <a href="#c37" class="pginternal">Appendix A</a> for syntactical definition.
+</div><div class="fndef"><a class="fn pginternal" href="#fr_2" id="fn_2">[2]</a>For definition of Fortran format, see Control Data Fortran-62 Reference Manual.
+</div>
+</div>
+<div class="pb" id="Page_43">43</div>
+<h3 id="c44"> <i>Acknowledgment</i></h3>
+<p>The author was greatly assisted in the preparation of this
+document by several persons who have contributed labors or advice to
+the construction of the compiler. These include N. B. Alexander and
+A. A. Grau, also K. A. Wolf of Control Data Corporation, and especially
+R. G. Stueland of Control Data Corporation.</p>
+<div class="pb" id="Page_45">45</div>
+<p class="center">ORNL-3460
+<br>UC-32—Mathematics and Computers
+<br>TID-4500 (23rd ed.)</p>
+<h4 id="cs8">INTERNAL DISTRIBUTION</h4>
+<dl class="undent"><dt>1. Biology Library</dt>
+<dd></dd><dt>2-4. Central Research Library</dt>
+<dd></dd><dt>5. Reactor Division Library</dt>
+<dd></dd><dt>6-7. ORNL--Y-12 Technical Library Document Reference Section</dt>
+<dd></dd><dt>8-27. Laboratory Records Department</dt>
+<dd></dd><dt>28. Laboratory Records, ORNL R.C.</dt>
+<dd></dd><dt>29. R. K. Adams</dt>
+<dd></dd><dt>30. Nancy Alexander</dt>
+<dd></dd><dt>31. E. D. Arnold</dt>
+<dd></dd><dt>32. Don Arnurius</dt>
+<dd></dd><dt>33. George J. Atta</dt>
+<dd></dd><dt>34. Susie E. Atta</dt>
+<dd></dd><dt>35. S. J. Ball</dt>
+<dd></dd><dt>36. J. E. Bigelow</dt>
+<dd></dd><dt>37. R. E. Biggers</dt>
+<dd></dd><dt>38. Craig Brandon</dt>
+<dd></dd><dt>39. J. C. Bresee</dt>
+<dd></dd><dt>40-41. L. L. Bumgarner</dt>
+<dd></dd><dt>42. W. R. Burrus</dt>
+<dd></dd><dt>43. H. P. Carter</dt>
+<dd></dd><dt>44. D. K. Cavin</dt>
+<dd></dd><dt>45. Arline Culkowski</dt>
+<dd></dd><dt>46. W. Davis, Jr.</dt>
+<dd></dd><dt>47. H. J. de Bruin</dt>
+<dd></dd><dt>48. P. B. DeNee</dt>
+<dd></dd><dt>49. A. C. Downing</dt>
+<dd></dd><dt>50. L. C. Emerson</dt>
+<dd></dd><dt>51. Margaret Emmett</dt>
+<dd></dd><dt>52. R. L. Ferguson</dt>
+<dd></dd><dt>53. B. R. Fish</dt>
+<dd></dd><dt>54. P. A. Haas</dt>
+<dd></dd><dt>55. M. Feliciano</dt>
+<dd></dd><dt>56. Barbara Ann Flores</dt>
+<dd></dd><dt>57. T. B. Fowler</dt>
+<dd></dd><dt>58. R. E. Funderlic (K-25)</dt>
+<dd></dd><dt>59. D. A. Gardiner</dt>
+<dd></dd><dt>60. C. D. Griffies</dt>
+<dd></dd><dt>61. D. A. Griffin</dt>
+<dd></dd><dt>62. D. G. Gosslee</dt>
+<dd></dd><dt>63. M. T. Harkrider</dt>
+<dd></dd><dt>64. M. C. Hill</dt>
+<dd></dd><dt>65. A. S. Householder</dt>
+<dd></dd><dt>66. W. H. Jordan</dt>
+<dd></dd><dt>67. H. W. Joy</dt>
+<dd></dd><dt>68. F. B. K. Kam</dt>
+<dd></dd><dt>69. George Kidd</dt>
+<dd></dd><dt>70. L. J. King</dt>
+<dd></dd><dt>71. Ann Klein</dt>
+<dd></dd><dt>72. K. A. Kraus</dt>
+<dd></dd><dt>73. C. E. Larson</dt>
+<dd></dd><dt>74. M. E. LaVerne</dt>
+<dd></dd><dt>75. Elmon Leach</dt>
+<dd></dd><dt>76. R. P. Leinius</dt>
+<dd></dd><dt>77-78. M. P. Lietzke</dt>
+<dd></dd><dt>79. Erlie McDaniel</dt>
+<dd></dd><dt>80. C. D. Martin</dt>
+<dd></dd><dt>81. K. O. Martin</dt>
+<dd></dd><dt>82. Betty F. Maskewitz</dt>
+<dd></dd><dt>83. R. P.  Milford</dt>
+<dd></dd><dt>84. F. L. Miller, Jr.</dt>
+<dd></dd><dt>85. R. V. Miskell</dt>
+<dd></dd><dt>86. S. E. Moore</dt>
+<dd></dd><dt>87. J. F. Murdock</dt>
+<dd></dd><dt>88. C. W. Nestor, Jr.</dt>
+<dd></dd><dt>89. V. K. Pare</dt>
+<dd></dd><dt>90. Carl E. Parker</dt>
+<dd></dd><dt>91. S. K. Penny</dt>
+<dd></dd><dt>92. A. M. Perry</dt>
+<dd></dd><dt>93. D. C. Ramsey</dt>
+<dd></dd><dt>94. M. T. Robinson</dt>
+<dd></dd><dt>95. R. M. Rush</dt>
+<dd></dd><dt>96. Y. Shima</dt>
+<dd></dd><dt>97. J. E. Simpkins</dt>
+<dd></dd><dt>98. M. J. Skinner</dt>
+<dd></dd><dt>99. C. D. Scott</dt>
+<dd></dd><dt>100. C. D. Susano</dt>
+<dd></dd><dt>101. J. A. Swartout</dt>
+<dd></dd><dt>102. M. E. Tsagaris</dt>
+<dd></dd><dt>103. D. K. Trubey</dt>
+<dd></dd><dt>104. J. S. Watson</dt>
+<dd></dd><dt>105. A. M. Weinberg</dt>
+<dd></dd><dt>106. M. E. Whatley</dt>
+<dd></dd><dt>107. C. S. Williams</dt>
+<dd></dd><dt>108. H. A. Wright</dt>
+<dd></dd><dt>109. Y-12 Central Files</dt>
+<dd></dd><dt>110. J. H. Zeigler (K-25)</dt>
+<dd></dd><dt>111. H. Zeldes</dt><dd></dd></dl>
+<div class="pb" id="Page_46">46</div>
+<h4 id="cs9">EXTERNAL DISTRIBUTION</h4>
+<dl class="undent"><dt>112. T. H. Elrod, Control Data Corporation, Computer Division, 3330 Hillview Avenue, Palo Alto, California</dt>
+<dd></dd><dt>113. A. A. Grau, Department of Mathematics, Northwestern University, Evanston, Illinois</dt>
+<dd></dd><dt>114. R. G. Stueland, Control Data Corporation, Computer Division, 3330 Hillview Avenue, Palo Alto, California</dt>
+<dd></dd><dt>115. K. A. Wolf, Control Data Corporation, Programing Systems, 501 Park Avenue, Minneapolis 15, Minnesota</dt>
+<dd></dd><dt>116. R. A. Zemlin, Control Data Corporation, Computer Division, 3330 Hillview Avenue, Palo Alto, California</dt>
+<dd></dd><dt>117. Research and Development Division, AEC, ORO</dt>
+<dd></dd><dt>118-728. Given distribution as shown in TID-4500 (23rd ed.) under Mathematics and Computers category (75 copies--OTS)</dt><dd></dd></dl>
+<h2>Transcriber’s Notes</h2>
+<dl class="undent"><dt>In the HTML version, represented code in a <span class="incode">monospaced</span> font, with keywords in <span class="incode"><i>boldface</i></span> as in the <i>Revised Report</i>.</dt>
+<dd></dd><dt>Corrected a few palpable typos.</dt>
+<dd></dd><dt>Created an original cover image, using elements from the printed book, for free and unrestricted use with this eBook.</dt><dd></dd></dl>
+<div></div><footer class="pg-boilerplate pgheader" id="pg-footer" lang="en">
+<div id="pg-end-separator">
+<span>*** END OF THE PROJECT GUTENBERG EBOOK THE OAK RIDGE ALGOL COMPILER FOR THE CONTROL DATA CORPORATION 1604 ***</span>
+</div>
+
+    
+<div>
+Updated editions will replace the previous one—the old editions will
+be renamed.
+</div><div>
+Creating the works from print editions not protected by U.S. copyright
+law means that no one owns a United States copyright in these works,
+so the Foundation (and you!) can copy and distribute it in the United
+States without permission and without paying copyright
+royalties. Special rules, set forth in the General Terms of Use part
+of this license, apply to copying and distributing Project
+Gutenberg™ electronic works to protect the PROJECT GUTENBERG™
+concept and trademark. Project Gutenberg is a registered trademark,
+and may not be used if you charge for an eBook, except by following
+the terms of the trademark license, including paying royalties for use
+of the Project Gutenberg trademark. If you do not charge anything for
+copies of this eBook, complying with the trademark license is very
+easy. You may use this eBook for nearly any purpose such as creation
+of derivative works, reports, performances and research. Project
+Gutenberg eBooks may be modified and printed and given away—you may
+do practically ANYTHING in the United States with eBooks not protected
+by U.S. copyright law. Redistribution is subject to the trademark
+license, especially commercial redistribution.
+</div>
+
+<div id="project-gutenberg-license">START: FULL LICENSE</div>
+
+<h2 id="pg-footer-heading">THE FULL PROJECT GUTENBERG™ LICENSE</h2>
+
+<div class="agate">PLEASE READ THIS BEFORE YOU DISTRIBUTE OR USE THIS WORK
+</div><div>
+To protect the Project Gutenberg™ mission of promoting the free
+distribution of electronic works, by using or distributing this work
+(or any other work associated in any way with the phrase “Project
+Gutenberg”), you agree to comply with all the terms of the Full
+Project Gutenberg License available with this file or online at
+www.gutenberg.org/license.
+</div><div class="secthead">
+Section 1. General Terms of Use and Redistributing Project Gutenberg
+electronic works
+</div><div>
+1.A. By reading or using any part of this Project Gutenberg
+electronic work, you indicate that you have read, understand, agree to
+and accept all the terms of this license and intellectual property
+(trademark/copyright) agreement. If you do not agree to abide by all
+the terms of this agreement, you must cease using and return or
+destroy all copies of Project Gutenberg electronic works in your
+possession. If you paid a fee for obtaining a copy of or access to a
+Project Gutenberg electronic work and you do not agree to be bound
+by the terms of this agreement, you may obtain a refund from the person
+or entity to whom you paid the fee as set forth in paragraph 1.E.8.
+</div><div>
+1.B. “Project Gutenberg” is a registered trademark. It may only be
+used on or associated in any way with an electronic work by people who
+agree to be bound by the terms of this agreement. There are a few
+things that you can do with most Project Gutenberg electronic works
+even without complying with the full terms of this agreement. See
+paragraph 1.C below. There are a lot of things you can do with Project
+Gutenberg electronic works if you follow the terms of this
+agreement and help preserve free future access to Project Gutenberg
+electronic works. See paragraph 1.E below.
+</div><div>
+1.C. The Project Gutenberg Literary Archive Foundation (“the
+Foundation” or PGLAF), owns a compilation copyright in the collection
+of Project Gutenberg electronic works. Nearly all the individual
+works in the collection are in the public domain in the United
+States. If an individual work is unprotected by copyright law in the
+United States and you are located in the United States, we do not
+claim a right to prevent you from copying, distributing, performing,
+displaying or creating derivative works based on the work as long as
+all references to Project Gutenberg are removed. Of course, we hope
+that you will support the Project Gutenberg mission of promoting
+free access to electronic works by freely sharing Project Gutenberg
+works in compliance with the terms of this agreement for keeping the
+Project Gutenberg name associated with the work. You can easily
+comply with the terms of this agreement by keeping this work in the
+same format with its attached full Project Gutenberg License when
+you share it without charge with others.
+</div><div>
+1.D. The copyright laws of the place where you are located also govern
+what you can do with this work. Copyright laws in most countries are
+in a constant state of change. If you are outside the United States,
+check the laws of your country in addition to the terms of this
+agreement before downloading, copying, displaying, performing,
+distributing or creating derivative works based on this work or any
+other Project Gutenberg work. The Foundation makes no
+representations concerning the copyright status of any work in any
+country other than the United States.
+</div><div>
+1.E. Unless you have removed all references to Project Gutenberg:
+</div><div>
+1.E.1. The following sentence, with active links to, or other
+immediate access to, the full Project Gutenberg License must appear
+prominently whenever any copy of a Project Gutenberg work (any work
+on which the phrase “Project Gutenberg” appears, or with which the
+phrase “Project Gutenberg” is associated) is accessed, displayed,
+performed, viewed, copied or distributed:
+</div><blockquote><div>
+    This eBook is for the use of anyone anywhere in the United States and most
+    other parts of the world at no cost and with almost no restrictions
+    whatsoever. You may copy it, give it away or re-use it under the terms
+    of the Project Gutenberg™ License included with this eBook or online
+    at <a href="https://www.gutenberg.org">www.gutenberg.org</a>. If you
+    are not located in the United States, you will have to check the laws
+    of the country where you are located before using this eBook.
+  </div></blockquote><div>
+1.E.2. If an individual Project Gutenberg electronic work is
+derived from texts not protected by U.S. copyright law (does not
+contain a notice indicating that it is posted with permission of the
+copyright holder), the work can be copied and distributed to anyone in
+the United States without paying any fees or charges. If you are
+redistributing or providing access to a work with the phrase “Project
+Gutenberg” associated with or appearing on the work, you must comply
+either with the requirements of paragraphs 1.E.1 through 1.E.7 or
+obtain permission for the use of the work and the Project Gutenberg
+trademark as set forth in paragraphs 1.E.8 or 1.E.9.
+</div><div>
+1.E.3. If an individual Project Gutenberg electronic work is posted
+with the permission of the copyright holder, your use and distribution
+must comply with both paragraphs 1.E.1 through 1.E.7 and any
+additional terms imposed by the copyright holder. Additional terms
+will be linked to the Project Gutenberg License for all works
+posted with the permission of the copyright holder found at the
+beginning of this work.
+</div><div>
+1.E.4. Do not unlink or detach or remove the full Project Gutenberg
+License terms from this work, or any files containing a part of this
+work or any other work associated with Project Gutenberg.
+</div><div>
+1.E.5. Do not copy, display, perform, distribute or redistribute this
+electronic work, or any part of this electronic work, without
+prominently displaying the sentence set forth in paragraph 1.E.1 with
+active links or immediate access to the full terms of the Project
+Gutenberg License.
+</div><div>
+1.E.6. You may convert to and distribute this work in any binary,
+compressed, marked up, nonproprietary or proprietary form, including
+any word processing or hypertext form. However, if you provide access
+to or distribute copies of a Project Gutenberg work in a format
+other than “Plain Vanilla ASCII” or other format used in the official
+version posted on the official Project Gutenberg website
+(www.gutenberg.org), you must, at no additional cost, fee or expense
+to the user, provide a copy, a means of exporting a copy, or a means
+of obtaining a copy upon request, of the work in its original “Plain
+Vanilla ASCII” or other form. Any alternate format must include the
+full Project Gutenberg License as specified in paragraph 1.E.1.
+</div><div>
+1.E.7. Do not charge a fee for access to, viewing, displaying,
+performing, copying or distributing any Project Gutenberg works
+unless you comply with paragraph 1.E.8 or 1.E.9.
+</div><div>
+1.E.8. You may charge a reasonable fee for copies of or providing
+access to or distributing Project Gutenberg electronic works
+provided that:
+</div><ul>
+    <li>• You pay a royalty fee of 20% of the gross profits you derive from
+        the use of Project Gutenberg works calculated using the method
+        you already use to calculate your applicable taxes. The fee is owed
+        to the owner of the Project Gutenberg trademark, but he has
+        agreed to donate royalties under this paragraph to the Project
+        Gutenberg Literary Archive Foundation. Royalty payments must be paid
+        within 60 days following each date on which you prepare (or are
+        legally required to prepare) your periodic tax returns. Royalty
+        payments should be clearly marked as such and sent to the Project
+        Gutenberg Literary Archive Foundation at the address specified in
+        Section 4, “Information about donations to the Project Gutenberg
+        Literary Archive Foundation.”
+    </li>
+    <li>• You provide a full refund of any money paid by a user who notifies
+        you in writing (or by e-mail) within 30 days of receipt that s/he
+        does not agree to the terms of the full Project Gutenberg™
+        License. You must require such a user to return or destroy all
+        copies of the works possessed in a physical medium and discontinue
+        all use of and all access to other copies of Project Gutenberg™
+        works.
+    </li>
+    <li>• You provide, in accordance with paragraph 1.F.3, a full refund of
+        any money paid for a work or a replacement copy, if a defect in the
+        electronic work is discovered and reported to you within 90 days of
+        receipt of the work.
+    </li>
+    <li>• You comply with all other terms of this agreement for free
+        distribution of Project Gutenberg™ works.
+    </li>
+</ul><div>
+1.E.9. If you wish to charge a fee or distribute a Project
+Gutenberg™ electronic work or group of works on different terms than
+are set forth in this agreement, you must obtain permission in writing
+from the Project Gutenberg Literary Archive Foundation, the manager of
+the Project Gutenberg™ trademark. Contact the Foundation as set
+forth in Section 3 below.
+</div><div>
+1.F.
+</div><div>
+1.F.1. Project Gutenberg volunteers and employees expend considerable
+effort to identify, do copyright research on, transcribe and proofread
+works not protected by U.S. copyright law in creating the Project
+Gutenberg™ collection. Despite these efforts, Project Gutenberg™
+electronic works, and the medium on which they may be stored, may
+contain “Defects,” such as, but not limited to, incomplete, inaccurate
+or corrupt data, transcription errors, a copyright or other
+intellectual property infringement, a defective or damaged disk or
+other medium, a computer virus, or computer codes that damage or
+cannot be read by your equipment.
+</div><div>
+1.F.2. LIMITED WARRANTY, DISCLAIMER OF DAMAGES - Except for the “Right
+of Replacement or Refund” described in paragraph 1.F.3, the Project
+Gutenberg Literary Archive Foundation, the owner of the Project
+Gutenberg™ trademark, and any other party distributing a Project
+Gutenberg™ electronic work under this agreement, disclaim all
+liability to you for damages, costs and expenses, including legal
+fees. YOU AGREE THAT YOU HAVE NO REMEDIES FOR NEGLIGENCE, STRICT
+LIABILITY, BREACH OF WARRANTY OR BREACH OF CONTRACT EXCEPT THOSE
+PROVIDED IN PARAGRAPH 1.F.3. YOU AGREE THAT THE FOUNDATION, THE
+TRADEMARK OWNER, AND ANY DISTRIBUTOR UNDER THIS AGREEMENT WILL NOT BE
+LIABLE TO YOU FOR ACTUAL, DIRECT, INDIRECT, CONSEQUENTIAL, PUNITIVE OR
+INCIDENTAL DAMAGES EVEN IF YOU GIVE NOTICE OF THE POSSIBILITY OF SUCH
+DAMAGE.
+</div><div>
+1.F.3. LIMITED RIGHT OF REPLACEMENT OR REFUND - If you discover a
+defect in this electronic work within 90 days of receiving it, you can
+receive a refund of the money (if any) you paid for it by sending a
+written explanation to the person you received the work from. If you
+received the work on a physical medium, you must return the medium
+with your written explanation. The person or entity that provided you
+with the defective work may elect to provide a replacement copy in
+lieu of a refund. If you received the work electronically, the person
+or entity providing it to you may choose to give you a second
+opportunity to receive the work electronically in lieu of a refund. If
+the second copy is also defective, you may demand a refund in writing
+without further opportunities to fix the problem.
+</div><div>
+1.F.4. Except for the limited right of replacement or refund set forth
+in paragraph 1.F.3, this work is provided to you ‘AS-IS’, WITH NO
+OTHER WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
+LIMITED TO WARRANTIES OF MERCHANTABILITY OR FITNESS FOR ANY PURPOSE.
+</div><div>
+1.F.5. Some states do not allow disclaimers of certain implied
+warranties or the exclusion or limitation of certain types of
+damages. If any disclaimer or limitation set forth in this agreement
+violates the law of the state applicable to this agreement, the
+agreement shall be interpreted to make the maximum disclaimer or
+limitation permitted by the applicable state law. The invalidity or
+unenforceability of any provision of this agreement shall not void the
+remaining provisions.
+</div><div>
+1.F.6. INDEMNITY - You agree to indemnify and hold the Foundation, the
+trademark owner, any agent or employee of the Foundation, anyone
+providing copies of Project Gutenberg™ electronic works in
+accordance with this agreement, and any volunteers associated with the
+production, promotion and distribution of Project Gutenberg™
+electronic works, harmless from all liability, costs and expenses,
+including legal fees, that arise directly or indirectly from any of
+the following which you do or cause to occur: (a) distribution of this
+or any Project Gutenberg work, (b) alteration, modification, or
+additions or deletions to any Project Gutenberg work, and (c) any
+Defect you cause.
+</div><div class="secthead">
+Section 2. Information about the Mission of Project Gutenberg
+</div><div>
+Project Gutenberg is synonymous with the free distribution of
+electronic works in formats readable by the widest variety of
+computers including obsolete, old, middle-aged and new computers. It
+exists because of the efforts of hundreds of volunteers and donations
+from people in all walks of life.
+</div><div>
+Volunteers and financial support to provide volunteers with the
+assistance they need are critical to reaching Project Gutenberg’s
+goals and ensuring that the Project Gutenberg collection will
+remain freely available for generations to come. In 2001, the Project
+Gutenberg Literary Archive Foundation was created to provide a secure
+and permanent future for Project Gutenberg and future
+generations. To learn more about the Project Gutenberg Literary
+Archive Foundation and how your efforts and donations can help, see
+Sections 3 and 4 and the Foundation information page at www.gutenberg.org.
+</div><div class="secthead">
+Section 3. Information about the Project Gutenberg Literary Archive Foundation
+</div><div>
+The Project Gutenberg Literary Archive Foundation is a non-profit
+501(c)(3) educational corporation organized under the laws of the
+state of Mississippi and granted tax exempt status by the Internal
+Revenue Service. The Foundation’s EIN or federal tax identification
+number is 64-6221541. Contributions to the Project Gutenberg Literary
+Archive Foundation are tax deductible to the full extent permitted by
+U.S. federal laws and your state’s laws.
+</div><div>
+The Foundation’s business office is located at 41 Watchung Plaza #516,
+Montclair NJ 07042, USA, +1 (862) 621-9288. Email contact links and up
+to date contact information can be found at the Foundation’s website
+and official page at www.gutenberg.org/contact
+</div><div class="secthead">
+Section 4. Information about Donations to the Project Gutenberg
+Literary Archive Foundation
+</div><div>
+Project Gutenberg™ depends upon and cannot survive without widespread
+public support and donations to carry out its mission of
+increasing the number of public domain and licensed works that can be
+freely distributed in machine-readable form accessible by the widest
+array of equipment including outdated equipment. Many small donations
+($1 to $5,000) are particularly important to maintaining tax exempt
+status with the IRS.
+</div><div>
+The Foundation is committed to complying with the laws regulating
+charities and charitable donations in all 50 states of the United
+States. Compliance requirements are not uniform and it takes a
+considerable effort, much paperwork and many fees to meet and keep up
+with these requirements. We do not solicit donations in locations
+where we have not received written confirmation of compliance. To SEND
+DONATIONS or determine the status of compliance for any particular state
+visit <a href="https://www.gutenberg.org/donate/">www.gutenberg.org/donate</a>.
+</div><div>
+While we cannot and do not solicit contributions from states where we
+have not met the solicitation requirements, we know of no prohibition
+against accepting unsolicited donations from donors in such states who
+approach us with offers to donate.
+</div><div>
+International donations are gratefully accepted, but we cannot make
+any statements concerning tax treatment of donations received from
+outside the United States. U.S. laws alone swamp our small staff.
+</div><div>
+Please check the Project Gutenberg web pages for current donation
+methods and addresses. Donations are accepted in a number of other
+ways including checks, online payments and credit card donations. To
+donate, please visit: www.gutenberg.org/donate.
+</div><div class="secthead">
+Section 5. General Information About Project Gutenberg electronic works
+</div><div>
+Professor Michael S. Hart was the originator of the Project
+Gutenberg concept of a library of electronic works that could be
+freely shared with anyone. For forty years, he produced and
+distributed Project Gutenberg eBooks with only a loose network of
+volunteer support.
+</div><div>
+Project Gutenberg eBooks are often created from several printed
+editions, all of which are confirmed as not protected by copyright in
+the U.S. unless a copyright notice is included. Thus, we do not
+necessarily keep eBooks in compliance with any particular paper
+edition.
+</div><div>
+Most people start at our website which has the main PG search
+facility: <a href="https://www.gutenberg.org">www.gutenberg.org</a>.
+</div><div>
+This website includes information about Project Gutenberg,
+including how to make donations to the Project Gutenberg Literary
+Archive Foundation, how to help produce our new eBooks, and how to
+subscribe to our email newsletter to hear about new eBooks.
+</div>
+
+</footer></body>
+</html>
