@@ -1,0 +1,18 @@
+{
+  "EXACT": {
+    "respect": [
+      {
+        "score": 0.00053872,
+        "count": 12,
+        "where": "../project-files/input/text/stems/stem-in.txt"
+      },
+      {
+        "score": 0.00053872,
+        "count": 12,
+        "where": "../project-files/input/text/stems/stem-out.txt"
+      }
+    ]
+  },
+  "PARTIAL": {
+  }
+}

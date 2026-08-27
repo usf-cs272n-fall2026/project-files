@@ -1,0 +1,15 @@
+{
+  "EXACT": {
+    "he lori world": [
+      {
+        "score": 0.50000000,
+        "count": 3,
+        "where": "../project-files/input/text/simple/hello.txt"
+      }
+    ],
+    "lor wor": [
+    ]
+  },
+  "PARTIAL": {
+  }
+}
