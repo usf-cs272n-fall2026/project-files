@@ -1,0 +1,231 @@
+{
+  "a": {
+    "../project-files/input/text/simple/sentences.md": [
+      24,
+      28,
+      49,
+      53,
+      76
+    ]
+  },
+  "an": {
+    "../project-files/input/text/simple/sentences.md": [
+      71
+    ]
+  },
+  "and": {
+    "../project-files/input/text/simple/sentences.md": [
+      43
+    ]
+  },
+  "arrow": {
+    "../project-files/input/text/simple/sentences.md": [
+      72
+    ]
+  },
+  "as": {
+    "../project-files/input/text/simple/sentences.md": [
+      38,
+      40,
+      45,
+      48
+    ]
+  },
+  "asid": {
+    "../project-files/input/text/simple/sentences.md": [
+      64
+    ]
+  },
+  "banana": {
+    "../project-files/input/text/simple/sentences.md": [
+      77
+    ]
+  },
+  "buffalo": {
+    "../project-files/input/text/simple/sentences.md": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  "chuck": {
+    "../project-files/input/text/simple/sentences.md": [
+      26,
+      31,
+      35,
+      44,
+      56
+    ]
+  },
+  "could": {
+    "../project-files/input/text/simple/sentences.md": [
+      30,
+      42,
+      55
+    ]
+  },
+  "fli": {
+    "../project-files/input/text/simple/sentences.md": [
+      69,
+      74
+    ]
+  },
+  "fruit": {
+    "../project-files/input/text/simple/sentences.md": [
+      73
+    ]
+  },
+  "he": {
+    "../project-files/input/text/simple/sentences.md": [
+      33,
+      36,
+      41
+    ]
+  },
+  "her": {
+    "../project-files/input/text/simple/sentences.md": [
+      16
+    ]
+  },
+  "how": {
+    "../project-files/input/text/simple/sentences.md": [
+      20
+    ]
+  },
+  "if": {
+    "../project-files/input/text/simple/sentences.md": [
+      27,
+      52
+    ]
+  },
+  "like": {
+    "../project-files/input/text/simple/sentences.md": [
+      70,
+      75
+    ]
+  },
+  "much": {
+    "../project-files/input/text/simple/sentences.md": [
+      21,
+      39,
+      46
+    ]
+  },
+  "of": {
+    "../project-files/input/text/simple/sentences.md": [
+      18
+    ]
+  },
+  "on": {
+    "../project-files/input/text/simple/sentences.md": [
+      15
+    ]
+  },
+  "put": {
+    "../project-files/input/text/simple/sentences.md": [
+      12
+    ]
+  },
+  "roe": {
+    "../project-files/input/text/simple/sentences.md": [
+      14
+    ]
+  },
+  "rose": {
+    "../project-files/input/text/simple/sentences.md": [
+      9,
+      10,
+      13,
+      19
+    ]
+  },
+  "row": {
+    "../project-files/input/text/simple/sentences.md": [
+      17
+    ]
+  },
+  "salli": {
+    "../project-files/input/text/simple/sentences.md": [
+      58
+    ]
+  },
+  "seashel": {
+    "../project-files/input/text/simple/sentences.md": [
+      63
+    ]
+  },
+  "seashor": {
+    "../project-files/input/text/simple/sentences.md": [
+      67
+    ]
+  },
+  "sell": {
+    "../project-files/input/text/simple/sentences.md": [
+      60
+    ]
+  },
+  "seventysix": {
+    "../project-files/input/text/simple/sentences.md": [
+      61
+    ]
+  },
+  "shini": {
+    "../project-files/input/text/simple/sentences.md": [
+      62
+    ]
+  },
+  "south": {
+    "../project-files/input/text/simple/sentences.md": [
+      66
+    ]
+  },
+  "sue": {
+    "../project-files/input/text/simple/sentences.md": [
+      59
+    ]
+  },
+  "the": {
+    "../project-files/input/text/simple/sentences.md": [
+      65
+    ]
+  },
+  "time": {
+    "../project-files/input/text/simple/sentences.md": [
+      68
+    ]
+  },
+  "to": {
+    "../project-files/input/text/simple/sentences.md": [
+      11
+    ]
+  },
+  "wood": {
+    "../project-files/input/text/simple/sentences.md": [
+      22,
+      32,
+      47,
+      57
+    ]
+  },
+  "woodchuck": {
+    "../project-files/input/text/simple/sentences.md": [
+      25,
+      29,
+      50,
+      54
+    ]
+  },
+  "would": {
+    "../project-files/input/text/simple/sentences.md": [
+      23,
+      34,
+      37,
+      51
+    ]
+  }
+}

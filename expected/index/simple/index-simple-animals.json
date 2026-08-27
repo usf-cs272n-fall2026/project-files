@@ -1,0 +1,45 @@
+{
+  "axolotl": {
+    "../project-files/input/text/simple/animals.text": [
+      7
+    ]
+  },
+  "echidna": {
+    "../project-files/input/text/simple/animals.text": [
+      10
+    ]
+  },
+  "lori": {
+    "../project-files/input/text/simple/animals.text": [
+      4,
+      5,
+      6
+    ]
+  },
+  "mongoos": {
+    "../project-files/input/text/simple/animals.text": [
+      3
+    ]
+  },
+  "narwhal": {
+    "../project-files/input/text/simple/animals.text": [
+      8
+    ]
+  },
+  "okapi": {
+    "../project-files/input/text/simple/animals.text": [
+      1,
+      2
+    ]
+  },
+  "platypus": {
+    "../project-files/input/text/simple/animals.text": [
+      9
+    ]
+  },
+  "tarsier": {
+    "../project-files/input/text/simple/animals.text": [
+      11
+    ]
+  }
+}
