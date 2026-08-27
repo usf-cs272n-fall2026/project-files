@@ -1,0 +1,16 @@
+{
+  "../project-files/input/text/simple/.txt/hidden.txt": 1,
+  "../project-files/input/text/simple/a/b/c/d/subdir.txt": 1,
+  "../project-files/input/text/simple/animals.text": 11,
+  "../project-files/input/text/simple/animals_copy.text": 11,
+  "../project-files/input/text/simple/animals_double.text": 22,
+  "../project-files/input/text/simple/capital_extension.TXT": 1,
+  "../project-files/input/text/simple/capitals.txt": 4,
+  "../project-files/input/text/simple/digits.tXt": 2,
+  "../project-files/input/text/simple/dir.txt/findme.Txt": 17,
+  "../project-files/input/text/simple/empty.txt": 0,
+  "../project-files/input/text/simple/hello.txt": 6,
+  "../project-files/input/text/simple/position.teXt": 20,
+  "../project-files/input/text/simple/symbols.txt": 10,
+  "../project-files/input/text/simple/words.tExT": 36
+}
