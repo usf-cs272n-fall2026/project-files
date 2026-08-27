@@ -1,0 +1,5682 @@
+{
+  "a": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      46,
+      54,
+      79,
+      321,
+      364,
+      503,
+      512,
+      527,
+      556,
+      559,
+      564,
+      571,
+      576,
+      592,
+      600,
+      727,
+      746,
+      768,
+      780,
+      831,
+      844,
+      857,
+      870,
+      876,
+      890,
+      896,
+      903,
+      937,
+      972,
+      995,
+      1000,
+      1008,
+      1035,
+      1081,
+      1094,
+      1110,
+      1134,
+      1180,
+      1197,
+      1214,
+      1242,
+      1292,
+      1318,
+      1378,
+      1382,
+      1387,
+      1402,
+      1422,
+      1426,
+      1452,
+      1475,
+      1484,
+      1489,
+      1506,
+      1516,
+      1534,
+      1549,
+      1553,
+      1578,
+      1772,
+      1785,
+      1789,
+      1859,
+      1868,
+      1894,
+      1919,
+      1922,
+      1933,
+      1984,
+      2017,
+      2056,
+      2072,
+      2098,
+      2120,
+      2228,
+      2418,
+      2448,
+      2467,
+      2475,
+      2486,
+      2598,
+      2914
+    ]
+  },
+  "about": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      125,
+      523,
+      865,
+      2342
+    ]
+  },
+  "abstract": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      31,
+      2869
+    ]
+  },
+  "accommod": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1930
+    ]
+  },
+  "accomplish": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1729
+    ]
+  },
+  "acknowledg": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      286,
+      2609
+    ]
+  },
+  "action": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2263
+    ]
+  },
+  "actual": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1029,
+      1091,
+      2636
+    ]
+  },
+  "add": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      788,
+      2351,
+      2417,
+      2432
+    ]
+  },
+  "addit": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      261,
+      380,
+      392,
+      922,
+      1522,
+      1718,
+      1798,
+      1949,
+      2111,
+      2206,
+      2312,
+      2670
+    ]
+  },
+  "address": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      293,
+      3056
+    ]
+  },
+  "adopt": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1641
+    ]
+  },
+  "advis": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      982
+    ]
+  },
+  "alexey": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2651
+    ]
+  },
+  "alias": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1585
+    ]
+  },
+  "align": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2217
+    ]
+  },
+  "all": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      160,
+      678,
+      888,
+      1239,
+      2140
+    ]
+  },
+  "allow": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1052,
+      1676,
+      2243
+    ]
+  },
+  "alreadi": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      708
+    ]
+  },
+  "also": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      44,
+      550,
+      736,
+      1275,
+      1303,
+      1675,
+      2416,
+      2632
+    ]
+  },
+  "alvestrand": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2619
+    ]
+  },
+  "alway": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      456
+    ]
+  },
+  "amanda": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2688
+    ]
+  },
+  "ambigu": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2791
+    ]
+  },
+  "an": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      71,
+      542,
+      777,
+      928,
+      934,
+      943,
+      967,
+      1069,
+      1191,
+      1417,
+      1525,
+      1530,
+      1596,
+      1692,
+      1752,
+      1809,
+      2148,
+      2307,
+      2776
+    ]
+  },
+  "and": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      52,
+      101,
+      134,
+      152,
+      169,
+      200,
+      229,
+      249,
+      329,
+      409,
+      465,
+      481,
+      492,
+      588,
+      656,
+      672,
+      684,
+      699,
+      764,
+      805,
+      838,
+      939,
+      1006,
+      1074,
+      1090,
+      1150,
+      1162,
+      1209,
+      1300,
+      1478,
+      1519,
+      1602,
+      1658,
+      1660,
+      1669,
+      1782,
+      2023,
+      2030,
+      2038,
+      2068,
+      2125,
+      2205,
+      2296,
+      2321,
+      2365,
+      2407,
+      2430,
+      2437,
+      2485,
+      2606,
+      2630,
+      2662,
+      2672,
+      2700,
+      2720,
+      2750,
+      2756,
+      2770,
+      2821,
+      2839,
+      2863,
+      2868,
+      2878,
+      2889,
+      2905,
+      2925,
+      2947,
+      2969,
+      3006,
+      3013,
+      3042
+    ]
+  },
+  "ani": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      132,
+      446,
+      873,
+      907,
+      1766,
+      1902,
+      2589
+    ]
+  },
+  "anoth": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1390,
+      1758,
+      2161
+    ]
+  },
+  "antoin": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2701
+    ]
+  },
+  "anyth": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2223
+    ]
+  },
+  "aoyama": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      11,
+      3060
+    ]
+  },
+  "appear": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      313,
+      676,
+      1126
+    ]
+  },
+  "appli": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      886,
+      1237,
+      1493
+    ]
+  },
+  "applic": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      327,
+      417,
+      452,
+      474,
+      510,
+      579,
+      1316,
+      1329,
+      1346,
+      1670,
+      1862,
+      2109,
+      2202,
+      2236,
+      2298,
+      2446,
+      2505,
+      2507,
+      2665,
+      2825,
+      3017
+    ]
+  },
+  "applicationinodedirectori": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2173
+    ]
+  },
+  "applicationoctet": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1542
+    ]
+  },
+  "applicationschemehandl": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2158
+    ]
+  },
+  "appropri": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      766,
+      848,
+      1055,
+      1526,
+      1866
+    ]
+  },
+  "approv": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      104,
+      2294
+    ]
+  },
+  "april": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1810,
+      2920
+    ]
+  },
+  "are": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      230,
+      338,
+      354,
+      406,
+      431,
+      661,
+      735,
+      821,
+      856,
+      987,
+      1246,
+      1274,
+      1302,
+      1373,
+      1547,
+      1637,
+      1910,
+      2135,
+      2144,
+      2200,
+      2214,
+      2380
+    ]
+  },
+  "argument": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      944
+    ]
+  },
+  "aris": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1921
+    ]
+  },
+  "as": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      156,
+      195,
+      219,
+      234,
+      502,
+      534,
+      665,
+      680,
+      869,
+      1226,
+      1287,
+      1499,
+      1529,
+      1541,
+      1879,
+      2147,
+      2160,
+      2496
+    ]
+  },
+  "aspect": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1632
+    ]
+  },
+  "assumpt": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      522
+    ]
+  },
+  "at": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      144,
+      895,
+      1258,
+      1875,
+      2071,
+      2074,
+      2372,
+      2451
+    ]
+  },
+  "attack": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      543
+    ]
+  },
+  "audio": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      562,
+      1299,
+      1323,
+      1338,
+      1667,
+      2510,
+      2512
+    ]
+  },
+  "august": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2856
+    ]
+  },
+  "author": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      159,
+      292,
+      3055
+    ]
+  },
+  "avail": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      119
+    ]
+  },
+  "avoid": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1064,
+      1784
+    ]
+  },
+  "b": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2769,
+      2790,
+      2822
+    ]
+  },
+  "baber": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2689
+    ]
+  },
+  "background": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      245,
+      402
+    ]
+  },
+  "bcp": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      14,
+      168,
+      668,
+      2739,
+      2759,
+      2782,
+      2800,
+      3019
+    ]
+  },
+  "bcps": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      117
+    ]
+  },
+  "be": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      142,
+      325,
+      420,
+      457,
+      531,
+      537,
+      609,
+      663,
+      743,
+      816,
+      853,
+      863,
+      901,
+      933,
+      942,
+      981,
+      1034,
+      1105,
+      1115,
+      1119,
+      1156,
+      1190,
+      1223,
+      1313,
+      1431,
+      1448,
+      1539,
+      1558,
+      1600,
+      1605,
+      1711,
+      1728,
+      1748,
+      1763,
+      1770,
+      1864,
+      1913,
+      1927,
+      1936,
+      1945,
+      2153,
+      2167,
+      2350,
+      2371,
+      2604
+    ]
+  },
+  "becaus": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1806,
+      2218
+    ]
+  },
+  "been": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      103,
+      552
+    ]
+  },
+  "belong": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      833,
+      1195
+    ]
+  },
+  "below": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      433,
+      445,
+      834
+    ]
+  },
+  "besid": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      614
+    ]
+  },
+  "best": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      18,
+      35,
+      73,
+      298
+    ]
+  },
+  "bodi": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2896
+    ]
+  },
+  "borenstein": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2876,
+      2903,
+      2927
+    ]
+  },
+  "both": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2628
+    ]
+  },
+  "bradner": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2727
+    ]
+  },
+  "briefli": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1620
+    ]
+  },
+  "bsd": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      216,
+      239
+    ]
+  },
+  "but": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      979,
+      1225,
+      2087
+    ]
+  },
+  "by": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      107,
+      621,
+      1700,
+      1730,
+      1751,
+      1959,
+      2065,
+      2354,
+      2366,
+      2624,
+      2711
+    ]
+  },
+  "c": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      149,
+      2968,
+      3027,
+      3043
+    ]
+  },
+  "came": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2616
+    ]
+  },
+  "can": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      455,
+      499,
+      590,
+      608,
+      1204,
+      1312,
+      1330,
+      1347,
+      1538,
+      1726,
+      1926,
+      1944,
+      2232,
+      2349
+    ]
+  },
+  "cannot": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      852,
+      1599
+    ]
+  },
+  "capit": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      679
+    ]
+  },
+  "care": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      194,
+      533,
+      2608
+    ]
+  },
+  "case": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      478,
+      985,
+      1858,
+      1893,
+      1909,
+      1920,
+      2141
+    ]
+  },
+  "categori": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      17
+    ]
+  },
+  "certain": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1095
+    ]
+  },
+  "chang": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2154,
+      2168
+    ]
+  },
+  "check": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1053
+    ]
+  },
+  "chemic": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2045,
+      2050,
+      2057,
+      2808,
+      2810,
+      2827,
+      2832,
+      2847
+    ]
+  },
+  "chemim": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2081,
+      2816
+    ]
+  },
+  "choos": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1515
+    ]
+  },
+  "chris": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2677
+    ]
+  },
+  "christian": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2721
+    ]
+  },
+  "chuoku": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      3064
+    ]
+  },
+  "ci": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2855
+    ]
+  },
+  "clear": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      818,
+      819,
+      855,
+      881,
+      1120
+    ]
+  },
+  "code": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      207,
+      475,
+      1280
+    ]
+  },
+  "comment": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      10,
+      2300,
+      2334,
+      2341,
+      2348,
+      2487,
+      2503,
+      2673
+    ]
+  },
+  "commit": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1159
+    ]
+  },
+  "common": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1175,
+      1187,
+      1198,
+      1234
+    ]
+  },
+  "communiti": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      95,
+      761,
+      1154
+    ]
+  },
+  "complet": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1713
+    ]
+  },
+  "compon": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      208
+    ]
+  },
+  "comput": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      577,
+      587,
+      2849
+    ]
+  },
+  "concept": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2867
+    ]
+  },
+  "confer": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2078
+    ]
+  },
+  "conflict": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1787
+    ]
+  },
+  "consensus": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      91,
+      765
+    ]
+  },
+  "consid": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1080
+    ]
+  },
+  "consider": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      262,
+      270,
+      285,
+      774,
+      885,
+      923,
+      2037,
+      2249,
+      2309,
+      2326,
+      2580,
+      2778
+    ]
+  },
+  "construct": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      3015
+    ]
+  },
+  "consum": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1163
+    ]
+  },
+  "contain": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      53,
+      846,
+      2306,
+      2339,
+      2461
+    ]
+  },
+  "content": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      243,
+      1653,
+      1906,
+      1951,
+      2974
+    ]
+  },
+  "contenttyp": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1697,
+      2912
+    ]
+  },
+  "context": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1262,
+      1462
+    ]
+  },
+  "continu": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2610
+    ]
+  },
+  "control": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      540,
+      1172
+    ]
+  },
+  "copyright": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      146,
+      148
+    ]
+  },
+  "correct": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      525
+    ]
+  },
+  "cotton": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2766
+    ]
+  },
+  "could": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      536
+    ]
+  },
+  "creat": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1483,
+      2400
+    ]
+  },
+  "creation": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1132,
+      1732
+    ]
+  },
+  "criteria": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      250,
+      260,
+      264,
+      377,
+      389,
+      685,
+      700,
+      707,
+      714,
+      722,
+      800,
+      820,
+      850,
+      1360,
+      1365,
+      1371,
+      2706
+    ]
+  },
+  "crlf": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1250,
+      2560
+    ]
+  },
+  "crocker": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      3004
+    ]
+  },
+  "crosscheck": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2035
+    ]
+  },
+  "crucial": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1224
+    ]
+  },
+  "current": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      19,
+      74,
+      127,
+      583,
+      1903,
+      2198
+    ]
+  },
+  "cyganiak": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2859
+    ]
+  },
+  "d": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2862,
+      3005
+    ]
+  },
+  "danyliw": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2693
+    ]
+  },
+  "data": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      471,
+      1341
+    ]
+  },
+  "date": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      184
+    ]
+  },
+  "dcat": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1537
+    ]
+  },
+  "debug": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1210
+    ]
+  },
+  "dedic": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1002
+    ]
+  },
+  "default": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      630
+    ]
+  },
+  "defin": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      34,
+      38,
+      297,
+      301,
+      379,
+      391,
+      709,
+      744,
+      779,
+      817,
+      854,
+      875,
+      947,
+      971,
+      1019,
+      1432,
+      1559,
+      1649,
+      1699,
+      1749,
+      1795,
+      1882,
+      1904,
+      1928,
+      1948,
+      1980,
+      2016,
+      2040,
+      2178,
+      2285,
+      2302,
+      2472,
+      2499
+    ]
+  },
+  "definit": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      25,
+      725,
+      993,
+      1058,
+      1886,
+      1934
+    ]
+  },
+  "demonstr": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2382
+    ]
+  },
+  "deprec": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      3009
+    ]
+  },
+  "describ": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      197,
+      220,
+      235,
+      666,
+      696,
+      902,
+      918,
+      1621,
+      2890
+    ]
+  },
+  "descript": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1466
+    ]
+  },
+  "design": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1421
+    ]
+  },
+  "desir": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1173,
+      2136
+    ]
+  },
+  "desktop": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2092
+    ]
+  },
+  "detail": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      388
+    ]
+  },
+  "develop": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2027
+    ]
+  },
+  "devic": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      557,
+      568
+    ]
+  },
+  "differ": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      339,
+      410,
+      627,
+      633,
+      1233,
+      1332,
+      1343,
+      1349,
+      1356,
+      2137
+    ]
+  },
+  "difficult": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2655
+    ]
+  },
+  "direct": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      615
+    ]
+  },
+  "directori": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2171
+    ]
+  },
+  "discourag": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      964,
+      1822,
+      1845
+    ]
+  },
+  "dispatch": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      469,
+      508,
+      1279,
+      2666
+    ]
+  },
+  "do": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      442,
+      804,
+      806
+    ]
+  },
+  "document": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      33,
+      70,
+      77,
+      131,
+      158,
+      164,
+      178,
+      189,
+      193,
+      206,
+      212,
+      296,
+      385,
+      660,
+      882,
+      1018,
+      1307,
+      1702,
+      1973,
+      2025,
+      2043,
+      2175,
+      2199,
+      2324,
+      2436,
+      2582,
+      2607,
+      2615,
+      2995
+    ]
+  },
+  "doesnt": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2225
+    ]
+  },
+  "doi": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2741,
+      2761,
+      2784,
+      2802,
+      2854,
+      2898,
+      2918,
+      2938,
+      2960,
+      2982,
+      2997,
+      3021,
+      3034,
+      3051
+    ]
+  },
+  "donald": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2714
+    ]
+  },
+  "done": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      483,
+      1937
+    ]
+  },
+  "draft": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2291,
+      2649
+    ]
+  },
+  "duerstitaoyamaacjp": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      3070
+    ]
+  },
+  "duplic": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1395
+    ]
+  },
+  "dure": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2292
+    ]
+  },
+  "durst": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      7,
+      3059
+    ]
+  },
+  "e": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      223,
+      2715
+    ]
+  },
+  "each": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      413,
+      416,
+      434,
+      2455
+    ]
+  },
+  "eastlak": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2716
+    ]
+  },
+  "effect": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      181
+    ]
+  },
+  "eg": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      558,
+      1335,
+      1459,
+      1572,
+      2385
+    ]
+  },
+  "eggert": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2699
+    ]
+  },
+  "electron": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1264,
+      2837
+    ]
+  },
+  "element": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1334,
+      1439,
+      1497
+    ]
+  },
+  "email": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      3069
+    ]
+  },
+  "emit": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1161
+    ]
+  },
+  "emphasi": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1628
+    ]
+  },
+  "empti": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2337
+    ]
+  },
+  "encod": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1540
+    ]
+  },
+  "encourag": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2611,
+      2621
+    ]
+  },
+  "end": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1252
+    ]
+  },
+  "engin": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2,
+      84,
+      110
+    ]
+  },
+  "enough": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      408,
+      411,
+      1116
+    ]
+  },
+  "ensur": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      757
+    ]
+  },
+  "entertain": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1818
+    ]
+  },
+  "environ": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1169
+    ]
+  },
+  "errata": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      133
+    ]
+  },
+  "evalu": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      421,
+      827,
+      1212,
+      2605
+    ]
+  },
+  "even": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1479,
+      2646
+    ]
+  },
+  "everi": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      738
+    ]
+  },
+  "exampl": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      324,
+      916,
+      921,
+      988,
+      1040,
+      1076,
+      1245,
+      1282,
+      1401,
+      1444,
+      1531,
+      1967,
+      1974,
+      2149,
+      2162,
+      2387,
+      2515,
+      2517,
+      2523,
+      2663,
+      2708,
+      2989
+    ]
+  },
+  "except": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      349,
+      1032,
+      2376
+    ]
+  },
+  "exchang": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2130,
+      2132,
+      2844
+    ]
+  },
+  "exist": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      924,
+      1108,
+      1398,
+      1587,
+      1852
+    ]
+  },
+  "expect": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      822,
+      1106,
+      1716,
+      1911,
+      2586
+    ]
+  },
+  "expert": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      825,
+      2356
+    ]
+  },
+  "explicit": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1374
+    ]
+  },
+  "extens": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      426,
+      1501,
+      1536,
+      1753,
+      2831,
+      2885,
+      2909,
+      2931,
+      2953,
+      2980
+    ]
+  },
+  "extract": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      209
+    ]
+  },
+  "fact": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1178
+    ]
+  },
+  "fall": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      808
+    ]
+  },
+  "fallback": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      504
+    ]
+  },
+  "farfetch": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      604
+    ]
+  },
+  "fax": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      567
+    ]
+  },
+  "februari": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2873,
+      3036
+    ]
+  },
+  "feedback": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      138
+    ]
+  },
+  "field": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2335,
+      2488
+    ]
+  },
+  "file": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1500,
+      1535,
+      2046,
+      2811
+    ]
+  },
+  "filenamefoodcat": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1544
+    ]
+  },
+  "find": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2657
+    ]
+  },
+  "first": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1648,
+      1797,
+      2076,
+      2220,
+      2648
+    ]
+  },
+  "fit": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      444,
+      1900
+    ]
+  },
+  "follow": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      716,
+      1691,
+      1833,
+      2260,
+      2497
+    ]
+  },
+  "font": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1976,
+      2001,
+      2525,
+      2527,
+      3029
+    ]
+  },
+  "fool": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1811
+    ]
+  },
+  "for": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      9,
+      23,
+      37,
+      48,
+      105,
+      251,
+      300,
+      311,
+      350,
+      378,
+      390,
+      428,
+      439,
+      505,
+      561,
+      569,
+      574,
+      578,
+      611,
+      632,
+      686,
+      701,
+      723,
+      732,
+      767,
+      801,
+      843,
+      945,
+      1047,
+      1067,
+      1084,
+      1174,
+      1253,
+      1281,
+      1339,
+      1366,
+      1377,
+      1397,
+      1433,
+      1443,
+      1487,
+      1586,
+      1765,
+      1817,
+      1827,
+      1884,
+      1970,
+      2129,
+      2181,
+      2244,
+      2327,
+      2357,
+      2377,
+      2381,
+      2447,
+      2454,
+      2482,
+      2522,
+      2561,
+      2572,
+      2612,
+      2635,
+      2664,
+      2704,
+      2731,
+      2774,
+      2887,
+      2976,
+      2992
+    ]
+  },
+  "forc": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      4,
+      86
+    ]
+  },
+  "form": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1412
+    ]
+  },
+  "formal": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      946,
+      1994
+    ]
+  },
+  "format": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      440,
+      472,
+      518,
+      1326,
+      1425,
+      2047,
+      2812,
+      2892
+    ]
+  },
+  "four": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2956
+    ]
+  },
+  "framework": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1467
+    ]
+  },
+  "francesca": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2684
+    ]
+  },
+  "freed": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2746,
+      2880,
+      2923,
+      2943
+    ]
+  },
+  "frequent": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1277,
+      1285
+    ]
+  },
+  "fressancourt": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2702
+    ]
+  },
+  "from": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      210,
+      340,
+      412,
+      1454,
+      2423,
+      2617,
+      2676
+    ]
+  },
+  "fuchinob": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      3063
+    ]
+  },
+  "full": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      486
+    ]
+  },
+  "function": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      461
+    ]
+  },
+  "further": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      114,
+      2620
+    ]
+  },
+  "futur": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1085,
+      1129,
+      1742,
+      1790
+    ]
+  },
+  "gakuin": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      12,
+      3061
+    ]
+  },
+  "general": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1550,
+      1727,
+      1836
+    ]
+  },
+  "generat": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1328,
+      1584
+    ]
+  },
+  "generic": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1306
+    ]
+  },
+  "give": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      376
+    ]
+  },
+  "given": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1771
+    ]
+  },
+  "go": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2226,
+      2233
+    ]
+  },
+  "graham": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2679
+    ]
+  },
+  "group": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      112,
+      1181,
+      2428
+    ]
+  },
+  "guidelin": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      22,
+      2773
+    ]
+  },
+  "hallambak": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2713
+    ]
+  },
+  "hand": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      955
+    ]
+  },
+  "handl": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      511,
+      591,
+      1286,
+      1305,
+      1317
+    ]
+  },
+  "hansen": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2752
+    ]
+  },
+  "haptic": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2019,
+      2530,
+      2532,
+      3046
+    ]
+  },
+  "harald": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2618,
+      2629
+    ]
+  },
+  "hardwar": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      584
+    ]
+  },
+  "has": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      97,
+      102,
+      2304,
+      2322,
+      2399
+    ]
+  },
+  "have": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      551,
+      1185,
+      2275,
+      2644
+    ]
+  },
+  "heller": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2722
+    ]
+  },
+  "help": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      824,
+      1043,
+      1205,
+      1218
+    ]
+  },
+  "henri": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2069,
+      2681
+    ]
+  },
+  "here": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      682
+    ]
+  },
+  "high": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      963
+    ]
+  },
+  "histori": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      56,
+      268,
+      1617,
+      1623,
+      1635
+    ]
+  },
+  "how": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      135,
+      1213
+    ]
+  },
+  "howev": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      581,
+      1801,
+      1916,
+      2117
+    ]
+  },
+  "hs": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2818
+    ]
+  },
+  "html": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1327,
+      1333
+    ]
+  },
+  "httpsenwikipediaorgw": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2814
+    ]
+  },
+  "httpspubsacsorgdoici": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2857
+    ]
+  },
+  "httpstrusteeietforglicenseinfo": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      179
+    ]
+  },
+  "httpswwwianaorgassignmentsmediatyp": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2429
+    ]
+  },
+  "httpswwwianaorgassignmentstoplevelmediatyp": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2406
+    ]
+  },
+  "httpswwwianaorgform": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2452
+    ]
+  },
+  "httpswwwrfceditororginforfc": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      145,
+      2744,
+      2764,
+      2787,
+      2805,
+      2901,
+      2921,
+      2941,
+      2963,
+      2985,
+      3000,
+      3024,
+      3037,
+      3054
+    ]
+  },
+  "httpswwwswitaoyamaacjpdurst": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      3072
+    ]
+  },
+  "httpswwwworgtrrecrdfconcept": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2874
+    ]
+  },
+  "human": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1206,
+      1219,
+      1229
+    ]
+  },
+  "iana": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      269,
+      773,
+      787,
+      2248,
+      2308,
+      2367,
+      2398,
+      2415,
+      2478,
+      2777
+    ]
+  },
+  "icon": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      631,
+      1350
+    ]
+  },
+  "idea": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2634
+    ]
+  },
+  "identifi": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      155,
+      555,
+      1370,
+      1420
+    ]
+  },
+  "ie": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      488
+    ]
+  },
+  "iesg": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      113
+    ]
+  },
+  "ietf": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      5,
+      87,
+      94,
+      150,
+      171,
+      177,
+      968,
+      1989
+    ]
+  },
+  "if": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1505,
+      1560,
+      1757,
+      1917,
+      2131,
+      2297
+    ]
+  },
+  "imag": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      328,
+      570,
+      1298,
+      1322,
+      1666,
+      2535,
+      2537
+    ]
+  },
+  "img": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1336
+    ]
+  },
+  "immedi": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      356
+    ]
+  },
+  "implementor": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1846
+    ]
+  },
+  "in": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      120,
+      180,
+      221,
+      236,
+      320,
+      476,
+      544,
+      658,
+      667,
+      677,
+      710,
+      745,
+      983,
+      1127,
+      1168,
+      1260,
+      1278,
+      1355,
+      1460,
+      1474,
+      1482,
+      1524,
+      1573,
+      1609,
+      1740,
+      1835,
+      1856,
+      1891,
+      1962,
+      1972,
+      1981,
+      1991,
+      2008,
+      2028,
+      2041,
+      2079,
+      2084,
+      2110,
+      2139,
+      2196,
+      2413,
+      2444,
+      2733,
+      2780,
+      2796,
+      2994,
+      3016
+    ]
+  },
+  "includ": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      214,
+      489,
+      625,
+      706,
+      737,
+      1011,
+      1025,
+      1340
+    ]
+  },
+  "indexphptitlechemicalfileformatoldid": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2815
+    ]
+  },
+  "indic": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      355,
+      859,
+      935,
+      1192,
+      1778,
+      2736
+    ]
+  },
+  "inform": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      115,
+      124,
+      290,
+      613,
+      849,
+      1523,
+      1532,
+      2671,
+      2806,
+      2843,
+      2848
+    ]
+  },
+  "initi": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      276,
+      1026,
+      1070,
+      1693,
+      1738,
+      2390,
+      2490,
+      2570
+    ]
+  },
+  "inodedirectori": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2114,
+      2165
+    ]
+  },
+  "inspect": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      616
+    ]
+  },
+  "inspir": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2703
+    ]
+  },
+  "intend": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1709,
+      2128
+    ]
+  },
+  "interest": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      762
+    ]
+  },
+  "internet": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1,
+      72,
+      83,
+      109,
+      2829,
+      2834,
+      2883,
+      2894,
+      2929,
+      2951,
+      2978
+    ]
+  },
+  "interpret": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      664
+    ]
+  },
+  "into": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1389,
+      1655
+    ]
+  },
+  "introduc": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      45,
+      1661,
+      1958,
+      1965,
+      2588,
+      2597
+    ]
+  },
+  "introduct": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      244,
+      294
+    ]
+  },
+  "invent": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1848
+    ]
+  },
+  "is": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      78,
+      118,
+      165,
+      467,
+      482,
+      717,
+      759,
+      862,
+      866,
+      962,
+      976,
+      1079,
+      1138,
+      1284,
+      1385,
+      1416,
+      1470,
+      1508,
+      1513,
+      1566,
+      1608,
+      1629,
+      1698,
+      1708,
+      1715,
+      1761,
+      1808,
+      1843,
+      2083,
+      2115,
+      2119,
+      2126,
+      2336,
+      2495,
+      2584
+    ]
+  },
+  "issn": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      21
+    ]
+  },
+  "issu": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2591,
+      2594
+    ]
+  },
+  "it": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      43,
+      61,
+      88,
+      96,
+      140,
+      397,
+      535,
+      548,
+      1117,
+      1369,
+      1561,
+      1688,
+      1714,
+      1768,
+      1779,
+      1802,
+      1931,
+      2082,
+      2409
+    ]
+  },
+  "itself": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2368,
+      2583
+    ]
+  },
+  "j": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2749,
+      2946,
+      2948,
+      3058
+    ]
+  },
+  "januari": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2763,
+      2984
+    ]
+  },
+  "japan": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      3067
+    ]
+  },
+  "john": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2694
+    ]
+  },
+  "journal": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2845
+    ]
+  },
+  "juli": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2813
+    ]
+  },
+  "june": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2786,
+      2900,
+      3023
+    ]
+  },
+  "justfont": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1988
+    ]
+  },
+  "justifi": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1142
+    ]
+  },
+  "k": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      3041
+    ]
+  },
+  "kanagawa": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      3066
+    ]
+  },
+  "key": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      640,
+      2729,
+      2798
+    ]
+  },
+  "klensin": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2748,
+      2945
+    ]
+  },
+  "kline": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2680
+    ]
+  },
+  "kucherawi": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2627
+    ]
+  },
+  "landscap": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      585
+    ]
+  },
+  "languag": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      247,
+      638,
+      1575
+    ]
+  },
+  "lanthal": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2865
+    ]
+  },
+  "lar": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2698
+    ]
+  },
+  "larger": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1721
+    ]
+  },
+  "later": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2241
+    ]
+  },
+  "lead": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1407
+    ]
+  },
+  "least": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1259,
+      2373
+    ]
+  },
+  "left": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      316
+    ]
+  },
+  "legal": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      173,
+      227
+    ]
+  },
+  "leiba": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2768,
+      2789
+    ]
+  },
+  "less": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1480
+    ]
+  },
+  "level": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      336,
+      394,
+      449,
+      635,
+      813,
+      1745,
+      2184,
+      2318,
+      2738
+    ]
+  },
+  "licens": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      217,
+      240
+    ]
+  },
+  "like": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2097,
+      2157
+    ]
+  },
+  "lilley": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2678,
+      3026
+    ]
+  },
+  "limit": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1472
+    ]
+  },
+  "line": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1251,
+      1610
+    ]
+  },
+  "linimon": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2907
+    ]
+  },
+  "linux": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2091
+    ]
+  },
+  "list": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      719,
+      1363
+    ]
+  },
+  "local": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2122
+    ]
+  },
+  "logic": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2093
+    ]
+  },
+  "look": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      602,
+      2096
+    ]
+  },
+  "lowercas": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2795
+    ]
+  },
+  "m": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2767,
+      2864,
+      2906,
+      3007
+    ]
+  },
+  "made": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      532
+    ]
+  },
+  "mail": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1265,
+      2830,
+      2838,
+      2884,
+      2930,
+      2952,
+      2979
+    ]
+  },
+  "main": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      424,
+      437,
+      460,
+      1562
+    ]
+  },
+  "make": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      598
+    ]
+  },
+  "mani": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1857
+    ]
+  },
+  "map": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1435,
+      1453,
+      1477,
+      1490,
+      1507,
+      1568,
+      2105
+    ]
+  },
+  "march": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      15,
+      2743,
+      3053
+    ]
+  },
+  "martin": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      3057
+    ]
+  },
+  "may": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      141,
+      549,
+      655,
+      932,
+      941,
+      980,
+      1033,
+      1125,
+      1189,
+      1222,
+      1231,
+      1236,
+      1447,
+      1747,
+      1898,
+      2080,
+      2804
+    ]
+  },
+  "mechan": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1943,
+      2886
+    ]
+  },
+  "media": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      29,
+      41,
+      50,
+      59,
+      257,
+      266,
+      274,
+      282,
+      304,
+      307,
+      322,
+      382,
+      395,
+      429,
+      463,
+      528,
+      597,
+      692,
+      704,
+      1399,
+      1424,
+      1441,
+      1455,
+      1545,
+      1615,
+      1896,
+      2185,
+      2203,
+      2253,
+      2319,
+      2396,
+      2403,
+      2425,
+      2441,
+      2449,
+      2457,
+      2508,
+      2513,
+      2520,
+      2528,
+      2533,
+      2538,
+      2543,
+      2548,
+      2553,
+      2558,
+      2567,
+      2577,
+      2601,
+      2753,
+      2935,
+      2990,
+      3031,
+      3048
+    ]
+  },
+  "mediatyp": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2453
+    ]
+  },
+  "medium": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2916
+    ]
+  },
+  "melnikov": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2652
+    ]
+  },
+  "memo": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      67,
+      69,
+      2641
+    ]
+  },
+  "merit": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1450,
+      1473,
+      1481
+    ]
+  },
+  "messag": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      563,
+      1665,
+      2540,
+      2542,
+      2895
+    ]
+  },
+  "mime": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2833,
+      2881,
+      2911,
+      2932,
+      2954
+    ]
+  },
+  "minimum": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      897
+    ]
+  },
+  "mitra": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2970
+    ]
+  },
+  "mj": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      6
+    ]
+  },
+  "model": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1954,
+      2545,
+      2547,
+      2972
+    ]
+  },
+  "more": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      387,
+      1743,
+      1865,
+      2229
+    ]
+  },
+  "most": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      477,
+      1139,
+      1186
+    ]
+  },
+  "motiv": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      731
+    ]
+  },
+  "multipart": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1271,
+      1283,
+      1664,
+      2550,
+      2552
+    ]
+  },
+  "multipartinod": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2170
+    ]
+  },
+  "multipartmix": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1288
+    ]
+  },
+  "multipurpos": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2828,
+      2882,
+      2928,
+      2950,
+      2977
+    ]
+  },
+  "murray": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2625,
+      2631
+    ]
+  },
+  "murrayrust": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2067,
+      2819
+    ]
+  },
+  "must": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      213,
+      530,
+      642,
+      643,
+      742,
+      784,
+      815,
+      880,
+      900,
+      1429,
+      1556,
+      1769,
+      1935,
+      2603
+    ]
+  },
+  "muthusami": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      3039
+    ]
+  },
+  "n": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2747,
+      2877,
+      2879,
+      2904,
+      2924,
+      2926,
+      2944
+    ]
+  },
+  "name": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1527,
+      1707,
+      1773,
+      1792,
+      2279,
+      2463,
+      2498
+    ]
+  },
+  "narten": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2772
+    ]
+  },
+  "need": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      418,
+      938,
+      978,
+      1046,
+      1509
+    ]
+  },
+  "negat": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      263,
+      1359,
+      1364,
+      2705
+    ]
+  },
+  "nelson": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2965
+    ]
+  },
+  "never": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2643
+    ]
+  },
+  "new": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      27,
+      39,
+      255,
+      302,
+      403,
+      690,
+      702,
+      728,
+      739,
+      769,
+      781,
+      790,
+      811,
+      836,
+      877,
+      949,
+      973,
+      990,
+      1021,
+      1049,
+      1061,
+      1101,
+      1122,
+      1135,
+      1147,
+      1165,
+      1199,
+      1215,
+      1579,
+      1643,
+      1685,
+      1734,
+      1828,
+      1869,
+      1888,
+      1895,
+      1923,
+      2018,
+      2182,
+      2245,
+      2257,
+      2272,
+      2599,
+      2915
+    ]
+  },
+  "newlin": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2563
+    ]
+  },
+  "nnnnn": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1415
+    ]
+  },
+  "no": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      910,
+      1941,
+      2518,
+      2852
+    ]
+  },
+  "nonstandard": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1780
+    ]
+  },
+  "normat": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      288,
+      2724
+    ]
+  },
+  "not": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      443,
+      644,
+      648,
+      651,
+      653,
+      807,
+      830,
+      867,
+      977,
+      1114,
+      1141,
+      1375,
+      1386,
+      1430,
+      1548,
+      1557,
+      1583,
+      1604,
+      1804,
+      1899,
+      2127,
+      2215,
+      2585
+    ]
+  },
+  "note": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      333,
+      520,
+      913
+    ]
+  },
+  "notic": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      147
+    ]
+  },
+  "nottingham": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      3008
+    ]
+  },
+  "novemb": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2940,
+      2962
+    ]
+  },
+  "number": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1096
+    ]
+  },
+  "object": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1419
+    ]
+  },
+  "obtain": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      143
+    ]
+  },
+  "occasion": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      500
+    ]
+  },
+  "octob": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2999
+    ]
+  },
+  "of": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      26,
+      57,
+      65,
+      81,
+      92,
+      122,
+      129,
+      185,
+      187,
+      224,
+      242,
+      254,
+      272,
+      277,
+      280,
+      317,
+      360,
+      366,
+      371,
+      435,
+      462,
+      470,
+      516,
+      526,
+      541,
+      596,
+      617,
+      629,
+      689,
+      720,
+      726,
+      752,
+      776,
+      796,
+      893,
+      927,
+      936,
+      958,
+      966,
+      989,
+      1028,
+      1056,
+      1059,
+      1072,
+      1077,
+      1093,
+      1097,
+      1109,
+      1133,
+      1145,
+      1182,
+      1241,
+      1255,
+      1263,
+      1269,
+      1291,
+      1321,
+      1342,
+      1405,
+      1410,
+      1436,
+      1463,
+      1624,
+      1633,
+      1642,
+      1652,
+      1695,
+      1705,
+      1723,
+      1733,
+      1736,
+      1825,
+      1839,
+      1850,
+      1861,
+      1887,
+      1986,
+      1998,
+      2055,
+      2101,
+      2190,
+      2209,
+      2251,
+      2256,
+      2267,
+      2271,
+      2280,
+      2316,
+      2345,
+      2391,
+      2394,
+      2464,
+      2480,
+      2492,
+      2502,
+      2575,
+      2792,
+      2826,
+      2846,
+      2893,
+      2910
+    ]
+  },
+  "offer": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1394
+    ]
+  },
+  "offici": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1791,
+      2011
+    ]
+  },
+  "often": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      493,
+      1227,
+      1304
+    ]
+  },
+  "oid": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1406,
+      1418
+    ]
+  },
+  "oidnnnnn": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1413
+    ]
+  },
+  "older": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      546
+    ]
+  },
+  "on": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      116,
+      139,
+      182,
+      331,
+      952,
+      1267,
+      1533,
+      1630,
+      2667
+    ]
+  },
+  "one": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      898,
+      2374
+    ]
+  },
+  "onli": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      374,
+      673,
+      1564,
+      1750,
+      2384,
+      2524
+    ]
+  },
+  "ontolog": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1577
+    ]
+  },
+  "opinion": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1230
+    ]
+  },
+  "option": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      657
+    ]
+  },
+  "or": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      368,
+      566,
+      829,
+      889,
+      1266,
+      1324,
+      1337,
+      1502,
+      1563,
+      1576,
+      1591,
+      2133,
+      2172,
+      2288,
+      2338,
+      2352,
+      2707
+    ]
+  },
+  "other": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      414,
+      447,
+      954,
+      1012,
+      1437,
+      1495,
+      1569,
+      1942
+    ]
+  },
+  "otherwis": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1130
+    ]
+  },
+  "p": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2820,
+      3003
+    ]
+  },
+  "page": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2049
+    ]
+  },
+  "palombini": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2685
+    ]
+  },
+  "parallel": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2029
+    ]
+  },
+  "paramet": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      495,
+      1176,
+      1188,
+      1528
+    ]
+  },
+  "park": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2967
+    ]
+  },
+  "part": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2933,
+      2955
+    ]
+  },
+  "particular": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2191
+    ]
+  },
+  "pass": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1314
+    ]
+  },
+  "paul": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2690
+    ]
+  },
+  "peopl": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2005
+    ]
+  },
+  "perlman": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2697
+    ]
+  },
+  "person": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      154,
+      346
+    ]
+  },
+  "peter": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2066
+    ]
+  },
+  "petter": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2718
+    ]
+  },
+  "phillip": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2712
+    ]
+  },
+  "phone": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      560,
+      3068
+    ]
+  },
+  "pleas": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      190,
+      332,
+      519,
+      912
+    ]
+  },
+  "point": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      427
+    ]
+  },
+  "pointer": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1388,
+      2419,
+      2433,
+      2468,
+      2476,
+      2658
+    ]
+  },
+  "polici": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2264
+    ]
+  },
+  "popul": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2408
+    ]
+  },
+  "possibl": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      553,
+      1855
+    ]
+  },
+  "postel": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2949
+    ]
+  },
+  "potenti": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1183,
+      1786
+    ]
+  },
+  "pp": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2853
+    ]
+  },
+  "practic": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      20,
+      36,
+      75,
+      299
+    ]
+  },
+  "prefer": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2009
+    ]
+  },
+  "prefix": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      365,
+      1598,
+      3012
+    ]
+  },
+  "previous": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2177
+    ]
+  },
+  "primari": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1759,
+      2973
+    ]
+  },
+  "printer": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      565
+    ]
+  },
+  "probabl": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1140
+    ]
+  },
+  "procedur": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2039,
+      2758,
+      2958
+    ]
+  },
+  "process": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2295
+    ]
+  },
+  "product": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      80
+    ]
+  },
+  "program": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1574
+    ]
+  },
+  "proper": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2142
+    ]
+  },
+  "propos": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1144,
+      2064
+    ]
+  },
+  "protocol": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      425,
+      1438,
+      1496,
+      3018
+    ]
+  },
+  "provid": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      137,
+      231,
+      386,
+      1075,
+      2277,
+      2623,
+      2633,
+      2653,
+      2710
+    ]
+  },
+  "provis": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      174,
+      228
+    ]
+  },
+  "prs": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      369
+    ]
+  },
+  "public": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      99,
+      106,
+      186
+    ]
+  },
+  "publish": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1815,
+      1874
+    ]
+  },
+  "pure": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1816,
+      2121
+    ]
+  },
+  "purpos": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      911,
+      1565,
+      1819,
+      2383
+    ]
+  },
+  "put": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1520
+    ]
+  },
+  "quit": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1914
+    ]
+  },
+  "r": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2860
+    ]
+  },
+  "radia": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2696
+    ]
+  },
+  "rang": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      515
+    ]
+  },
+  "rare": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      407,
+      1915
+    ]
+  },
+  "rd": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2717
+    ]
+  },
+  "rdf": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1464,
+      1468,
+      2858,
+      2866
+    ]
+  },
+  "reach": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2645
+    ]
+  },
+  "reason": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1376,
+      1767
+    ]
+  },
+  "receiv": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      98,
+      2675
+    ]
+  },
+  "recommend": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      652,
+      654,
+      1511,
+      2146,
+      2872
+    ]
+  },
+  "record": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      573
+    ]
+  },
+  "refer": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      287,
+      289,
+      291,
+      2723,
+      2725,
+      2807
+    ]
+  },
+  "regist": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1068,
+      1601,
+      1805,
+      2012,
+      2143,
+      2332
+    ]
+  },
+  "registr": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      253,
+      271,
+      688,
+      841,
+      1027,
+      1087,
+      1089,
+      1381,
+      1391,
+      1396,
+      2250,
+      2255,
+      2270,
+      2359,
+      2378,
+      2519,
+      2757,
+      2957
+    ]
+  },
+  "registri": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      47,
+      279,
+      795,
+      2315,
+      2393,
+      2405,
+      2422,
+      2427,
+      2443,
+      2460,
+      2479,
+      2494,
+      2501,
+      2574
+    ]
+  },
+  "reinholdtsen": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2719
+    ]
+  },
+  "relat": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      175,
+      517,
+      1013,
+      2595
+    ]
+  },
+  "relev": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1638,
+      2192
+    ]
+  },
+  "remain": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2088
+    ]
+  },
+  "report": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2051
+    ]
+  },
+  "repres": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      89,
+      1352
+    ]
+  },
+  "request": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      8,
+      785,
+      2311
+    ]
+  },
+  "requir": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      246,
+      259,
+      480,
+      637,
+      645,
+      713,
+      721,
+      734,
+      1883,
+      2180,
+      2559,
+      2737
+    ]
+  },
+  "reserv": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      162
+    ]
+  },
+  "resourc": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1465
+    ]
+  },
+  "respect": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      203,
+      1683,
+      2290,
+      2362
+    ]
+  },
+  "restrict": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      201,
+      1235,
+      1248
+    ]
+  },
+  "revers": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1476
+    ]
+  },
+  "review": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      100,
+      191,
+      763,
+      826
+    ]
+  },
+  "revis": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      215,
+      238
+    ]
+  },
+  "rfc": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      63,
+      123,
+      372,
+      373,
+      400,
+      401,
+      669,
+      670,
+      711,
+      712,
+      749,
+      753,
+      754,
+      778,
+      874,
+      997,
+      998,
+      1004,
+      1005,
+      1015,
+      1016,
+      1612,
+      1613,
+      1646,
+      1647,
+      1793,
+      1794,
+      1807,
+      1812,
+      1820,
+      1821,
+      1872,
+      1873,
+      1880,
+      1881,
+      1940,
+      1960,
+      1961,
+      1963,
+      1964,
+      1982,
+      1983,
+      2014,
+      2015,
+      2022,
+      2031,
+      2188,
+      2189,
+      2210,
+      2268,
+      2269,
+      2287,
+      2471,
+      2500,
+      2506,
+      2511,
+      2516,
+      2526,
+      2531,
+      2536,
+      2541,
+      2546,
+      2551,
+      2556,
+      2565,
+      2660,
+      2661,
+      2726,
+      2740,
+      2742,
+      2745,
+      2760,
+      2762,
+      2765,
+      2783,
+      2785,
+      2788,
+      2797,
+      2801,
+      2803,
+      2875,
+      2897,
+      2899,
+      2902,
+      2917,
+      2919,
+      2922,
+      2937,
+      2939,
+      2942,
+      2959,
+      2961,
+      2964,
+      2981,
+      2983,
+      2986,
+      2996,
+      2998,
+      3001,
+      3020,
+      3022,
+      3025,
+      3033,
+      3035,
+      3038,
+      3050,
+      3052
+    ]
+  },
+  "rfcs": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2734,
+      2781
+    ]
+  },
+  "right": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      161,
+      199,
+      359
+    ]
+  },
+  "roman": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2692
+    ]
+  },
+  "rule": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      248,
+      683,
+      698
+    ]
+  },
+  "rzepa": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2070,
+      2683,
+      2817
+    ]
+  },
+  "s": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2626,
+      2682,
+      2728,
+      2966
+    ]
+  },
+  "sagamihara": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      3065
+    ]
+  },
+  "said": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1689
+    ]
+  },
+  "saintandr": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      3002
+    ]
+  },
+  "same": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1492,
+      1877
+    ]
+  },
+  "sarker": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2687
+    ]
+  },
+  "say": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2221
+    ]
+  },
+  "scenario": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      547,
+      601
+    ]
+  },
+  "scheme": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1504,
+      2107
+    ]
+  },
+  "schemehandl": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2103
+    ]
+  },
+  "schemehandlerhttp": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2151
+    ]
+  },
+  "schemehttp": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2159
+    ]
+  },
+  "scienc": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2850
+    ]
+  },
+  "scudder": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2695
+    ]
+  },
+  "section": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      121,
+      222,
+      370,
+      695,
+      751,
+      775,
+      1619,
+      2201,
+      2213,
+      2242,
+      2266,
+      2310,
+      2779
+    ]
+  },
+  "secur": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      284,
+      884,
+      2325,
+      2579,
+      2590,
+      2593
+    ]
+  },
+  "see": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      750,
+      2265
+    ]
+  },
+  "select": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1331,
+      1348
+    ]
+  },
+  "separ": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      422,
+      1065
+    ]
+  },
+  "serv": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      501,
+      909
+    ]
+  },
+  "set": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1694,
+      1704,
+      1722
+    ]
+  },
+  "seven": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1696
+    ]
+  },
+  "shall": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      646,
+      647
+    ]
+  },
+  "short": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      55,
+      312,
+      1001,
+      2340
+    ]
+  },
+  "should": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      649,
+      650,
+      1024,
+      1104,
+      1113,
+      1118,
+      1155,
+      1582,
+      1603,
+      1847,
+      2152,
+      2166,
+      2370
+    ]
+  },
+  "show": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1044
+    ]
+  },
+  "shown": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      681
+    ]
+  },
+  "signific": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      891
+    ]
+  },
+  "similar": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1038,
+      1123,
+      3014
+    ]
+  },
+  "singl": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1111,
+      1517
+    ]
+  },
+  "slash": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      319,
+      362
+    ]
+  },
+  "slate": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1071
+    ]
+  },
+  "smartphon": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      589
+    ]
+  },
+  "so": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      330
+    ]
+  },
+  "solut": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1512
+    ]
+  },
+  "some": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      494,
+      545,
+      984,
+      1449,
+      1892,
+      2090,
+      2299
+    ]
+  },
+  "someth": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2156
+    ]
+  },
+  "somewhat": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      603
+    ]
+  },
+  "space": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1392
+    ]
+  },
+  "specif": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1293,
+      1423,
+      1674,
+      2230,
+      2286,
+      2303,
+      2755
+    ]
+  },
+  "specifi": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2888
+    ]
+  },
+  "stage": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2650
+    ]
+  },
+  "standard": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      342,
+      352,
+      747,
+      1756,
+      2134,
+      2262,
+      2835
+    ]
+  },
+  "standardstrack": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1939
+    ]
+  },
+  "start": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1679,
+      1774
+    ]
+  },
+  "state": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2491
+    ]
+  },
+  "status": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      64,
+      128,
+      1781
+    ]
+  },
+  "steer": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      111
+    ]
+  },
+  "strict": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2216
+    ]
+  },
+  "string": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      620,
+      1543
+    ]
+  },
+  "strong": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      858,
+      1844,
+      2145
+    ]
+  },
+  "structur": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1651
+    ]
+  },
+  "subject": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      166
+    ]
+  },
+  "subsect": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1362
+    ]
+  },
+  "subset": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      892
+    ]
+  },
+  "substanti": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1712
+    ]
+  },
+  "subtyp": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      432,
+      466,
+      491,
+      580,
+      832,
+      845,
+      894,
+      899,
+      908,
+      920,
+      1030,
+      1073,
+      1083,
+      1086,
+      1098,
+      1112,
+      1240,
+      1254,
+      1268,
+      1294,
+      1592,
+      1659,
+      1735,
+      1849,
+      1860,
+      2358,
+      2375,
+      2481,
+      2504
+    ]
+  },
+  "such": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      599,
+      1488,
+      1498,
+      1908,
+      1918,
+      1932
+    ]
+  },
+  "suffici": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      760
+    ]
+  },
+  "suitabl": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      868
+    ]
+  },
+  "summarili": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      375
+    ]
+  },
+  "support": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1724
+    ]
+  },
+  "syntax": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2870
+    ]
+  },
+  "system": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1552,
+      1571
+    ]
+  },
+  "systemspecif": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2123
+    ]
+  },
+  "t": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2751,
+      2771,
+      2988
+    ]
+  },
+  "tabl": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      241,
+      2414,
+      2569
+    ]
+  },
+  "talk": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      864
+    ]
+  },
+  "task": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      3,
+      85
+    ]
+  },
+  "taylor": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2987
+    ]
+  },
+  "templat": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      842
+    ]
+  },
+  "tentat": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      507
+    ]
+  },
+  "text": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      218,
+      326,
+      1257,
+      1663,
+      2555,
+      2557,
+      2637
+    ]
+  },
+  "than": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1867
+    ]
+  },
+  "that": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      334,
+      415,
+      441,
+      521,
+      786,
+      851,
+      860,
+      914,
+      1010,
+      1121,
+      1170,
+      1179,
+      1193,
+      1372,
+      1393,
+      1636,
+      1673,
+      1717,
+      1813,
+      2004,
+      2176,
+      2222,
+      2224,
+      2379,
+      2483
+    ]
+  },
+  "the": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      24,
+      82,
+      90,
+      93,
+      108,
+      126,
+      153,
+      157,
+      170,
+      183,
+      225,
+      237,
+      252,
+      278,
+      315,
+      318,
+      351,
+      358,
+      361,
+      423,
+      436,
+      451,
+      459,
+      468,
+      485,
+      490,
+      496,
+      506,
+      524,
+      539,
+      582,
+      605,
+      618,
+      622,
+      639,
+      687,
+      697,
+      715,
+      718,
+      724,
+      733,
+      772,
+      794,
+      799,
+      810,
+      835,
+      840,
+      847,
+      883,
+      915,
+      919,
+      953,
+      956,
+      1017,
+      1020,
+      1031,
+      1045,
+      1048,
+      1054,
+      1057,
+      1060,
+      1088,
+      1100,
+      1107,
+      1128,
+      1131,
+      1143,
+      1146,
+      1151,
+      1164,
+      1177,
+      1247,
+      1261,
+      1295,
+      1411,
+      1434,
+      1461,
+      1491,
+      1510,
+      1521,
+      1622,
+      1627,
+      1631,
+      1634,
+      1640,
+      1650,
+      1662,
+      1690,
+      1720,
+      1731,
+      1741,
+      1796,
+      1823,
+      1832,
+      1837,
+      1851,
+      1876,
+      1885,
+      1953,
+      1966,
+      1975,
+      1987,
+      1995,
+      1999,
+      2036,
+      2044,
+      2052,
+      2075,
+      2112,
+      2163,
+      2174,
+      2179,
+      2194,
+      2197,
+      2219,
+      2235,
+      2240,
+      2261,
+      2278,
+      2281,
+      2284,
+      2289,
+      2293,
+      2301,
+      2314,
+      2328,
+      2333,
+      2343,
+      2346,
+      2355,
+      2361,
+      2386,
+      2392,
+      2401,
+      2411,
+      2424,
+      2439,
+      2445,
+      2459,
+      2462,
+      2465,
+      2470,
+      2473,
+      2489,
+      2493,
+      2573,
+      2592,
+      2647,
+      2654,
+      2824,
+      2891,
+      2908,
+      2971,
+      3010,
+      3028,
+      3045
+    ]
+  },
+  "them": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2639
+    ]
+  },
+  "there": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      758,
+      986,
+      1446,
+      1469,
+      2369
+    ]
+  },
+  "therefor": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      398,
+      940,
+      1211
+    ]
+  },
+  "these": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      192,
+      1309,
+      1737,
+      2211
+    ]
+  },
+  "they": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      196,
+      675,
+      1171,
+      1194,
+      2331,
+      2431
+    ]
+  },
+  "this": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      32,
+      66,
+      68,
+      76,
+      130,
+      163,
+      188,
+      205,
+      211,
+      295,
+      384,
+      479,
+      624,
+      659,
+      694,
+      755,
+      789,
+      948,
+      1041,
+      1361,
+      1607,
+      1618,
+      1701,
+      1703,
+      1755,
+      1992,
+      2024,
+      2042,
+      2060,
+      2118,
+      2421,
+      2435,
+      2581,
+      2614,
+      2640
+    ]
+  },
+  "time": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1878
+    ]
+  },
+  "to": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      136,
+      167,
+      176,
+      204,
+      314,
+      357,
+      419,
+      473,
+      509,
+      554,
+      662,
+      793,
+      823,
+      887,
+      970,
+      1039,
+      1158,
+      1160,
+      1238,
+      1249,
+      1315,
+      1351,
+      1408,
+      1440,
+      1451,
+      1457,
+      1494,
+      1514,
+      1567,
+      1639,
+      1684,
+      1710,
+      1719,
+      1754,
+      1762,
+      1777,
+      1783,
+      1912,
+      1929,
+      1947,
+      2010,
+      2034,
+      2104,
+      2108,
+      2155,
+      2169,
+      2193,
+      2276,
+      2305,
+      2313,
+      2323,
+      2420,
+      2434,
+      2438,
+      2469,
+      2477,
+      2587,
+      2596,
+      2656,
+      2659,
+      2735,
+      2836,
+      2913
+    ]
+  },
+  "top": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      335,
+      393,
+      448,
+      634,
+      812,
+      1744,
+      2183,
+      2317
+    ]
+  },
+  "toplevel": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      28,
+      40,
+      49,
+      58,
+      256,
+      265,
+      273,
+      281,
+      303,
+      306,
+      309,
+      381,
+      404,
+      453,
+      497,
+      606,
+      691,
+      703,
+      729,
+      740,
+      770,
+      782,
+      791,
+      797,
+      871,
+      878,
+      904,
+      917,
+      930,
+      950,
+      960,
+      974,
+      991,
+      1022,
+      1036,
+      1050,
+      1062,
+      1102,
+      1136,
+      1148,
+      1166,
+      1200,
+      1202,
+      1216,
+      1243,
+      1272,
+      1296,
+      1310,
+      1344,
+      1357,
+      1367,
+      1379,
+      1383,
+      1403,
+      1427,
+      1485,
+      1554,
+      1580,
+      1593,
+      1614,
+      1625,
+      1644,
+      1656,
+      1671,
+      1677,
+      1686,
+      1706,
+      1799,
+      1829,
+      1841,
+      1870,
+      1889,
+      1905,
+      1924,
+      1950,
+      1955,
+      1968,
+      1977,
+      2002,
+      2020,
+      2058,
+      2061,
+      2099,
+      2207,
+      2237,
+      2246,
+      2252,
+      2258,
+      2273,
+      2282,
+      2329,
+      2363,
+      2388,
+      2395,
+      2402,
+      2440,
+      2456,
+      2576,
+      2600,
+      2668,
+      3030,
+      3047
+    ]
+  },
+  "track": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      748
+    ]
+  },
+  "tree": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      341,
+      343,
+      345,
+      347,
+      353
+    ]
+  },
+  "trust": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      151,
+      172,
+      226
+    ]
+  },
+  "two": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2212,
+      2934
+    ]
+  },
+  "type": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      30,
+      42,
+      51,
+      60,
+      258,
+      267,
+      275,
+      283,
+      305,
+      308,
+      310,
+      323,
+      337,
+      383,
+      396,
+      405,
+      430,
+      438,
+      450,
+      454,
+      464,
+      487,
+      498,
+      529,
+      607,
+      619,
+      628,
+      636,
+      693,
+      705,
+      730,
+      741,
+      771,
+      783,
+      792,
+      798,
+      803,
+      814,
+      837,
+      872,
+      879,
+      905,
+      931,
+      951,
+      961,
+      975,
+      992,
+      1023,
+      1037,
+      1051,
+      1063,
+      1103,
+      1124,
+      1137,
+      1149,
+      1167,
+      1184,
+      1201,
+      1203,
+      1217,
+      1221,
+      1244,
+      1256,
+      1270,
+      1273,
+      1297,
+      1311,
+      1345,
+      1354,
+      1358,
+      1368,
+      1380,
+      1384,
+      1400,
+      1404,
+      1409,
+      1428,
+      1442,
+      1456,
+      1486,
+      1546,
+      1551,
+      1555,
+      1570,
+      1581,
+      1590,
+      1594,
+      1616,
+      1626,
+      1645,
+      1654,
+      1657,
+      1672,
+      1678,
+      1687,
+      1725,
+      1739,
+      1746,
+      1760,
+      1800,
+      1830,
+      1842,
+      1853,
+      1871,
+      1890,
+      1897,
+      1907,
+      1925,
+      1952,
+      1956,
+      1969,
+      1978,
+      2003,
+      2013,
+      2021,
+      2059,
+      2062,
+      2100,
+      2113,
+      2138,
+      2164,
+      2186,
+      2204,
+      2208,
+      2231,
+      2238,
+      2247,
+      2254,
+      2259,
+      2274,
+      2283,
+      2320,
+      2330,
+      2347,
+      2364,
+      2389,
+      2397,
+      2404,
+      2426,
+      2442,
+      2450,
+      2458,
+      2466,
+      2474,
+      2484,
+      2509,
+      2514,
+      2521,
+      2529,
+      2534,
+      2539,
+      2544,
+      2549,
+      2554,
+      2562,
+      2568,
+      2578,
+      2602,
+      2669,
+      2754,
+      2936,
+      2975,
+      2991,
+      3032,
+      3049
+    ]
+  },
+  "typesubtyp": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1518
+    ]
+  },
+  "ullrich": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      3044
+    ]
+  },
+  "under": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      538,
+      809,
+      1099,
+      1196,
+      1901,
+      2227,
+      2234,
+      2360
+    ]
+  },
+  "understand": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1208,
+      1220,
+      1290
+    ]
+  },
+  "univers": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      13,
+      3062
+    ]
+  },
+  "unknown": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1353
+    ]
+  },
+  "unoffici": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2000,
+      2053
+    ]
+  },
+  "unregist": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      929,
+      959,
+      2089
+    ]
+  },
+  "updat": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      16,
+      62,
+      399,
+      2353
+    ]
+  },
+  "uppercas": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2793
+    ]
+  },
+  "uri": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1458,
+      1503,
+      2106,
+      3071
+    ]
+  },
+  "usag": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2344
+    ]
+  },
+  "use": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      458,
+      484,
+      610,
+      626,
+      926,
+      957,
+      965,
+      1092,
+      1276,
+      1589,
+      1606,
+      1764,
+      1824,
+      1838,
+      1946,
+      1971,
+      1997,
+      2007,
+      2033,
+      2054,
+      2086,
+      2094,
+      2116,
+      2124,
+      2732,
+      2993
+    ]
+  },
+  "user": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      623,
+      1153
+    ]
+  },
+  "userdirect": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      612
+    ]
+  },
+  "valid": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1082
+    ]
+  },
+  "valu": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2412,
+      2571
+    ]
+  },
+  "varieti": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      595,
+      1320
+    ]
+  },
+  "vendor": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      344
+    ]
+  },
+  "veri": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      513,
+      593,
+      1471
+    ]
+  },
+  "via": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1938
+    ]
+  },
+  "video": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      572,
+      575,
+      1301,
+      1325,
+      1668,
+      2564,
+      2566
+    ]
+  },
+  "vnd": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      367
+    ]
+  },
+  "vol": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2851
+    ]
+  },
+  "vs": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2794
+    ]
+  },
+  "warranti": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      233
+    ]
+  },
+  "was": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1803,
+      1814,
+      1957,
+      1979,
+      1993,
+      2032,
+      2063,
+      2187,
+      2622,
+      2709
+    ]
+  },
+  "wc": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2871
+    ]
+  },
+  "web": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2842
+    ]
+  },
+  "were": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2006,
+      2026,
+      2674
+    ]
+  },
+  "wg": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      969,
+      996,
+      1003,
+      1009,
+      1990
+    ]
+  },
+  "what": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      802,
+      1078,
+      2095
+    ]
+  },
+  "whatev": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      861
+    ]
+  },
+  "when": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      671,
+      674
+    ]
+  },
+  "whenev": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1854
+    ]
+  },
+  "where": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      586,
+      1414
+    ]
+  },
+  "whether": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      828,
+      839
+    ]
+  },
+  "which": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      348
+    ]
+  },
+  "while": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1445,
+      2239
+    ]
+  },
+  "whitak": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2823
+    ]
+  },
+  "wide": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      514,
+      594,
+      925,
+      1232,
+      1319,
+      1588,
+      2841
+    ]
+  },
+  "wider": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1152
+    ]
+  },
+  "widespread": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1996,
+      2085
+    ]
+  },
+  "wikipedia": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2048,
+      2809
+    ]
+  },
+  "will": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      756,
+      1042,
+      1157,
+      1863
+    ]
+  },
+  "with": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      202,
+      363,
+      999,
+      1007,
+      1207,
+      1228,
+      1308,
+      1595,
+      1611,
+      1680,
+      1682,
+      1775,
+      1788,
+      1831,
+      2410
+    ]
+  },
+  "without": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      232,
+      906,
+      994,
+      1289,
+      2638
+    ]
+  },
+  "wood": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2861
+    ]
+  },
+  "word": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      641,
+      1834,
+      2730,
+      2799
+    ]
+  },
+  "work": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1014,
+      1066,
+      1985,
+      2195
+    ]
+  },
+  "workshop": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2073
+    ]
+  },
+  "world": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2840
+    ]
+  },
+  "would": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2642
+    ]
+  },
+  "wouter": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2691
+    ]
+  },
+  "write": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2613,
+      2775
+    ]
+  },
+  "www": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2077
+    ]
+  },
+  "x": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      1597,
+      1681,
+      1776,
+      1826,
+      1840,
+      2102,
+      2150,
+      3011
+    ]
+  },
+  "y": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      3040
+    ]
+  },
+  "your": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      198
+    ]
+  },
+  "zaheduzzaman": {
+    "../project-files/input/text/rfcs/rfc9694.txt": [
+      2686
+    ]
+  }
+}
