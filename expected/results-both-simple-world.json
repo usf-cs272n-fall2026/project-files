@@ -1,0 +1,74 @@
+{
+  "EXACT": {
+    "he lori world": [
+      {
+        "score": 0.50000000,
+        "count": 3,
+        "where": "../project-files/input/text/simple/hello.txt"
+      },
+      {
+        "score": 0.27272727,
+        "count": 6,
+        "where": "../project-files/input/text/simple/animals_double.text"
+      },
+      {
+        "score": 0.27272727,
+        "count": 3,
+        "where": "../project-files/input/text/simple/animals.text"
+      },
+      {
+        "score": 0.27272727,
+        "count": 3,
+        "where": "../project-files/input/text/simple/animals_copy.text"
+      }
+    ],
+    "lor wor": [
+    ]
+  },
+  "PARTIAL": {
+    "he lori world": [
+      {
+        "score": 1.00000000,
+        "count": 6,
+        "where": "../project-files/input/text/simple/hello.txt"
+      },
+      {
+        "score": 0.27272727,
+        "count": 6,
+        "where": "../project-files/input/text/simple/animals_double.text"
+      },
+      {
+        "score": 0.27272727,
+        "count": 3,
+        "where": "../project-files/input/text/simple/animals.text"
+      },
+      {
+        "score": 0.27272727,
+        "count": 3,
+        "where": "../project-files/input/text/simple/animals_copy.text"
+      }
+    ],
+    "lor wor": [
+      {
+        "score": 0.50000000,
+        "count": 3,
+        "where": "../project-files/input/text/simple/hello.txt"
+      },
+      {
+        "score": 0.27272727,
+        "count": 6,
+        "where": "../project-files/input/text/simple/animals_double.text"
+      },
+      {
+        "score": 0.27272727,
+        "count": 3,
+        "where": "../project-files/input/text/simple/animals.text"
+      },
+      {
+        "score": 0.27272727,
+        "count": 3,
+        "where": "../project-files/input/text/simple/animals_copy.text"
+      }
+    ]
+  }
+}
