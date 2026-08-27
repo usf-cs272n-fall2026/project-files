@@ -1,0 +1,27 @@
+{
+  "EXACT": {
+  },
+  "PARTIAL": {
+    "he wo": [
+      {
+        "score": 1.00000000,
+        "count": 6,
+        "where": "../project-files/input/text/simple/hello.txt"
+      }
+    ],
+    "he world": [
+      {
+        "score": 1.00000000,
+        "count": 6,
+        "where": "../project-files/input/text/simple/hello.txt"
+      }
+    ],
+    "hello wo": [
+      {
+        "score": 1.00000000,
+        "count": 6,
+        "where": "../project-files/input/text/simple/hello.txt"
+      }
+    ]
+  }
+}

@@ -1,0 +1,308 @@
+{
+  "EXACT": {
+  },
+  "PARTIAL": {
+    "a": [
+      {
+        "score": 0.06312009,
+        "count": 1406,
+        "where": "../project-files/input/text/stems/stem-in.txt"
+      },
+      {
+        "score": 0.06312009,
+        "count": 1406,
+        "where": "../project-files/input/text/stems/stem-out.txt"
+      }
+    ],
+    "b": [
+      {
+        "score": 0.05391695,
+        "count": 1201,
+        "where": "../project-files/input/text/stems/stem-in.txt"
+      },
+      {
+        "score": 0.05391695,
+        "count": 1201,
+        "where": "../project-files/input/text/stems/stem-out.txt"
+      }
+    ],
+    "c": [
+      {
+        "score": 0.09750842,
+        "count": 2172,
+        "where": "../project-files/input/text/stems/stem-in.txt"
+      },
+      {
+        "score": 0.09750842,
+        "count": 2172,
+        "where": "../project-files/input/text/stems/stem-out.txt"
+      }
+    ],
+    "d": [
+      {
+        "score": 0.06388328,
+        "count": 1423,
+        "where": "../project-files/input/text/stems/stem-in.txt"
+      },
+      {
+        "score": 0.06388328,
+        "count": 1423,
+        "where": "../project-files/input/text/stems/stem-out.txt"
+      }
+    ],
+    "e": [
+      {
+        "score": 0.04668911,
+        "count": 1040,
+        "where": "../project-files/input/text/stems/stem-in.txt"
+      },
+      {
+        "score": 0.04668911,
+        "count": 1040,
+        "where": "../project-files/input/text/stems/stem-out.txt"
+      }
+    ],
+    "f": [
+      {
+        "score": 0.04749719,
+        "count": 1058,
+        "where": "../project-files/input/text/stems/stem-in.txt"
+      },
+      {
+        "score": 0.04749719,
+        "count": 1058,
+        "where": "../project-files/input/text/stems/stem-out.txt"
+      }
+    ],
+    "g": [
+      {
+        "score": 0.03191919,
+        "count": 711,
+        "where": "../project-files/input/text/stems/stem-in.txt"
+      },
+      {
+        "score": 0.03191919,
+        "count": 711,
+        "where": "../project-files/input/text/stems/stem-out.txt"
+      }
+    ],
+    "h": [
+      {
+        "score": 0.03313131,
+        "count": 738,
+        "where": "../project-files/input/text/stems/stem-in.txt"
+      },
+      {
+        "score": 0.03313131,
+        "count": 738,
+        "where": "../project-files/input/text/stems/stem-out.txt"
+      }
+    ],
+    "i": [
+      {
+        "score": 0.04897868,
+        "count": 1091,
+        "where": "../project-files/input/text/stems/stem-in.txt"
+      },
+      {
+        "score": 0.04897868,
+        "count": 1091,
+        "where": "../project-files/input/text/stems/stem-out.txt"
+      }
+    ],
+    "j": [
+      {
+        "score": 0.00745230,
+        "count": 166,
+        "where": "../project-files/input/text/stems/stem-in.txt"
+      },
+      {
+        "score": 0.00745230,
+        "count": 166,
+        "where": "../project-files/input/text/stems/stem-out.txt"
+      }
+    ],
+    "k": [
+      {
+        "score": 0.00439955,
+        "count": 98,
+        "where": "../project-files/input/text/stems/stem-in.txt"
+      },
+      {
+        "score": 0.00439955,
+        "count": 98,
+        "where": "../project-files/input/text/stems/stem-out.txt"
+      }
+    ],
+    "l": [
+      {
+        "score": 0.02931538,
+        "count": 653,
+        "where": "../project-files/input/text/stems/stem-in.txt"
+      },
+      {
+        "score": 0.02931538,
+        "count": 653,
+        "where": "../project-files/input/text/stems/stem-out.txt"
+      }
+    ],
+    "m": [
+      {
+        "score": 0.04296296,
+        "count": 957,
+        "where": "../project-files/input/text/stems/stem-in.txt"
+      },
+      {
+        "score": 0.04296296,
+        "count": 957,
+        "where": "../project-files/input/text/stems/stem-out.txt"
+      }
+    ],
+    "n": [
+      {
+        "score": 0.01521886,
+        "count": 339,
+        "where": "../project-files/input/text/stems/stem-in.txt"
+      },
+      {
+        "score": 0.01521886,
+        "count": 339,
+        "where": "../project-files/input/text/stems/stem-out.txt"
+      }
+    ],
+    "o": [
+      {
+        "score": 0.02312009,
+        "count": 515,
+        "where": "../project-files/input/text/stems/stem-in.txt"
+      },
+      {
+        "score": 0.02312009,
+        "count": 515,
+        "where": "../project-files/input/text/stems/stem-out.txt"
+      }
+    ],
+    "p": [
+      {
+        "score": 0.08058361,
+        "count": 1795,
+        "where": "../project-files/input/text/stems/stem-in.txt"
+      },
+      {
+        "score": 0.08058361,
+        "count": 1795,
+        "where": "../project-files/input/text/stems/stem-out.txt"
+      }
+    ],
+    "q": [
+      {
+        "score": 0.00439955,
+        "count": 98,
+        "where": "../project-files/input/text/stems/stem-in.txt"
+      },
+      {
+        "score": 0.00439955,
+        "count": 98,
+        "where": "../project-files/input/text/stems/stem-out.txt"
+      }
+    ],
+    "r": [
+      {
+        "score": 0.06047138,
+        "count": 1347,
+        "where": "../project-files/input/text/stems/stem-in.txt"
+      },
+      {
+        "score": 0.06047138,
+        "count": 1347,
+        "where": "../project-files/input/text/stems/stem-out.txt"
+      }
+    ],
+    "s": [
+      {
+        "score": 0.11542088,
+        "count": 2571,
+        "where": "../project-files/input/text/stems/stem-in.txt"
+      },
+      {
+        "score": 0.11542088,
+        "count": 2571,
+        "where": "../project-files/input/text/stems/stem-out.txt"
+      }
+    ],
+    "t": [
+      {
+        "score": 0.04826038,
+        "count": 1075,
+        "where": "../project-files/input/text/stems/stem-in.txt"
+      },
+      {
+        "score": 0.04826038,
+        "count": 1075,
+        "where": "../project-files/input/text/stems/stem-out.txt"
+      }
+    ],
+    "u": [
+      {
+        "score": 0.03277217,
+        "count": 730,
+        "where": "../project-files/input/text/stems/stem-in.txt"
+      },
+      {
+        "score": 0.03277217,
+        "count": 730,
+        "where": "../project-files/input/text/stems/stem-out.txt"
+      }
+    ],
+    "v": [
+      {
+        "score": 0.01450056,
+        "count": 323,
+        "where": "../project-files/input/text/stems/stem-in.txt"
+      },
+      {
+        "score": 0.01450056,
+        "count": 323,
+        "where": "../project-files/input/text/stems/stem-out.txt"
+      }
+    ],
+    "w": [
+      {
+        "score": 0.03133558,
+        "count": 698,
+        "where": "../project-files/input/text/stems/stem-in.txt"
+      },
+      {
+        "score": 0.03133558,
+        "count": 698,
+        "where": "../project-files/input/text/stems/stem-out.txt"
+      }
+    ],
+    "x": [
+    ],
+    "y": [
+      {
+        "score": 0.00251403,
+        "count": 56,
+        "where": "../project-files/input/text/stems/stem-in.txt"
+      },
+      {
+        "score": 0.00251403,
+        "count": 56,
+        "where": "../project-files/input/text/stems/stem-out.txt"
+      }
+    ],
+    "z": [
+      {
+        "score": 0.00062851,
+        "count": 14,
+        "where": "../project-files/input/text/stems/stem-in.txt"
+      },
+      {
+        "score": 0.00062851,
+        "count": 14,
+        "where": "../project-files/input/text/stems/stem-out.txt"
+      }
+    ]
+  }
+}

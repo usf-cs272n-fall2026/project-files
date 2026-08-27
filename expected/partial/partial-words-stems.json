@@ -1,0 +1,238 @@
+{
+  "EXACT": {
+  },
+  "PARTIAL": {
+    "abstract and assert": [
+      {
+        "score": 0.00053872,
+        "count": 12,
+        "where": "../project-files/input/text/stems/stem-in.txt"
+      },
+      {
+        "score": 0.00053872,
+        "count": 12,
+        "where": "../project-files/input/text/stems/stem-out.txt"
+      }
+    ],
+    "acknowledg correspond particular understand understood": [
+      {
+        "score": 0.00098765,
+        "count": 22,
+        "where": "../project-files/input/text/stems/stem-in.txt"
+      },
+      {
+        "score": 0.00098765,
+        "count": 22,
+        "where": "../project-files/input/text/stems/stem-out.txt"
+      }
+    ],
+    "alpaca hidden narwhal practic": [
+      {
+        "score": 0.00035915,
+        "count": 8,
+        "where": "../project-files/input/text/stems/stem-in.txt"
+      },
+      {
+        "score": 0.00035915,
+        "count": 8,
+        "where": "../project-files/input/text/stems/stem-out.txt"
+      }
+    ],
+    "and of the to": [
+      {
+        "score": 0.00879910,
+        "count": 196,
+        "where": "../project-files/input/text/stems/stem-in.txt"
+      },
+      {
+        "score": 0.00879910,
+        "count": 196,
+        "where": "../project-files/input/text/stems/stem-out.txt"
+      }
+    ],
+    "b c f x": [
+      {
+        "score": 0.19892256,
+        "count": 4431,
+        "where": "../project-files/input/text/stems/stem-in.txt"
+      },
+      {
+        "score": 0.19892256,
+        "count": 4431,
+        "where": "../project-files/input/text/stems/stem-out.txt"
+      }
+    ],
+    "baa bee boo": [
+      {
+        "score": 0.00130191,
+        "count": 29,
+        "where": "../project-files/input/text/stems/stem-in.txt"
+      },
+      {
+        "score": 0.00130191,
+        "count": 29,
+        "where": "../project-files/input/text/stems/stem-out.txt"
+      }
+    ],
+    "creat creativ": [
+      {
+        "score": 0.00044893,
+        "count": 10,
+        "where": "../project-files/input/text/stems/stem-in.txt"
+      },
+      {
+        "score": 0.00044893,
+        "count": 10,
+        "where": "../project-files/input/text/stems/stem-out.txt"
+      }
+    ],
+    "ebook gutenberg project": [
+      {
+        "score": 0.00026936,
+        "count": 6,
+        "where": "../project-files/input/text/stems/stem-in.txt"
+      },
+      {
+        "score": 0.00026936,
+        "count": 6,
+        "where": "../project-files/input/text/stems/stem-out.txt"
+      }
+    ],
+    "eight eighteen eleven": [
+      {
+        "score": 0.00071829,
+        "count": 16,
+        "where": "../project-files/input/text/stems/stem-in.txt"
+      },
+      {
+        "score": 0.00071829,
+        "count": 16,
+        "where": "../project-files/input/text/stems/stem-out.txt"
+      }
+    ],
+    "fall spring summer winter": [
+      {
+        "score": 0.00062851,
+        "count": 14,
+        "where": "../project-files/input/text/stems/stem-in.txt"
+      },
+      {
+        "score": 0.00062851,
+        "count": 14,
+        "where": "../project-files/input/text/stems/stem-out.txt"
+      }
+    ],
+    "g j p q y": [
+      {
+        "score": 0.12686869,
+        "count": 2826,
+        "where": "../project-files/input/text/stems/stem-in.txt"
+      },
+      {
+        "score": 0.12686869,
+        "count": 2826,
+        "where": "../project-files/input/text/stems/stem-out.txt"
+      }
+    ],
+    "help helper": [
+      {
+        "score": 0.00058361,
+        "count": 13,
+        "where": "../project-files/input/text/stems/stem-in.txt"
+      },
+      {
+        "score": 0.00058361,
+        "count": 13,
+        "where": "../project-files/input/text/stems/stem-out.txt"
+      }
+    ],
+    "how what when where whi who": [
+      {
+        "score": 0.00430976,
+        "count": 96,
+        "where": "../project-files/input/text/stems/stem-in.txt"
+      },
+      {
+        "score": 0.00430976,
+        "count": 96,
+        "where": "../project-files/input/text/stems/stem-out.txt"
+      }
+    ],
+    "i o u": [
+      {
+        "score": 0.10487093,
+        "count": 2336,
+        "where": "../project-files/input/text/stems/stem-in.txt"
+      },
+      {
+        "score": 0.10487093,
+        "count": 2336,
+        "where": "../project-files/input/text/stems/stem-out.txt"
+      }
+    ],
+    "ka ke ki ko ku ky la le li lo lu ly": [
+      {
+        "score": 0.03205387,
+        "count": 714,
+        "where": "../project-files/input/text/stems/stem-in.txt"
+      },
+      {
+        "score": 0.03205387,
+        "count": 714,
+        "where": "../project-files/input/text/stems/stem-out.txt"
+      }
+    ],
+    "m n r s t": [
+      {
+        "score": 0.28233446,
+        "count": 6289,
+        "where": "../project-files/input/text/stems/stem-in.txt"
+      },
+      {
+        "score": 0.28233446,
+        "count": 6289,
+        "where": "../project-files/input/text/stems/stem-out.txt"
+      }
+    ],
+    "request rfc": [
+      {
+        "score": 0.00017957,
+        "count": 4,
+        "where": "../project-files/input/text/stems/stem-in.txt"
+      },
+      {
+        "score": 0.00017957,
+        "count": 4,
+        "where": "../project-files/input/text/stems/stem-out.txt"
+      }
+    ],
+    "v w x z": [
+      {
+        "score": 0.04646465,
+        "count": 1035,
+        "where": "../project-files/input/text/stems/stem-in.txt"
+      },
+      {
+        "score": 0.04646465,
+        "count": 1035,
+        "where": "../project-files/input/text/stems/stem-out.txt"
+      }
+    ],
+    "woodchuck": [
+    ],
+    "your yourself yourselv": [
+      {
+        "score": 0.00026936,
+        "count": 6,
+        "where": "../project-files/input/text/stems/stem-in.txt"
+      },
+      {
+        "score": 0.00026936,
+        "count": 6,
+        "where": "../project-files/input/text/stems/stem-out.txt"
+      }
+    ],
+    "ø δ": [
+    ]
+  }
+}
