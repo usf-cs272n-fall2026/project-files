@@ -1,0 +1,563 @@
+{
+  "EXACT": {
+  },
+  "PARTIAL": {
+    "a": [
+      {
+        "score": 0.10416798,
+        "count": 6633,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "a e i o u": [
+      {
+        "score": 0.29898235,
+        "count": 19038,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "a j m q": [
+      {
+        "score": 0.14814059,
+        "count": 9433,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "aa ae ai ao au": [
+      {
+        "score": 0.00163327,
+        "count": 104,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "aa bl br ch cl cr dr fl fr gn kn ph pl pr rh sh sq st th tw wh": [
+      {
+        "score": 0.18490483,
+        "count": 11774,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "ab ac at az ec ex fa iw je me od op qu ug uy": [
+      {
+        "score": 0.03184873,
+        "count": 2028,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "abcdefghijklmnopqrstuvwxyz": [
+    ],
+    "ad ap as de eb em gu il is og os qe to uc ux ye": [
+      {
+        "score": 0.08112947,
+        "count": 5166,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "af ax ca ed el iq iz ov so ta tu ud uj": [
+      {
+        "score": 0.02520573,
+        "count": 1605,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "ag do eh ek eq er ev fi im ju nu oq pi ra te we za zi": [
+      {
+        "score": 0.04347007,
+        "count": 2768,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "ah da di du es go hi ir oj qa ul us uw yi": [
+      {
+        "score": 0.03897858,
+        "count": 2482,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "aj fe id ih ij ke la su up uq ya": [
+      {
+        "score": 0.01749482,
+        "count": 1114,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "ak ef ep he ji ka li oz pu qi qo ri ro sa un ve xa": [
+      {
+        "score": 0.04879389,
+        "count": 3107,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "al an be ho ut va wa": [
+      {
+        "score": 0.07530310,
+        "count": 4795,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "am ay ba bu eg ey fu ik lo ma mo po se uf uk um vu wo zu": [
+      {
+        "score": 0.06635153,
+        "count": 4225,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "aq ki le ob uz": [
+      {
+        "score": 0.00923425,
+        "count": 588,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "ar bo ga gi ha if ig in it lu no ok or ow ti ub uv wi xi yo": [
+      {
+        "score": 0.13546705,
+        "count": 8626,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "av aw ce ip ix ne ni si": [
+      {
+        "score": 0.01581444,
+        "count": 1007,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "b": [
+      {
+        "score": 0.04615554,
+        "count": 2939,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "b k": [
+      {
+        "score": 0.04939067,
+        "count": 3145,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "ba be bi bo bu": [
+      {
+        "score": 0.03695270,
+        "count": 2353,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "bi cu et ge ib ol om ot ru vo yu zo": [
+      {
+        "score": 0.01366292,
+        "count": 870,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "c": [
+      {
+        "score": 0.04581004,
+        "count": 2917,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "c i l n x y": [
+      {
+        "score": 0.18920786,
+        "count": 12048,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "ca ce ci co cu": [
+      {
+        "score": 0.03514668,
+        "count": 2238,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "ci ew hu ic mi mu na on pe xe": [
+      {
+        "score": 0.02676047,
+        "count": 1704,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "co ej fo iv ja oc uh vi wu": [
+      {
+        "score": 0.04348577,
+        "count": 2769,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "d": [
+      {
+        "score": 0.02966581,
+        "count": 1889,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "d e f r t u": [
+      {
+        "score": 0.28285382,
+        "count": 18011,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "da de di do du": [
+      {
+        "score": 0.02822099,
+        "count": 1797,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "e": [
+      {
+        "score": 0.02682329,
+        "count": 1708,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "ea ee ei eo eu": [
+      {
+        "score": 0.00449149,
+        "count": 286,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "en iy of": [
+      {
+        "score": 0.03943401,
+        "count": 2511,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "ez jo pa ze": [
+      {
+        "score": 0.01250079,
+        "count": 796,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "f": [
+      {
+        "score": 0.03648156,
+        "count": 2323,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "fa fe fi fo fu": [
+      {
+        "score": 0.03037251,
+        "count": 1934,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "g": [
+      {
+        "score": 0.02002324,
+        "count": 1275,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "g h p w z": [
+      {
+        "score": 0.17816760,
+        "count": 11345,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "ga ge gi go gu": [
+      {
+        "score": 0.01402412,
+        "count": 893,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "h": [
+      {
+        "score": 0.04705069,
+        "count": 2996,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "ha he hi ho hu": [
+      {
+        "score": 0.04668949,
+        "count": 2973,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "i": [
+      {
+        "score": 0.08029713,
+        "count": 5113,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "ia ie ii io iu": [
+      {
+        "score": 0.00017275,
+        "count": 11,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "j": [
+      {
+        "score": 0.00488410,
+        "count": 311,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "ja je ji jo ju": [
+      {
+        "score": 0.00478987,
+        "count": 305,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "k": [
+      {
+        "score": 0.00323513,
+        "count": 206,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "ka ke ki ko ku": [
+      {
+        "score": 0.00163327,
+        "count": 104,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "ko ox": [
+      {
+        "score": 0.00018845,
+        "count": 12,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "ku": [
+      {
+        "score": 0.00006282,
+        "count": 4,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "l": [
+      {
+        "score": 0.01985049,
+        "count": 1264,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "la le li lo lu": [
+      {
+        "score": 0.01981908,
+        "count": 1262,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "m": [
+      {
+        "score": 0.03747095,
+        "count": 2386,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "ma me mi mo mu": [
+      {
+        "score": 0.03401596,
+        "count": 2166,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "n": [
+      {
+        "score": 0.03008983,
+        "count": 1916,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "na ne ni no nu": [
+      {
+        "score": 0.03002701,
+        "count": 1912,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "o": [
+      {
+        "score": 0.06872291,
+        "count": 4376,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "o s v": [
+      {
+        "score": 0.15220805,
+        "count": 9692,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "oa oe oi oo ou": [
+      {
+        "score": 0.00331365,
+        "count": 211,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "oh oy re ur xo xu": [
+      {
+        "score": 0.01232804,
+        "count": 785,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "p": [
+      {
+        "score": 0.04516615,
+        "count": 2876,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "pa pe pi po pu": [
+      {
+        "score": 0.02215906,
+        "count": 1411,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "q": [
+      {
+        "score": 0.00161756,
+        "count": 103,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "qa qe qi qo qu": [
+      {
+        "score": 0.00161756,
+        "count": 103,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "r": [
+      {
+        "score": 0.02211194,
+        "count": 1408,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "ra re ri ro ru": [
+      {
+        "score": 0.02186067,
+        "count": 1392,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "s": [
+      {
+        "score": 0.07348137,
+        "count": 4679,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "sa se si so su": [
+      {
+        "score": 0.04613983,
+        "count": 2938,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "t": [
+      {
+        "score": 0.14880018,
+        "count": 9475,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "ta te ti to tu": [
+      {
+        "score": 0.04014071,
+        "count": 2556,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "u": [
+      {
+        "score": 0.01897104,
+        "count": 1208,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "ua ue ui uo uu": [
+    ],
+    "v": [
+      {
+        "score": 0.01000377,
+        "count": 637,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "va ve vi vo vu": [
+      {
+        "score": 0.00995666,
+        "count": 634,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "w": [
+      {
+        "score": 0.06573905,
+        "count": 4186,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "wa we wi wo wu": [
+      {
+        "score": 0.04439663,
+        "count": 2827,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "x": [
+      {
+        "score": 0.00032979,
+        "count": 21,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "xa xe xi xo xu": [
+      {
+        "score": 0.00007852,
+        "count": 5,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "y": [
+      {
+        "score": 0.01283058,
+        "count": 817,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "ya ye yi yo yu": [
+      {
+        "score": 0.01262642,
+        "count": 804,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "z": [
+      {
+        "score": 0.00018845,
+        "count": 12,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ],
+    "za ze zi zo zu": [
+      {
+        "score": 0.00015705,
+        "count": 10,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      }
+    ]
+  }
+}

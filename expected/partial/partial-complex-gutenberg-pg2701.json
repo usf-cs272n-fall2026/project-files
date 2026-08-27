@@ -1,0 +1,558 @@
+{
+  "EXACT": {
+  },
+  "PARTIAL": {
+    "a": [
+      {
+        "score": 0.11135508,
+        "count": 23988,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "a e i o u": [
+      {
+        "score": 0.27780744,
+        "count": 59845,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "a j m q": [
+      {
+        "score": 0.15752092,
+        "count": 33933,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "aa ae ai ao au": [
+      {
+        "score": 0.00123480,
+        "count": 266,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "aa bl br ch cl cr dr fl fr gn kn ph pl pr rh sh sq st th tw wh": [
+      {
+        "score": 0.21634118,
+        "count": 46604,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "ab ac at az ec ex fa iw je me od op qu ug uy": [
+      {
+        "score": 0.03070760,
+        "count": 6615,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "abcdefghijklmnopqrstuvwxyz": [
+    ],
+    "ad ap as de eb em gu il is og os qe to uc ux ye": [
+      {
+        "score": 0.06214401,
+        "count": 13387,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "af ax ca ed el iq iz ov so ta tu ud uj": [
+      {
+        "score": 0.03483444,
+        "count": 7504,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "ag do eh ek eq er ev fi im ju nu oq pi ra te we za zi": [
+      {
+        "score": 0.03825568,
+        "count": 8241,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "ah da di du es go hi ir oj qa ul us uw yi": [
+      {
+        "score": 0.04088312,
+        "count": 8807,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "aj fe id ih ij ke la su up uq ya": [
+      {
+        "score": 0.02379549,
+        "count": 5126,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "ak ef ep he ji ka li oz pu qi qo ri ro sa un ve xa": [
+      {
+        "score": 0.05155070,
+        "count": 11105,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "al an be ho ut va wa": [
+      {
+        "score": 0.08582344,
+        "count": 18488,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "am ay ba bu eg ey fu ik lo ma mo po se uf uk um vu wo zu": [
+      {
+        "score": 0.06864297,
+        "count": 14787,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "aq ki le ob uz": [
+      {
+        "score": 0.00791945,
+        "count": 1706,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "ar bo ga gi ha if ig in it lu no ok or ow ti ub uv wi xi yo": [
+      {
+        "score": 0.12343387,
+        "count": 26590,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "av aw ce ip ix ne ni si": [
+      {
+        "score": 0.01327645,
+        "count": 2860,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "b": [
+      {
+        "score": 0.05133252,
+        "count": 11058,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "b k": [
+      {
+        "score": 0.05571468,
+        "count": 12002,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "ba be bi bo bu": [
+      {
+        "score": 0.03912375,
+        "count": 8428,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "bi cu et ge ib ol om ot ru vo yu zo": [
+      {
+        "score": 0.01225983,
+        "count": 2641,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "c": [
+      {
+        "score": 0.03993148,
+        "count": 8602,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "c i l n x y": [
+      {
+        "score": 0.16992466,
+        "count": 36605,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "ca ce ci co cu": [
+      {
+        "score": 0.02804302,
+        "count": 6041,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "ci ew hu ic mi mu na on pe xe": [
+      {
+        "score": 0.03033159,
+        "count": 6534,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "co ej fo iv ja oc uh vi wu": [
+      {
+        "score": 0.03137142,
+        "count": 6758,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "d": [
+      {
+        "score": 0.02717495,
+        "count": 5854,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "d e f r t u": [
+      {
+        "score": 0.28106156,
+        "count": 60546,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "da de di do du": [
+      {
+        "score": 0.02450573,
+        "count": 5279,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "e": [
+      {
+        "score": 0.01870773,
+        "count": 4030,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "ea ee ei eo eu": [
+      {
+        "score": 0.00250210,
+        "count": 539,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "en iy of": [
+      {
+        "score": 0.03656131,
+        "count": 7876,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "ez jo pa ze": [
+      {
+        "score": 0.00664751,
+        "count": 1432,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "f": [
+      {
+        "score": 0.03884059,
+        "count": 8367,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "fa fe fi fo fu": [
+      {
+        "score": 0.02861400,
+        "count": 6164,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "g": [
+      {
+        "score": 0.01667912,
+        "count": 3593,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "g h p w z": [
+      {
+        "score": 0.17721742,
+        "count": 38176,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "ga ge gi go gu": [
+      {
+        "score": 0.01062580,
+        "count": 2289,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "h": [
+      {
+        "score": 0.06295638,
+        "count": 13562,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "ha he hi ho hu": [
+      {
+        "score": 0.06281247,
+        "count": 13531,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "i": [
+      {
+        "score": 0.06821125,
+        "count": 14694,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "ia ie ii io iu": [
+      {
+        "score": 0.00015319,
+        "count": 33,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "j": [
+      {
+        "score": 0.00387617,
+        "count": 835,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "ja je ji jo ju": [
+      {
+        "score": 0.00385760,
+        "count": 831,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "k": [
+      {
+        "score": 0.00438216,
+        "count": 944,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "ka ke ki ko ku": [
+      {
+        "score": 0.00232106,
+        "count": 500,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "ko ox": [
+      {
+        "score": 0.00005571,
+        "count": 12,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "ku": [
+    ],
+    "l": [
+      {
+        "score": 0.02757881,
+        "count": 5941,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "la le li lo lu": [
+      {
+        "score": 0.02752775,
+        "count": 5930,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "m": [
+      {
+        "score": 0.03897985,
+        "count": 8397,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "ma me mi mo mu": [
+      {
+        "score": 0.03531722,
+        "count": 7608,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "n": [
+      {
+        "score": 0.02244463,
+        "count": 4835,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "na ne ni no nu": [
+      {
+        "score": 0.02243070,
+        "count": 4832,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "o": [
+      {
+        "score": 0.06686968,
+        "count": 14405,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "o s v": [
+      {
+        "score": 0.15854219,
+        "count": 34153,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "oa oe oi oo ou": [
+      {
+        "score": 0.00511561,
+        "count": 1102,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "oh oy re ur xo xu": [
+      {
+        "score": 0.00942350,
+        "count": 2030,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "p": [
+      {
+        "score": 0.02892503,
+        "count": 6231,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "pa pe pi po pu": [
+      {
+        "score": 0.01858703,
+        "count": 4004,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "q": [
+      {
+        "score": 0.00330983,
+        "count": 713,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "qa qe qi qo qu": [
+      {
+        "score": 0.00330983,
+        "count": 713,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "r": [
+      {
+        "score": 0.01811354,
+        "count": 3902,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "ra re ri ro ru": [
+      {
+        "score": 0.01807176,
+        "count": 3893,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "s": [
+      {
+        "score": 0.08429154,
+        "count": 18158,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "sa se si so su": [
+      {
+        "score": 0.04583161,
+        "count": 9873,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "t": [
+      {
+        "score": 0.16556107,
+        "count": 35665,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "ta te ti to tu": [
+      {
+        "score": 0.03819533,
+        "count": 8228,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "u": [
+      {
+        "score": 0.01266369,
+        "count": 2728,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "ua ue ui uo uu": [
+    ],
+    "v": [
+      {
+        "score": 0.00738096,
+        "count": 1590,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "va ve vi vo vu": [
+      {
+        "score": 0.00735311,
+        "count": 1584,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "w": [
+      {
+        "score": 0.06850371,
+        "count": 14757,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "wa we wi wo wu": [
+      {
+        "score": 0.04176048,
+        "count": 8996,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "x": [
+      {
+        "score": 0.00002321,
+        "count": 5,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "xa xe xi xo xu": [
+      {
+        "score": 0.00000928,
+        "count": 2,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "y": [
+      {
+        "score": 0.01173527,
+        "count": 2528,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "ya ye yi yo yu": [
+      {
+        "score": 0.01173527,
+        "count": 2528,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "z": [
+      {
+        "score": 0.00015319,
+        "count": 33,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "za ze zi zo zu": [
+      {
+        "score": 0.00015319,
+        "count": 33,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ]
+  }
+}

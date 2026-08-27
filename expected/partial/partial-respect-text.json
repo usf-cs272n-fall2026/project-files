@@ -1,0 +1,83 @@
+{
+  "EXACT": {
+  },
+  "PARTIAL": {
+    "respect": [
+      {
+        "score": 0.33333333,
+        "count": 12,
+        "where": "../project-files/input/text/simple/words.tExT"
+      },
+      {
+        "score": 0.00130208,
+        "count": 4,
+        "where": "../project-files/input/text/rfcs/rfc9694.txt"
+      },
+      {
+        "score": 0.00053872,
+        "count": 12,
+        "where": "../project-files/input/text/stems/stem-in.txt"
+      },
+      {
+        "score": 0.00053872,
+        "count": 12,
+        "where": "../project-files/input/text/stems/stem-out.txt"
+      },
+      {
+        "score": 0.00030979,
+        "count": 1,
+        "where": "../project-files/input/text/rfcs/rfc475.txt"
+      },
+      {
+        "score": 0.00029890,
+        "count": 5,
+        "where": "../project-files/input/text/gutenberg/pg37134.txt"
+      },
+      {
+        "score": 0.00025127,
+        "count": 16,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      },
+      {
+        "score": 0.00023288,
+        "count": 1,
+        "where": "../project-files/input/text/rfcs/rfc3629.txt"
+      },
+      {
+        "score": 0.00020425,
+        "count": 44,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      },
+      {
+        "score": 0.00019721,
+        "count": 42,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      },
+      {
+        "score": 0.00018829,
+        "count": 12,
+        "where": "../project-files/input/text/rfcs/rfc9110.txt"
+      },
+      {
+        "score": 0.00018467,
+        "count": 5,
+        "where": "../project-files/input/text/rfcs/rfc5646.txt"
+      },
+      {
+        "score": 0.00018389,
+        "count": 2,
+        "where": "../project-files/input/text/gutenberg/pg50468.txt"
+      },
+      {
+        "score": 0.00010243,
+        "count": 11,
+        "where": "../project-files/input/text/gutenberg/pg1661.txt"
+      },
+      {
+        "score": 0.00010220,
+        "count": 1,
+        "where": "../project-files/input/text/rfcs/rfc6805.txt"
+      }
+    ]
+  }
+}
