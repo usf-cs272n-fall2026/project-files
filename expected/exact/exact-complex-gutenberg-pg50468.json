@@ -1,0 +1,453 @@
+{
+  "EXACT": {
+    "a": [
+      {
+        "score": 0.02905480,
+        "count": 316,
+        "where": "../project-files/input/text/gutenberg/pg50468.txt"
+      }
+    ],
+    "a e i o u": [
+      {
+        "score": 0.03558293,
+        "count": 387,
+        "where": "../project-files/input/text/gutenberg/pg50468.txt"
+      }
+    ],
+    "a j m q": [
+      {
+        "score": 0.03401986,
+        "count": 370,
+        "where": "../project-files/input/text/gutenberg/pg50468.txt"
+      }
+    ],
+    "aa ae ai ao au": [
+      {
+        "score": 0.00110335,
+        "count": 12,
+        "where": "../project-files/input/text/gutenberg/pg50468.txt"
+      }
+    ],
+    "aa bl br ch cl cr dr fl fr gn kn ph pl pr rh sh sq st th tw wh": [
+    ],
+    "ab ac at az ec ex fa iw je me od op qu ug uy": [
+      {
+        "score": 0.00275837,
+        "count": 30,
+        "where": "../project-files/input/text/gutenberg/pg50468.txt"
+      }
+    ],
+    "abcdefghijklmnopqrstuvwxyz": [
+    ],
+    "ad ap as de eb em gu il is og os qe to uc ux ye": [
+      {
+        "score": 0.04643251,
+        "count": 505,
+        "where": "../project-files/input/text/gutenberg/pg50468.txt"
+      }
+    ],
+    "af ax ca ed el iq iz ov so ta tu ud uj": [
+      {
+        "score": 0.00045973,
+        "count": 5,
+        "where": "../project-files/input/text/gutenberg/pg50468.txt"
+      }
+    ],
+    "ag do eh ek eq er ev fi im ju nu oq pi ra te we za zi": [
+      {
+        "score": 0.00432144,
+        "count": 47,
+        "where": "../project-files/input/text/gutenberg/pg50468.txt"
+      }
+    ],
+    "ah da di du es go hi ir oj qa ul us uw yi": [
+      {
+        "score": 0.00137918,
+        "count": 15,
+        "where": "../project-files/input/text/gutenberg/pg50468.txt"
+      }
+    ],
+    "aj fe id ih ij ke la su up uq ya": [
+      {
+        "score": 0.00055167,
+        "count": 6,
+        "where": "../project-files/input/text/gutenberg/pg50468.txt"
+      }
+    ],
+    "ak ef ep he ji ka li oz pu qi qo ri ro sa un ve xa": [
+      {
+        "score": 0.00018389,
+        "count": 2,
+        "where": "../project-files/input/text/gutenberg/pg50468.txt"
+      }
+    ],
+    "al an be ho ut va wa": [
+      {
+        "score": 0.02114748,
+        "count": 230,
+        "where": "../project-files/input/text/gutenberg/pg50468.txt"
+      }
+    ],
+    "am ay ba bu eg ey fu ik lo ma mo po se uf uk um vu wo zu": [
+      {
+        "score": 0.00009195,
+        "count": 1,
+        "where": "../project-files/input/text/gutenberg/pg50468.txt"
+      }
+    ],
+    "aq ki le ob uz": [
+    ],
+    "ar bo ga gi ha if ig in it lu no ok or ow ti ub uv wi xi yo": [
+      {
+        "score": 0.05139757,
+        "count": 559,
+        "where": "../project-files/input/text/gutenberg/pg50468.txt"
+      }
+    ],
+    "av aw ce ip ix ne ni si": [
+    ],
+    "b": [
+      {
+        "score": 0.00404561,
+        "count": 44,
+        "where": "../project-files/input/text/gutenberg/pg50468.txt"
+      }
+    ],
+    "b k": [
+      {
+        "score": 0.00533284,
+        "count": 58,
+        "where": "../project-files/input/text/gutenberg/pg50468.txt"
+      }
+    ],
+    "ba be bi bo bu": [
+      {
+        "score": 0.01388378,
+        "count": 151,
+        "where": "../project-files/input/text/gutenberg/pg50468.txt"
+      }
+    ],
+    "bi cu et ge ib ol om ot ru vo yu zo": [
+      {
+        "score": 0.00036778,
+        "count": 4,
+        "where": "../project-files/input/text/gutenberg/pg50468.txt"
+      }
+    ],
+    "c": [
+      {
+        "score": 0.00229864,
+        "count": 25,
+        "where": "../project-files/input/text/gutenberg/pg50468.txt"
+      }
+    ],
+    "c i l n x y": [
+      {
+        "score": 0.00974623,
+        "count": 106,
+        "where": "../project-files/input/text/gutenberg/pg50468.txt"
+      }
+    ],
+    "ca ce ci co cu": [
+    ],
+    "ci ew hu ic mi mu na on pe xe": [
+      {
+        "score": 0.00505701,
+        "count": 55,
+        "where": "../project-files/input/text/gutenberg/pg50468.txt"
+      }
+    ],
+    "co ej fo iv ja oc uh vi wu": [
+      {
+        "score": 0.00055167,
+        "count": 6,
+        "where": "../project-files/input/text/gutenberg/pg50468.txt"
+      }
+    ],
+    "d": [
+      {
+        "score": 0.00147113,
+        "count": 16,
+        "where": "../project-files/input/text/gutenberg/pg50468.txt"
+      }
+    ],
+    "d e f r t u": [
+      {
+        "score": 0.01020596,
+        "count": 111,
+        "where": "../project-files/input/text/gutenberg/pg50468.txt"
+      }
+    ],
+    "da de di do du": [
+      {
+        "score": 0.00340199,
+        "count": 37,
+        "where": "../project-files/input/text/gutenberg/pg50468.txt"
+      }
+    ],
+    "e": [
+      {
+        "score": 0.00404561,
+        "count": 44,
+        "where": "../project-files/input/text/gutenberg/pg50468.txt"
+      }
+    ],
+    "ea ee ei eo eu": [
+    ],
+    "en iy of": [
+      {
+        "score": 0.03080177,
+        "count": 335,
+        "where": "../project-files/input/text/gutenberg/pg50468.txt"
+      }
+    ],
+    "ez jo pa ze": [
+    ],
+    "f": [
+      {
+        "score": 0.00220669,
+        "count": 24,
+        "where": "../project-files/input/text/gutenberg/pg50468.txt"
+      }
+    ],
+    "fa fe fi fo fu": [
+    ],
+    "g": [
+      {
+        "score": 0.00064362,
+        "count": 7,
+        "where": "../project-files/input/text/gutenberg/pg50468.txt"
+      }
+    ],
+    "g h p w z": [
+      {
+        "score": 0.00358588,
+        "count": 39,
+        "where": "../project-files/input/text/gutenberg/pg50468.txt"
+      }
+    ],
+    "ga ge gi go gu": [
+      {
+        "score": 0.00036778,
+        "count": 4,
+        "where": "../project-files/input/text/gutenberg/pg50468.txt"
+      }
+    ],
+    "h": [
+      {
+        "score": 0.00101140,
+        "count": 11,
+        "where": "../project-files/input/text/gutenberg/pg50468.txt"
+      }
+    ],
+    "ha he hi ho hu": [
+      {
+        "score": 0.00018389,
+        "count": 2,
+        "where": "../project-files/input/text/gutenberg/pg50468.txt"
+      }
+    ],
+    "i": [
+      {
+        "score": 0.00211475,
+        "count": 23,
+        "where": "../project-files/input/text/gutenberg/pg50468.txt"
+      }
+    ],
+    "ia ie ii io iu": [
+      {
+        "score": 0.00036778,
+        "count": 4,
+        "where": "../project-files/input/text/gutenberg/pg50468.txt"
+      }
+    ],
+    "j": [
+      {
+        "score": 0.00137918,
+        "count": 15,
+        "where": "../project-files/input/text/gutenberg/pg50468.txt"
+      }
+    ],
+    "ja je ji jo ju": [
+    ],
+    "k": [
+      {
+        "score": 0.00128724,
+        "count": 14,
+        "where": "../project-files/input/text/gutenberg/pg50468.txt"
+      }
+    ],
+    "ka ke ki ko ku": [
+    ],
+    "ko ox": [
+    ],
+    "ku": [
+    ],
+    "l": [
+      {
+        "score": 0.00193086,
+        "count": 21,
+        "where": "../project-files/input/text/gutenberg/pg50468.txt"
+      }
+    ],
+    "la le li lo lu": [
+    ],
+    "m": [
+      {
+        "score": 0.00358588,
+        "count": 39,
+        "where": "../project-files/input/text/gutenberg/pg50468.txt"
+      }
+    ],
+    "ma me mi mo mu": [
+    ],
+    "n": [
+      {
+        "score": 0.00156307,
+        "count": 17,
+        "where": "../project-files/input/text/gutenberg/pg50468.txt"
+      }
+    ],
+    "na ne ni no nu": [
+      {
+        "score": 0.00266642,
+        "count": 29,
+        "where": "../project-files/input/text/gutenberg/pg50468.txt"
+      }
+    ],
+    "o": [
+      {
+        "score": 0.00018389,
+        "count": 2,
+        "where": "../project-files/input/text/gutenberg/pg50468.txt"
+      }
+    ],
+    "o s v": [
+      {
+        "score": 0.00220669,
+        "count": 24,
+        "where": "../project-files/input/text/gutenberg/pg50468.txt"
+      }
+    ],
+    "oa oe oi oo ou": [
+    ],
+    "oh oy re ur xo xu": [
+    ],
+    "p": [
+      {
+        "score": 0.00101140,
+        "count": 11,
+        "where": "../project-files/input/text/gutenberg/pg50468.txt"
+      }
+    ],
+    "pa pe pi po pu": [
+    ],
+    "q": [
+    ],
+    "qa qe qi qo qu": [
+    ],
+    "r": [
+      {
+        "score": 0.00119529,
+        "count": 13,
+        "where": "../project-files/input/text/gutenberg/pg50468.txt"
+      }
+    ],
+    "ra re ri ro ru": [
+    ],
+    "s": [
+      {
+        "score": 0.00082751,
+        "count": 9,
+        "where": "../project-files/input/text/gutenberg/pg50468.txt"
+      }
+    ],
+    "sa se si so su": [
+      {
+        "score": 0.00018389,
+        "count": 2,
+        "where": "../project-files/input/text/gutenberg/pg50468.txt"
+      }
+    ],
+    "t": [
+      {
+        "score": 0.00110335,
+        "count": 12,
+        "where": "../project-files/input/text/gutenberg/pg50468.txt"
+      }
+    ],
+    "ta te ti to tu": [
+      {
+        "score": 0.01811328,
+        "count": 197,
+        "where": "../project-files/input/text/gutenberg/pg50468.txt"
+      }
+    ],
+    "u": [
+      {
+        "score": 0.00018389,
+        "count": 2,
+        "where": "../project-files/input/text/gutenberg/pg50468.txt"
+      }
+    ],
+    "ua ue ui uo uu": [
+    ],
+    "v": [
+      {
+        "score": 0.00119529,
+        "count": 13,
+        "where": "../project-files/input/text/gutenberg/pg50468.txt"
+      }
+    ],
+    "va ve vi vo vu": [
+      {
+        "score": 0.00036778,
+        "count": 4,
+        "where": "../project-files/input/text/gutenberg/pg50468.txt"
+      }
+    ],
+    "w": [
+      {
+        "score": 0.00064362,
+        "count": 7,
+        "where": "../project-files/input/text/gutenberg/pg50468.txt"
+      }
+    ],
+    "wa we wi wo wu": [
+      {
+        "score": 0.00091946,
+        "count": 10,
+        "where": "../project-files/input/text/gutenberg/pg50468.txt"
+      }
+    ],
+    "x": [
+      {
+        "score": 0.00119529,
+        "count": 13,
+        "where": "../project-files/input/text/gutenberg/pg50468.txt"
+      }
+    ],
+    "xa xe xi xo xu": [
+    ],
+    "y": [
+      {
+        "score": 0.00064362,
+        "count": 7,
+        "where": "../project-files/input/text/gutenberg/pg50468.txt"
+      }
+    ],
+    "ya ye yi yo yu": [
+    ],
+    "z": [
+      {
+        "score": 0.00027584,
+        "count": 3,
+        "where": "../project-files/input/text/gutenberg/pg50468.txt"
+      }
+    ],
+    "za ze zi zo zu": [
+    ]
+  },
+  "PARTIAL": {
+  }
+}

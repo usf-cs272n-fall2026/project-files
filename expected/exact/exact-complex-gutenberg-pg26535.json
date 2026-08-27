@@ -1,0 +1,498 @@
+{
+  "EXACT": {
+    "a": [
+      {
+        "score": 0.03632368,
+        "count": 7736,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      }
+    ],
+    "a e i o u": [
+      {
+        "score": 0.03819715,
+        "count": 8135,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      }
+    ],
+    "a j m q": [
+      {
+        "score": 0.03846479,
+        "count": 8192,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      }
+    ],
+    "aa ae ai ao au": [
+      {
+        "score": 0.00001409,
+        "count": 3,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      }
+    ],
+    "aa bl br ch cl cr dr fl fr gn kn ph pl pr rh sh sq st th tw wh": [
+      {
+        "score": 0.00017843,
+        "count": 38,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      }
+    ],
+    "ab ac at az ec ex fa iw je me od op qu ug uy": [
+      {
+        "score": 0.00375633,
+        "count": 800,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      }
+    ],
+    "abcdefghijklmnopqrstuvwxyz": [
+    ],
+    "ad ap as de eb em gu il is og os qe to uc ux ye": [
+      {
+        "score": 0.05484707,
+        "count": 11681,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      }
+    ],
+    "af ax ca ed el iq iz ov so ta tu ud uj": [
+      {
+        "score": 0.00234770,
+        "count": 500,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      }
+    ],
+    "ag do eh ek eq er ev fi im ju nu oq pi ra te we za zi": [
+      {
+        "score": 0.00074187,
+        "count": 158,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      }
+    ],
+    "ah da di du es go hi ir oj qa ul us uw yi": [
+      {
+        "score": 0.00029112,
+        "count": 62,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      }
+    ],
+    "aj fe id ih ij ke la su up uq ya": [
+      {
+        "score": 0.00077944,
+        "count": 166,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      }
+    ],
+    "ak ef ep he ji ka li oz pu qi qo ri ro sa un ve xa": [
+      {
+        "score": 0.00015025,
+        "count": 32,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      }
+    ],
+    "al an be ho ut va wa": [
+      {
+        "score": 0.01519904,
+        "count": 3237,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      }
+    ],
+    "am ay ba bu eg ey fu ik lo ma mo po se uf uk um vu wo zu": [
+      {
+        "score": 0.00001878,
+        "count": 4,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      }
+    ],
+    "aq ki le ob uz": [
+    ],
+    "ar bo ga gi ha if ig in it lu no ok or ow ti ub uv wi xi yo": [
+      {
+        "score": 0.05410050,
+        "count": 11522,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      }
+    ],
+    "av aw ce ip ix ne ni si": [
+      {
+        "score": 0.00003287,
+        "count": 7,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      }
+    ],
+    "b": [
+      {
+        "score": 0.00162461,
+        "count": 346,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      }
+    ],
+    "b k": [
+      {
+        "score": 0.00192981,
+        "count": 411,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      }
+    ],
+    "ba be bi bo bu": [
+      {
+        "score": 0.00867242,
+        "count": 1847,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      }
+    ],
+    "bi cu et ge ib ol om ot ru vo yu zo": [
+      {
+        "score": 0.00003287,
+        "count": 7,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      }
+    ],
+    "c": [
+      {
+        "score": 0.00185938,
+        "count": 396,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      }
+    ],
+    "c i l n x y": [
+      {
+        "score": 0.00337600,
+        "count": 719,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      }
+    ],
+    "ca ce ci co cu": [
+      {
+        "score": 0.00003756,
+        "count": 8,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      }
+    ],
+    "ci ew hu ic mi mu na on pe xe": [
+      {
+        "score": 0.00450290,
+        "count": 959,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      }
+    ],
+    "co ej fo iv ja oc uh vi wu": [
+      {
+        "score": 0.00002348,
+        "count": 5,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      }
+    ],
+    "d": [
+      {
+        "score": 0.00061510,
+        "count": 131,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      }
+    ],
+    "d e f r t u": [
+      {
+        "score": 0.00381737,
+        "count": 813,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      }
+    ],
+    "da de di do du": [
+      {
+        "score": 0.00045076,
+        "count": 96,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      }
+    ],
+    "e": [
+      {
+        "score": 0.00122081,
+        "count": 260,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      }
+    ],
+    "ea ee ei eo eu": [
+    ],
+    "en iy of": [
+      {
+        "score": 0.05302525,
+        "count": 11293,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      }
+    ],
+    "ez jo pa ze": [
+    ],
+    "f": [
+      {
+        "score": 0.00100951,
+        "count": 215,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      }
+    ],
+    "fa fe fi fo fu": [
+      {
+        "score": 0.00001878,
+        "count": 4,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      }
+    ],
+    "g": [
+      {
+        "score": 0.00049302,
+        "count": 105,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      }
+    ],
+    "g h p w z": [
+      {
+        "score": 0.00171852,
+        "count": 366,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      }
+    ],
+    "ga ge gi go gu": [
+      {
+        "score": 0.00022538,
+        "count": 48,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      }
+    ],
+    "h": [
+      {
+        "score": 0.00040381,
+        "count": 86,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      }
+    ],
+    "ha he hi ho hu": [
+      {
+        "score": 0.00014556,
+        "count": 31,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      }
+    ],
+    "i": [
+      {
+        "score": 0.00032398,
+        "count": 69,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      }
+    ],
+    "ia ie ii io iu": [
+      {
+        "score": 0.00006104,
+        "count": 13,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      }
+    ],
+    "j": [
+      {
+        "score": 0.00013147,
+        "count": 28,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      }
+    ],
+    "ja je ji jo ju": [
+    ],
+    "k": [
+      {
+        "score": 0.00030520,
+        "count": 65,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      }
+    ],
+    "ka ke ki ko ku": [
+    ],
+    "ko ox": [
+    ],
+    "ku": [
+    ],
+    "l": [
+      {
+        "score": 0.00037094,
+        "count": 79,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      }
+    ],
+    "la le li lo lu": [
+      {
+        "score": 0.00006104,
+        "count": 13,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      }
+    ],
+    "m": [
+      {
+        "score": 0.00073248,
+        "count": 156,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      }
+    ],
+    "ma me mi mo mu": [
+    ],
+    "n": [
+      {
+        "score": 0.00031929,
+        "count": 68,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      }
+    ],
+    "na ne ni no nu": [
+      {
+        "score": 0.00100012,
+        "count": 213,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      }
+    ],
+    "o": [
+      {
+        "score": 0.00020190,
+        "count": 43,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      }
+    ],
+    "o s v": [
+      {
+        "score": 0.00252613,
+        "count": 538,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      }
+    ],
+    "oa oe oi oo ou": [
+      {
+        "score": 0.00000470,
+        "count": 1,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      }
+    ],
+    "oh oy re ur xo xu": [
+    ],
+    "p": [
+      {
+        "score": 0.00032398,
+        "count": 69,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      }
+    ],
+    "pa pe pi po pu": [
+      {
+        "score": 0.00006574,
+        "count": 14,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      }
+    ],
+    "q": [
+      {
+        "score": 0.00127715,
+        "count": 272,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      }
+    ],
+    "qa qe qi qo qu": [
+      {
+        "score": 0.00000470,
+        "count": 1,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      }
+    ],
+    "r": [
+      {
+        "score": 0.00047424,
+        "count": 101,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      }
+    ],
+    "ra re ri ro ru": [
+    ],
+    "s": [
+      {
+        "score": 0.00090152,
+        "count": 192,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      }
+    ],
+    "sa se si so su": [
+      {
+        "score": 0.00235710,
+        "count": 502,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      }
+    ],
+    "t": [
+      {
+        "score": 0.00037094,
+        "count": 79,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      }
+    ],
+    "ta te ti to tu": [
+      {
+        "score": 0.02053772,
+        "count": 4374,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      }
+    ],
+    "u": [
+      {
+        "score": 0.00012678,
+        "count": 27,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      }
+    ],
+    "ua ue ui uo uu": [
+    ],
+    "v": [
+      {
+        "score": 0.00142271,
+        "count": 303,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      }
+    ],
+    "va ve vi vo vu": [
+      {
+        "score": 0.00000470,
+        "count": 1,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      }
+    ],
+    "w": [
+      {
+        "score": 0.00039441,
+        "count": 84,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      }
+    ],
+    "wa we wi wo wu": [
+      {
+        "score": 0.00027233,
+        "count": 58,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      }
+    ],
+    "x": [
+      {
+        "score": 0.00041789,
+        "count": 89,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      }
+    ],
+    "xa xe xi xo xu": [
+    ],
+    "y": [
+      {
+        "score": 0.00008452,
+        "count": 18,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      }
+    ],
+    "ya ye yi yo yu": [
+    ],
+    "z": [
+      {
+        "score": 0.00010330,
+        "count": 22,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      }
+    ],
+    "za ze zi zo zu": [
+    ]
+  },
+  "PARTIAL": {
+  }
+}

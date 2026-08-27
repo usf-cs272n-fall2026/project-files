@@ -1,0 +1,1183 @@
+{
+  "EXACT": {
+    "abstract and assert": [
+      {
+        "score": 0.02998343,
+        "count": 6459,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      },
+      {
+        "score": 0.02862464,
+        "count": 3074,
+        "where": "../project-files/input/text/gutenberg/pg1661.txt"
+      },
+      {
+        "score": 0.02565151,
+        "count": 251,
+        "where": "../project-files/input/text/rfcs/rfc6805.txt"
+      },
+      {
+        "score": 0.02376302,
+        "count": 73,
+        "where": "../project-files/input/text/rfcs/rfc9694.txt"
+      },
+      {
+        "score": 0.02354399,
+        "count": 76,
+        "where": "../project-files/input/text/rfcs/rfc475.txt"
+      },
+      {
+        "score": 0.01942850,
+        "count": 325,
+        "where": "../project-files/input/text/gutenberg/pg37134.txt"
+      },
+      {
+        "score": 0.01879829,
+        "count": 1197,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      },
+      {
+        "score": 0.01856095,
+        "count": 3953,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      },
+      {
+        "score": 0.01839776,
+        "count": 79,
+        "where": "../project-files/input/text/rfcs/rfc3629.txt"
+      },
+      {
+        "score": 0.01829717,
+        "count": 199,
+        "where": "../project-files/input/text/gutenberg/pg50468.txt"
+      },
+      {
+        "score": 0.01743306,
+        "count": 472,
+        "where": "../project-files/input/text/rfcs/rfc5646.txt"
+      },
+      {
+        "score": 0.01485956,
+        "count": 947,
+        "where": "../project-files/input/text/rfcs/rfc9110.txt"
+      },
+      {
+        "score": 0.00053872,
+        "count": 12,
+        "where": "../project-files/input/text/stems/stem-in.txt"
+      },
+      {
+        "score": 0.00053872,
+        "count": 12,
+        "where": "../project-files/input/text/stems/stem-out.txt"
+      }
+    ],
+    "acknowledg correspond particular understand understood": [
+      {
+        "score": 0.00309789,
+        "count": 10,
+        "where": "../project-files/input/text/rfcs/rfc475.txt"
+      },
+      {
+        "score": 0.00256171,
+        "count": 11,
+        "where": "../project-files/input/text/rfcs/rfc3629.txt"
+      },
+      {
+        "score": 0.00243767,
+        "count": 66,
+        "where": "../project-files/input/text/rfcs/rfc5646.txt"
+      },
+      {
+        "score": 0.00195313,
+        "count": 6,
+        "where": "../project-files/input/text/rfcs/rfc9694.txt"
+      },
+      {
+        "score": 0.00178880,
+        "count": 114,
+        "where": "../project-files/input/text/rfcs/rfc9110.txt"
+      },
+      {
+        "score": 0.00132856,
+        "count": 13,
+        "where": "../project-files/input/text/rfcs/rfc6805.txt"
+      },
+      {
+        "score": 0.00098765,
+        "count": 22,
+        "where": "../project-files/input/text/stems/stem-in.txt"
+      },
+      {
+        "score": 0.00098765,
+        "count": 22,
+        "where": "../project-files/input/text/stems/stem-out.txt"
+      },
+      {
+        "score": 0.00095648,
+        "count": 16,
+        "where": "../project-files/input/text/gutenberg/pg37134.txt"
+      },
+      {
+        "score": 0.00091946,
+        "count": 10,
+        "where": "../project-files/input/text/gutenberg/pg50468.txt"
+      },
+      {
+        "score": 0.00076357,
+        "count": 82,
+        "where": "../project-files/input/text/gutenberg/pg1661.txt"
+      },
+      {
+        "score": 0.00063388,
+        "count": 135,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      },
+      {
+        "score": 0.00053395,
+        "count": 34,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      },
+      {
+        "score": 0.00050135,
+        "count": 108,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "alpaca hidden narwhal practic": [
+      {
+        "score": 1.00000000,
+        "count": 1,
+        "where": "../project-files/input/text/simple/.txt/hidden.txt"
+      },
+      {
+        "score": 1.00000000,
+        "count": 1,
+        "where": "../project-files/input/text/simple/a/b/c/d/subdir.txt"
+      },
+      {
+        "score": 0.41176471,
+        "count": 7,
+        "where": "../project-files/input/text/simple/dir.txt/findme.Txt"
+      },
+      {
+        "score": 0.09090909,
+        "count": 2,
+        "where": "../project-files/input/text/simple/animals_double.text"
+      },
+      {
+        "score": 0.09090909,
+        "count": 1,
+        "where": "../project-files/input/text/simple/animals.text"
+      },
+      {
+        "score": 0.09090909,
+        "count": 1,
+        "where": "../project-files/input/text/simple/animals_copy.text"
+      },
+      {
+        "score": 0.00343490,
+        "count": 93,
+        "where": "../project-files/input/text/rfcs/rfc5646.txt"
+      },
+      {
+        "score": 0.00130208,
+        "count": 4,
+        "where": "../project-files/input/text/rfcs/rfc9694.txt"
+      },
+      {
+        "score": 0.00056814,
+        "count": 121,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      },
+      {
+        "score": 0.00046577,
+        "count": 2,
+        "where": "../project-files/input/text/rfcs/rfc3629.txt"
+      },
+      {
+        "score": 0.00037691,
+        "count": 24,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      },
+      {
+        "score": 0.00036090,
+        "count": 23,
+        "where": "../project-files/input/text/rfcs/rfc9110.txt"
+      },
+      {
+        "score": 0.00035915,
+        "count": 8,
+        "where": "../project-files/input/text/stems/stem-in.txt"
+      },
+      {
+        "score": 0.00035915,
+        "count": 8,
+        "where": "../project-files/input/text/stems/stem-out.txt"
+      },
+      {
+        "score": 0.00035868,
+        "count": 6,
+        "where": "../project-files/input/text/gutenberg/pg37134.txt"
+      },
+      {
+        "score": 0.00026924,
+        "count": 58,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      },
+      {
+        "score": 0.00020486,
+        "count": 22,
+        "where": "../project-files/input/text/gutenberg/pg1661.txt"
+      },
+      {
+        "score": 0.00010220,
+        "count": 1,
+        "where": "../project-files/input/text/rfcs/rfc6805.txt"
+      },
+      {
+        "score": 0.00009195,
+        "count": 1,
+        "where": "../project-files/input/text/gutenberg/pg50468.txt"
+      }
+    ],
+    "and of the to": [
+      {
+        "score": 0.17310094,
+        "count": 36866,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      },
+      {
+        "score": 0.15913439,
+        "count": 2662,
+        "where": "../project-files/input/text/gutenberg/pg37134.txt"
+      },
+      {
+        "score": 0.15564640,
+        "count": 1523,
+        "where": "../project-files/input/text/rfcs/rfc6805.txt"
+      },
+      {
+        "score": 0.15057632,
+        "count": 32437,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      },
+      {
+        "score": 0.14900867,
+        "count": 481,
+        "where": "../project-files/input/text/rfcs/rfc475.txt"
+      },
+      {
+        "score": 0.14275734,
+        "count": 613,
+        "where": "../project-files/input/text/rfcs/rfc3629.txt"
+      },
+      {
+        "score": 0.14168812,
+        "count": 1541,
+        "where": "../project-files/input/text/gutenberg/pg50468.txt"
+      },
+      {
+        "score": 0.14154470,
+        "count": 9013,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      },
+      {
+        "score": 0.13427693,
+        "count": 14420,
+        "where": "../project-files/input/text/gutenberg/pg1661.txt"
+      },
+      {
+        "score": 0.13362881,
+        "count": 3618,
+        "where": "../project-files/input/text/rfcs/rfc5646.txt"
+      },
+      {
+        "score": 0.12862074,
+        "count": 8197,
+        "where": "../project-files/input/text/rfcs/rfc9110.txt"
+      },
+      {
+        "score": 0.12727865,
+        "count": 391,
+        "where": "../project-files/input/text/rfcs/rfc9694.txt"
+      },
+      {
+        "score": 0.00022447,
+        "count": 5,
+        "where": "../project-files/input/text/stems/stem-out.txt"
+      },
+      {
+        "score": 0.00017957,
+        "count": 4,
+        "where": "../project-files/input/text/stems/stem-in.txt"
+      }
+    ],
+    "b c f x": [
+      {
+        "score": 0.00974623,
+        "count": 106,
+        "where": "../project-files/input/text/gutenberg/pg50468.txt"
+      },
+      {
+        "score": 0.00745226,
+        "count": 32,
+        "where": "../project-files/input/text/rfcs/rfc3629.txt"
+      },
+      {
+        "score": 0.00491140,
+        "count": 1046,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      },
+      {
+        "score": 0.00488281,
+        "count": 15,
+        "where": "../project-files/input/text/rfcs/rfc9694.txt"
+      },
+      {
+        "score": 0.00221186,
+        "count": 37,
+        "where": "../project-files/input/text/gutenberg/pg37134.txt"
+      },
+      {
+        "score": 0.00173592,
+        "count": 47,
+        "where": "../project-files/input/text/rfcs/rfc5646.txt"
+      },
+      {
+        "score": 0.00136513,
+        "count": 87,
+        "where": "../project-files/input/text/rfcs/rfc9110.txt"
+      },
+      {
+        "score": 0.00081663,
+        "count": 52,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      },
+      {
+        "score": 0.00040879,
+        "count": 4,
+        "where": "../project-files/input/text/rfcs/rfc6805.txt"
+      },
+      {
+        "score": 0.00030979,
+        "count": 1,
+        "where": "../project-files/input/text/rfcs/rfc475.txt"
+      },
+      {
+        "score": 0.00027936,
+        "count": 30,
+        "where": "../project-files/input/text/gutenberg/pg1661.txt"
+      },
+      {
+        "score": 0.00008820,
+        "count": 19,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "baa bee boo": [
+      {
+        "score": 0.00008979,
+        "count": 2,
+        "where": "../project-files/input/text/stems/stem-in.txt"
+      },
+      {
+        "score": 0.00008979,
+        "count": 2,
+        "where": "../project-files/input/text/stems/stem-out.txt"
+      },
+      {
+        "score": 0.00000931,
+        "count": 1,
+        "where": "../project-files/input/text/gutenberg/pg1661.txt"
+      },
+      {
+        "score": 0.00000928,
+        "count": 2,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "creat creativ": [
+      {
+        "score": 0.00278810,
+        "count": 9,
+        "where": "../project-files/input/text/rfcs/rfc475.txt"
+      },
+      {
+        "score": 0.00092336,
+        "count": 25,
+        "where": "../project-files/input/text/rfcs/rfc5646.txt"
+      },
+      {
+        "score": 0.00065903,
+        "count": 42,
+        "where": "../project-files/input/text/rfcs/rfc9110.txt"
+      },
+      {
+        "score": 0.00065104,
+        "count": 2,
+        "where": "../project-files/input/text/rfcs/rfc9694.txt"
+      },
+      {
+        "score": 0.00064362,
+        "count": 7,
+        "where": "../project-files/input/text/gutenberg/pg50468.txt"
+      },
+      {
+        "score": 0.00053802,
+        "count": 9,
+        "where": "../project-files/input/text/gutenberg/pg37134.txt"
+      },
+      {
+        "score": 0.00040879,
+        "count": 4,
+        "where": "../project-files/input/text/rfcs/rfc6805.txt"
+      },
+      {
+        "score": 0.00017957,
+        "count": 4,
+        "where": "../project-files/input/text/stems/stem-in.txt"
+      },
+      {
+        "score": 0.00017957,
+        "count": 4,
+        "where": "../project-files/input/text/stems/stem-out.txt"
+      },
+      {
+        "score": 0.00014134,
+        "count": 9,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      },
+      {
+        "score": 0.00010330,
+        "count": 22,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      },
+      {
+        "score": 0.00007892,
+        "count": 17,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      },
+      {
+        "score": 0.00005587,
+        "count": 6,
+        "where": "../project-files/input/text/gutenberg/pg1661.txt"
+      }
+    ],
+    "ebook gutenberg project": [
+      {
+        "score": 0.01820522,
+        "count": 198,
+        "where": "../project-files/input/text/gutenberg/pg50468.txt"
+      },
+      {
+        "score": 0.01183644,
+        "count": 198,
+        "where": "../project-files/input/text/gutenberg/pg37134.txt"
+      },
+      {
+        "score": 0.00315661,
+        "count": 201,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      },
+      {
+        "score": 0.00186237,
+        "count": 200,
+        "where": "../project-files/input/text/gutenberg/pg1661.txt"
+      },
+      {
+        "score": 0.00109403,
+        "count": 233,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      },
+      {
+        "score": 0.00100734,
+        "count": 217,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      },
+      {
+        "score": 0.00022447,
+        "count": 5,
+        "where": "../project-files/input/text/stems/stem-in.txt"
+      },
+      {
+        "score": 0.00022447,
+        "count": 5,
+        "where": "../project-files/input/text/stems/stem-out.txt"
+      },
+      {
+        "score": 0.00007387,
+        "count": 2,
+        "where": "../project-files/input/text/rfcs/rfc5646.txt"
+      },
+      {
+        "score": 0.00001569,
+        "count": 1,
+        "where": "../project-files/input/text/rfcs/rfc9110.txt"
+      }
+    ],
+    "eight eighteen eleven": [
+      {
+        "score": 0.15000000,
+        "count": 3,
+        "where": "../project-files/input/text/simple/position.teXt"
+      },
+      {
+        "score": 0.00019555,
+        "count": 21,
+        "where": "../project-files/input/text/gutenberg/pg1661.txt"
+      },
+      {
+        "score": 0.00018467,
+        "count": 5,
+        "where": "../project-files/input/text/rfcs/rfc5646.txt"
+      },
+      {
+        "score": 0.00014391,
+        "count": 31,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      },
+      {
+        "score": 0.00013468,
+        "count": 3,
+        "where": "../project-files/input/text/stems/stem-in.txt"
+      },
+      {
+        "score": 0.00013468,
+        "count": 3,
+        "where": "../project-files/input/text/stems/stem-out.txt"
+      },
+      {
+        "score": 0.00012564,
+        "count": 8,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      },
+      {
+        "score": 0.00011956,
+        "count": 2,
+        "where": "../project-files/input/text/gutenberg/pg37134.txt"
+      },
+      {
+        "score": 0.00009195,
+        "count": 1,
+        "where": "../project-files/input/text/gutenberg/pg50468.txt"
+      },
+      {
+        "score": 0.00004226,
+        "count": 9,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      }
+    ],
+    "fall spring summer winter": [
+      {
+        "score": 0.00113159,
+        "count": 241,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      },
+      {
+        "score": 0.00059780,
+        "count": 10,
+        "where": "../project-files/input/text/gutenberg/pg37134.txt"
+      },
+      {
+        "score": 0.00054966,
+        "count": 35,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      },
+      {
+        "score": 0.00044893,
+        "count": 10,
+        "where": "../project-files/input/text/stems/stem-in.txt"
+      },
+      {
+        "score": 0.00044893,
+        "count": 10,
+        "where": "../project-files/input/text/stems/stem-out.txt"
+      },
+      {
+        "score": 0.00043172,
+        "count": 93,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      },
+      {
+        "score": 0.00032552,
+        "count": 1,
+        "where": "../project-files/input/text/rfcs/rfc9694.txt"
+      },
+      {
+        "score": 0.00030979,
+        "count": 1,
+        "where": "../project-files/input/text/rfcs/rfc475.txt"
+      },
+      {
+        "score": 0.00026073,
+        "count": 28,
+        "where": "../project-files/input/text/gutenberg/pg1661.txt"
+      },
+      {
+        "score": 0.00007387,
+        "count": 2,
+        "where": "../project-files/input/text/rfcs/rfc5646.txt"
+      },
+      {
+        "score": 0.00001569,
+        "count": 1,
+        "where": "../project-files/input/text/rfcs/rfc9110.txt"
+      }
+    ],
+    "g j p q y": [
+      {
+        "score": 0.00367782,
+        "count": 40,
+        "where": "../project-files/input/text/gutenberg/pg50468.txt"
+      },
+      {
+        "score": 0.00327031,
+        "count": 32,
+        "where": "../project-files/input/text/rfcs/rfc6805.txt"
+      },
+      {
+        "score": 0.00231014,
+        "count": 492,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      },
+      {
+        "score": 0.00227865,
+        "count": 7,
+        "where": "../project-files/input/text/rfcs/rfc9694.txt"
+      },
+      {
+        "score": 0.00127099,
+        "count": 81,
+        "where": "../project-files/input/text/rfcs/rfc9110.txt"
+      },
+      {
+        "score": 0.00093153,
+        "count": 4,
+        "where": "../project-files/input/text/rfcs/rfc3629.txt"
+      },
+      {
+        "score": 0.00032979,
+        "count": 21,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      },
+      {
+        "score": 0.00029548,
+        "count": 8,
+        "where": "../project-files/input/text/rfcs/rfc5646.txt"
+      },
+      {
+        "score": 0.00023912,
+        "count": 4,
+        "where": "../project-files/input/text/gutenberg/pg37134.txt"
+      },
+      {
+        "score": 0.00005587,
+        "count": 6,
+        "where": "../project-files/input/text/gutenberg/pg1661.txt"
+      },
+      {
+        "score": 0.00001857,
+        "count": 4,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "help helper": [
+      {
+        "score": 0.00130208,
+        "count": 4,
+        "where": "../project-files/input/text/rfcs/rfc9694.txt"
+      },
+      {
+        "score": 0.00071736,
+        "count": 12,
+        "where": "../project-files/input/text/gutenberg/pg37134.txt"
+      },
+      {
+        "score": 0.00053078,
+        "count": 57,
+        "where": "../project-files/input/text/gutenberg/pg1661.txt"
+      },
+      {
+        "score": 0.00031425,
+        "count": 7,
+        "where": "../project-files/input/text/stems/stem-in.txt"
+      },
+      {
+        "score": 0.00031425,
+        "count": 7,
+        "where": "../project-files/input/text/stems/stem-out.txt"
+      },
+      {
+        "score": 0.00030659,
+        "count": 3,
+        "where": "../project-files/input/text/rfcs/rfc6805.txt"
+      },
+      {
+        "score": 0.00028268,
+        "count": 18,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      },
+      {
+        "score": 0.00027853,
+        "count": 60,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      },
+      {
+        "score": 0.00027584,
+        "count": 3,
+        "where": "../project-files/input/text/gutenberg/pg50468.txt"
+      },
+      {
+        "score": 0.00025854,
+        "count": 7,
+        "where": "../project-files/input/text/rfcs/rfc5646.txt"
+      },
+      {
+        "score": 0.00009415,
+        "count": 6,
+        "where": "../project-files/input/text/rfcs/rfc9110.txt"
+      },
+      {
+        "score": 0.00002348,
+        "count": 5,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      }
+    ],
+    "how what when where whi who": [
+      {
+        "score": 0.01241270,
+        "count": 1333,
+        "where": "../project-files/input/text/gutenberg/pg1661.txt"
+      },
+      {
+        "score": 0.00969274,
+        "count": 2088,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      },
+      {
+        "score": 0.00917143,
+        "count": 584,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      },
+      {
+        "score": 0.00627648,
+        "count": 400,
+        "where": "../project-files/input/text/rfcs/rfc9110.txt"
+      },
+      {
+        "score": 0.00597800,
+        "count": 100,
+        "where": "../project-files/input/text/gutenberg/pg37134.txt"
+      },
+      {
+        "score": 0.00495663,
+        "count": 16,
+        "where": "../project-files/input/text/rfcs/rfc475.txt"
+      },
+      {
+        "score": 0.00442478,
+        "count": 19,
+        "where": "../project-files/input/text/rfcs/rfc3629.txt"
+      },
+      {
+        "score": 0.00439520,
+        "count": 119,
+        "where": "../project-files/input/text/rfcs/rfc5646.txt"
+      },
+      {
+        "score": 0.00429228,
+        "count": 42,
+        "where": "../project-files/input/text/rfcs/rfc6805.txt"
+      },
+      {
+        "score": 0.00367782,
+        "count": 40,
+        "where": "../project-files/input/text/gutenberg/pg50468.txt"
+      },
+      {
+        "score": 0.00303323,
+        "count": 646,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      },
+      {
+        "score": 0.00292969,
+        "count": 9,
+        "where": "../project-files/input/text/rfcs/rfc9694.txt"
+      },
+      {
+        "score": 0.00026936,
+        "count": 6,
+        "where": "../project-files/input/text/stems/stem-in.txt"
+      },
+      {
+        "score": 0.00026936,
+        "count": 6,
+        "where": "../project-files/input/text/stems/stem-out.txt"
+      }
+    ],
+    "i o u": [
+      {
+        "score": 0.02789831,
+        "count": 2996,
+        "where": "../project-files/input/text/gutenberg/pg1661.txt"
+      },
+      {
+        "score": 0.01168415,
+        "count": 744,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      },
+      {
+        "score": 0.00915425,
+        "count": 1972,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      },
+      {
+        "score": 0.00652073,
+        "count": 28,
+        "where": "../project-files/input/text/rfcs/rfc3629.txt"
+      },
+      {
+        "score": 0.00562085,
+        "count": 55,
+        "where": "../project-files/input/text/rfcs/rfc6805.txt"
+      },
+      {
+        "score": 0.00398892,
+        "count": 108,
+        "where": "../project-files/input/text/rfcs/rfc5646.txt"
+      },
+      {
+        "score": 0.00280966,
+        "count": 47,
+        "where": "../project-files/input/text/gutenberg/pg37134.txt"
+      },
+      {
+        "score": 0.00248253,
+        "count": 27,
+        "where": "../project-files/input/text/gutenberg/pg50468.txt"
+      },
+      {
+        "score": 0.00092937,
+        "count": 3,
+        "where": "../project-files/input/text/rfcs/rfc475.txt"
+      },
+      {
+        "score": 0.00065266,
+        "count": 139,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      },
+      {
+        "score": 0.00026675,
+        "count": 17,
+        "where": "../project-files/input/text/rfcs/rfc9110.txt"
+      }
+    ],
+    "ka ke ki ko ku ky la le li lo lu ly": [
+      {
+        "score": 0.00040879,
+        "count": 4,
+        "where": "../project-files/input/text/rfcs/rfc6805.txt"
+      },
+      {
+        "score": 0.00012070,
+        "count": 26,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      },
+      {
+        "score": 0.00006104,
+        "count": 13,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      },
+      {
+        "score": 0.00005978,
+        "count": 1,
+        "where": "../project-files/input/text/gutenberg/pg37134.txt"
+      },
+      {
+        "score": 0.00003693,
+        "count": 1,
+        "where": "../project-files/input/text/rfcs/rfc5646.txt"
+      },
+      {
+        "score": 0.00003141,
+        "count": 2,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      },
+      {
+        "score": 0.00002794,
+        "count": 3,
+        "where": "../project-files/input/text/gutenberg/pg1661.txt"
+      },
+      {
+        "score": 0.00001569,
+        "count": 1,
+        "where": "../project-files/input/text/rfcs/rfc9110.txt"
+      }
+    ],
+    "m n r s t": [
+      {
+        "score": 0.00827510,
+        "count": 90,
+        "where": "../project-files/input/text/gutenberg/pg50468.txt"
+      },
+      {
+        "score": 0.00618490,
+        "count": 19,
+        "where": "../project-files/input/text/rfcs/rfc9694.txt"
+      },
+      {
+        "score": 0.00279846,
+        "count": 596,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      },
+      {
+        "score": 0.00232883,
+        "count": 10,
+        "where": "../project-files/input/text/rfcs/rfc3629.txt"
+      },
+      {
+        "score": 0.00163516,
+        "count": 16,
+        "where": "../project-files/input/text/rfcs/rfc6805.txt"
+      },
+      {
+        "score": 0.00149066,
+        "count": 95,
+        "where": "../project-files/input/text/rfcs/rfc9110.txt"
+      },
+      {
+        "score": 0.00125577,
+        "count": 34,
+        "where": "../project-files/input/text/rfcs/rfc5646.txt"
+      },
+      {
+        "score": 0.00056536,
+        "count": 36,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      },
+      {
+        "score": 0.00047824,
+        "count": 8,
+        "where": "../project-files/input/text/gutenberg/pg37134.txt"
+      },
+      {
+        "score": 0.00015830,
+        "count": 17,
+        "where": "../project-files/input/text/gutenberg/pg1661.txt"
+      },
+      {
+        "score": 0.00004642,
+        "count": 10,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "request rfc": [
+      {
+        "score": 0.03580729,
+        "count": 110,
+        "where": "../project-files/input/text/rfcs/rfc9694.txt"
+      },
+      {
+        "score": 0.02002197,
+        "count": 1276,
+        "where": "../project-files/input/text/rfcs/rfc9110.txt"
+      },
+      {
+        "score": 0.01696474,
+        "count": 166,
+        "where": "../project-files/input/text/rfcs/rfc6805.txt"
+      },
+      {
+        "score": 0.01074792,
+        "count": 291,
+        "where": "../project-files/input/text/rfcs/rfc5646.txt"
+      },
+      {
+        "score": 0.00721938,
+        "count": 31,
+        "where": "../project-files/input/text/rfcs/rfc3629.txt"
+      },
+      {
+        "score": 0.00557621,
+        "count": 18,
+        "where": "../project-files/input/text/rfcs/rfc475.txt"
+      },
+      {
+        "score": 0.00027584,
+        "count": 3,
+        "where": "../project-files/input/text/gutenberg/pg50468.txt"
+      },
+      {
+        "score": 0.00023912,
+        "count": 4,
+        "where": "../project-files/input/text/gutenberg/pg37134.txt"
+      },
+      {
+        "score": 0.00017957,
+        "count": 4,
+        "where": "../project-files/input/text/stems/stem-in.txt"
+      },
+      {
+        "score": 0.00017957,
+        "count": 4,
+        "where": "../project-files/input/text/stems/stem-out.txt"
+      },
+      {
+        "score": 0.00009423,
+        "count": 6,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      },
+      {
+        "score": 0.00006518,
+        "count": 7,
+        "where": "../project-files/input/text/gutenberg/pg1661.txt"
+      },
+      {
+        "score": 0.00001857,
+        "count": 4,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      },
+      {
+        "score": 0.00000470,
+        "count": 1,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      }
+    ],
+    "v w x z": [
+      {
+        "score": 0.00331004,
+        "count": 36,
+        "where": "../project-files/input/text/gutenberg/pg50468.txt"
+      },
+      {
+        "score": 0.00260417,
+        "count": 8,
+        "where": "../project-files/input/text/rfcs/rfc9694.txt"
+      },
+      {
+        "score": 0.00233831,
+        "count": 498,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      },
+      {
+        "score": 0.00163018,
+        "count": 7,
+        "where": "../project-files/input/text/rfcs/rfc3629.txt"
+      },
+      {
+        "score": 0.00096030,
+        "count": 26,
+        "where": "../project-files/input/text/rfcs/rfc5646.txt"
+      },
+      {
+        "score": 0.00067472,
+        "count": 43,
+        "where": "../project-files/input/text/rfcs/rfc9110.txt"
+      },
+      {
+        "score": 0.00034550,
+        "count": 22,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      },
+      {
+        "score": 0.00030979,
+        "count": 1,
+        "where": "../project-files/input/text/rfcs/rfc475.txt"
+      },
+      {
+        "score": 0.00029890,
+        "count": 5,
+        "where": "../project-files/input/text/gutenberg/pg37134.txt"
+      },
+      {
+        "score": 0.00020439,
+        "count": 2,
+        "where": "../project-files/input/text/rfcs/rfc6805.txt"
+      },
+      {
+        "score": 0.00003725,
+        "count": 4,
+        "where": "../project-files/input/text/gutenberg/pg1661.txt"
+      },
+      {
+        "score": 0.00002785,
+        "count": 6,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      }
+    ],
+    "woodchuck": [
+    ],
+    "your yourself yourselv": [
+      {
+        "score": 0.00438588,
+        "count": 471,
+        "where": "../project-files/input/text/gutenberg/pg1661.txt"
+      },
+      {
+        "score": 0.00240279,
+        "count": 153,
+        "where": "../project-files/input/text/gutenberg/pg22577.txt"
+      },
+      {
+        "score": 0.00142049,
+        "count": 306,
+        "where": "../project-files/input/text/gutenberg/pg2701.txt"
+      },
+      {
+        "score": 0.00113582,
+        "count": 19,
+        "where": "../project-files/input/text/gutenberg/pg37134.txt"
+      },
+      {
+        "score": 0.00082751,
+        "count": 9,
+        "where": "../project-files/input/text/gutenberg/pg50468.txt"
+      },
+      {
+        "score": 0.00032552,
+        "count": 1,
+        "where": "../project-files/input/text/rfcs/rfc9694.txt"
+      },
+      {
+        "score": 0.00017957,
+        "count": 4,
+        "where": "../project-files/input/text/stems/stem-in.txt"
+      },
+      {
+        "score": 0.00017957,
+        "count": 4,
+        "where": "../project-files/input/text/stems/stem-out.txt"
+      },
+      {
+        "score": 0.00010220,
+        "count": 1,
+        "where": "../project-files/input/text/rfcs/rfc6805.txt"
+      },
+      {
+        "score": 0.00004226,
+        "count": 9,
+        "where": "../project-files/input/text/gutenberg/pg26535.txt"
+      },
+      {
+        "score": 0.00003693,
+        "count": 1,
+        "where": "../project-files/input/text/rfcs/rfc5646.txt"
+      },
+      {
+        "score": 0.00001569,
+        "count": 1,
+        "where": "../project-files/input/text/rfcs/rfc9110.txt"
+      }
+    ],
+    "ø δ": [
+      {
+        "score": 0.00018389,
+        "count": 2,
+        "where": "../project-files/input/text/gutenberg/pg50468.txt"
+      }
+    ]
+  },
+  "PARTIAL": {
+  }
+}
