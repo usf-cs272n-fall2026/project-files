@@ -142,7 +142,7 @@ public class MultiReaderLock {
 			try {
 				// TODO Note the lock object being used here and elsewhere
 				synchronized (lock) {
-					while (writers > 0) {
+					while (writers > 0 && !isActiveWriter()) {
 						lock.wait();
 					}
 
@@ -162,7 +162,7 @@ public class MultiReaderLock {
 		@Override
 		public void unlock() throws IllegalStateException {
 			// TODO Fill in read unlock() implementation.
-			// throw new UnsupportedOperationException("Not yet implemented.");
+			throw new UnsupportedOperationException("Not yet implemented.");
 		}
 	}
 
